@@ -1,0 +1,40 @@
+language: python
+
+sudo: required
+
+services:
+  - docker
+  
+python:
+  - "3.6"
+
+branches:
+  only:
+  - sync
+
+before_install:
+  - git config --global user.name "$USERNAME" 
+  - git config --global user.email "$EMAIL"
+  - git clone --branch=master https://$USERNAME:$GH_TOKEN@$GH_REF sync-mirror
+  - cd sync-mirror
+  - chmod +x commit.sh
+
+stages:
+  - sync
+  - export
+
+jobs:
+  include:
+    - stage: sync
+      script: 
+      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n kubernetes-helm
+      - ./commit.sh
+    - script: 
+      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n google-containers
+      - ./commit.sh
+
+    - stage: export
+      script: 
+      - python sync.py -un $HUB_NAME --markdown-only
+      - ./commit.sh
+
