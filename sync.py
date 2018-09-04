@@ -26,7 +26,7 @@ def travis_timeout_handler(signum, frame):
 
 
 def sync(docker_client=None, gcr_image=None, dockerhub_name=None):
-    if not 'tags' in gcr_image or len(gcr_image['tags']) <= 0:
+    if gcr_image['tags'] is None or not 'tags' in gcr_image or len(gcr_image['tags']) <= 0:
         Logger.info("Skip tag...")
         return
     gcr_tag_list = gcr_image['tags']
