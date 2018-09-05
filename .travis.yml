@@ -25,7 +25,9 @@ stages:
   - trigger
 
 env:
-  - TRIGGER_BUILD = no
+  global:
+    TRIGGER_BUILD = no
+
 
 
 jobs:
