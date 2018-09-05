@@ -120,6 +120,8 @@ def cli_parser():
 
 
 def main():
+    Logger.debug("print current env: {}".format(str(os.getenv('TRIGGER_BUILD'))))
+
     cli_vars = cli_parser()
     client = docker.from_env()
 

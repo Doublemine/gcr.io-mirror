@@ -22,7 +22,8 @@ before_install:
 stages:
   - sync
   - export
-  - trigger
+  - name: trigger
+    if: TRIGGER_BUILD = yes
 
 env:
   global:
@@ -46,7 +47,6 @@ jobs:
       - ./commit.sh
 
     - stage: trigger
-      if: TRIGGER_BUILD = yes
       script:
         - python sync.py -un $HUB_NAME --travis-continue
       
