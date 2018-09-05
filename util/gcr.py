@@ -43,6 +43,9 @@ def fetch_image_tag(namespace=None, image_name=None):
     tag_list = response.json()['tags']
     tag_list = filter_unrelease_tags(tag_list)
     Logger.info("filter un-release tags list:{}".format(str(tag_list)))
+    if tag_list is None:
+        Logger.error("tag list is None, Skip...")
+        tag_list = []
     name = response.json()['name']
     return {'name': f"gcr.io/{name}", 'tags': tag_list}
 

@@ -97,7 +97,7 @@ def add_synced_image_tags(success_list=None, synced_list=None):
     for s in synced_list:
         for i in success_list:
             if s['name'] == i['name']:
-                temp.append({'name': s['name'], 'tags': list(set(s['tags'+i['tags']]))})
+                temp.append({'name': s['name'], 'tags': list(set(s['tags']+i['tags']))})
                 combin_success.append(i)
                 combin_synced.append(s)
 

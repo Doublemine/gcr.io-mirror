@@ -11,6 +11,7 @@ def convert_to_array(namespace=None, dockerhub_name=None):
     if result is None or not isinstance(result, list):
         Logger.info('can not load any data, result may not except value.')
         return None
+    result = sorted(result, key=lambda item: item['name'])
     array = []
     array.append(['gcr registry', 'dockerhub', 'tags num'])
     for item in result:
