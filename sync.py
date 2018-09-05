@@ -21,6 +21,7 @@ class TravisTimeoutException(Exception):
 
 
 def travis_timeout_handler(signum, frame):
+    os.environ['TRIGGER_BUILD'] = 'yes'
     Logger.error("timeout for tavis, start store data...")
     raise TravisTimeoutException("Travis timeout")
 
@@ -112,6 +113,8 @@ def cli_parser():
 
     parser.add_argument('--markdown-only', help='generat markdown file', action='store_true', required=False, dest='markdown')
 
+    parser.add_argument('--travis-continue', help='trigger new build', action='store_true', required=False, dest='travis')
+
     args = parser.parse_args()
     return args
 
@@ -123,6 +126,10 @@ def main():
     if cli_vars.markdown:
         Logger.info("execute markdown table export...")
         do_export(cli_vars.username)
+        return
+
+    if cli_vars.travis:
+        trigger_build()
         return
 
     Logger.debug('ready for docker login...')
@@ -139,4 +146,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as error:
+        os.environ['TRIGGER_BUILD'] = 'yes'
+        Logger.error(error)

@@ -22,6 +22,11 @@ before_install:
 stages:
   - sync
   - export
+  - trigger
+
+env:
+  - TRIGGER_BUILD = no
+
 
 jobs:
   include:
@@ -38,3 +43,8 @@ jobs:
       - python sync.py -un $HUB_NAME --markdown-only
       - ./commit.sh
 
+    - stage: trigger
+      if: TRIGGER_BUILD = yes
+      script:
+        - python sync.py -un $HUB_NAME --travis-continue
+      
