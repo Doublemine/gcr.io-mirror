@@ -4,6 +4,7 @@ import time
 import os
 import json
 from pathlib import Path
+import shutil
 
 
 class Logger:
@@ -148,3 +149,11 @@ def remove_duplicate(data_list):
         if item not in temp:
             temp.append(item)
     return temp
+
+
+def show_disk():
+    try:
+        total, used, free = shutil.disk_usage(r'/var/lib/docker')
+        Logger.info("Total: {}GB, Used: {} GB, Free: {}GB".format(str((total // (2**30))), str((used // (2**30))), str((free // (2**30)))))
+    except Exception:
+        return

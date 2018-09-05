@@ -46,11 +46,15 @@ def sync(docker_client=None, gcr_image=None, dockerhub_name=None):
                     Logger.success(f"push {dockerhub_repository}:{tag} completed.")
             else:
                 Logger.error(f"pull and tag image of tag {gcr_image_repository}:{tag} failed")
+        show_disk()
         for tag in gcr_tag_list:
             Logger.info(f"ready for delete docker image {dockerhub_repository}:{tag}")
             delete_pushed_image(docker_client, dockerhub_repository, tag)
             Logger.info(f"ready for delete docker image {gcr_image_repository}:{tag}")
             delete_pushed_image(docker_client, gcr_image_repository, tag)
+
+        cleanup_image_from_df(docker_client)
+        show_disk()
 
         total = len(gcr_tag_list)
         success = len(success_tag_list)

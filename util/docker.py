@@ -63,3 +63,16 @@ def format_output(output):
     except Exception:
         Logger.info("Process log parse failed.")
         return
+
+
+def cleanup_image_from_df(client=None):
+    try:
+        result = client.df()
+        if result is None or 'Images' not in result or len(result['Images']) <= 0:
+            return None
+        for image in result['Images']:
+            Logger.info("remove the cache image: {}".format(str(image['RepoTags'][0])))
+            client.images.remove(image['RepoTags'][0], True, False)
+    except docker.errors.APIError as error:
+        Logger.error(error)
+        return None
