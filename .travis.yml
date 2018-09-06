@@ -45,4 +45,6 @@ jobs:
     - stage: trigger
       script:
         - python sync.py -un $HUB_NAME --travis-continue
+        - ./commit.sh
+
       
