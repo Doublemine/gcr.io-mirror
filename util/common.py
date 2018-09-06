@@ -179,7 +179,7 @@ def update_trigger(trigger=False, force=False):
 
 
 def read_trigger():
-    synced = load_jsond('trigger.json', False, False)
+    synced = load_jsond('trigger.json', True, False)
     if synced is None:
         return True
     else:
