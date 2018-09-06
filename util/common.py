@@ -111,7 +111,7 @@ def add_synced_image_tags(success_list=None, synced_list=None):
     return remove_duplicate(temp)
 
 
-def load_jsond(filename, load_after_delete=True):
+def load_jsond(filename, load_after_delete=True, rm_dupliacate=True):
     if not os.path.exists(os.path.join(get_dir(), filename)):
         Logger.error("[load_jsond] can not found the target file of path: {}".format(filename))
         return None
@@ -120,7 +120,9 @@ def load_jsond(filename, load_after_delete=True):
     cache.close()
     if load_after_delete:
         os.remove(os.path.join(get_dir(), filename))
-    return remove_duplicate(undo_task)
+    if rm_dupliacate:
+        return remove_duplicate(undo_task)
+    return undo_task
 
 
 def save_jsond(filename, data=None, overwrite=True):
@@ -160,15 +162,18 @@ def show_disk():
 
 
 def update_trigger(trigger=False, force=False):
-    synced = load_jsond('trigger.json')
+    synced = load_jsond('trigger.json', False, False)
     if synced is None:
         synced = {'trigger': trigger}
+
+    if isinstance(synced, list):
+        synced = synced[0]
 
     if force:
         synced['trigger'] = trigger
     else:
-        if trigger:
-            synced['trigger'] = True
+        if not synced['trigger']:
+            synced['trigger'] = trigger
 
     save_jsond('trigger.json', synced, True)
 
