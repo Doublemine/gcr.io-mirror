@@ -21,7 +21,7 @@ class TravisTimeoutException(Exception):
 
 
 def travis_timeout_handler(signum, frame):
-    os.environ['TRIGGER_BUILD'] = 'yes'
+    update_trigger(True)
     Logger.error("timeout for tavis, start store data...")
     raise TravisTimeoutException("Travis timeout")
 
@@ -120,7 +120,6 @@ def cli_parser():
 
 
 def main():
-    Logger.debug("print current env: {}".format(str(os.getenv('TRIGGER_BUILD'))))
 
     cli_vars = cli_parser()
     client = docker.from_env()
@@ -131,7 +130,12 @@ def main():
         return
 
     if cli_vars.travis:
-        trigger_build()
+        if read_trigger():
+            Logger.info("Trigger new build to continue...")
+            trigger_build()
+            update_trigger(False, True)
+        else:
+            Logger.info("Do not trigger new build, skip...")
         return
 
     Logger.debug('ready for docker login...')
@@ -151,5 +155,7 @@ if __name__ == '__main__':
     try:
         main()
     except Exception as error:
-        os.environ['TRIGGER_BUILD'] = 'yes'
+        update_trigger(True)
         Logger.error(error)
+    else:
+        update_trigger(False)

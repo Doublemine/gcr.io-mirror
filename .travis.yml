@@ -22,12 +22,8 @@ before_install:
 stages:
   - sync
   - export
-  - name: trigger
-    if: TRIGGER_BUILD = yes
+  - trigger
 
-env:
-  global:
-    TRIGGER_BUILD = no
 
 
 

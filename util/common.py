@@ -157,3 +157,28 @@ def show_disk():
         Logger.info("Total: {}GB, Used: {} GB, Free: {}GB".format(str((total // (2**30))), str((used // (2**30))), str((free // (2**30)))))
     except Exception:
         return
+
+
+def update_trigger(trigger=False, force=False):
+    synced = load_jsond('trigger.json')
+    if synced is None:
+        synced = {'trigger': trigger}
+
+    if force:
+        synced['trigger'] = trigger
+    else:
+        if trigger:
+            synced['trigger'] = True
+
+    save_jsond('trigger.json', synced, True)
+
+
+def read_trigger():
+    synced = load_jsond('trigger.json')
+    if synced is None:
+        return True
+    else:
+        if 'trigger' in synced:
+            return synced['trigger']
+        else:
+            return True
