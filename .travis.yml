@@ -36,6 +36,9 @@ jobs:
     - script: 
       - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n google-containers
       - ./commit.sh
+    - script: 
+      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n cloud-solutions-images
+      - ./commit.sh
 
     - stage: export
       script: 
