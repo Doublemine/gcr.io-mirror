@@ -7,6 +7,8 @@ Sync gcr.io images of docker to your private registry/dockerhub.   [![Build Stat
 
  -  [**kubernetes-helm**](kubernetes-helm.md)
  -  [**google-containers**](google-containers.md)
+ -  [**cloud-solutions-images**](cloud-solutions-images.md)
+
 
 ## Usage
 
