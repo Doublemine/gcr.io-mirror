@@ -39,6 +39,9 @@ jobs:
     - script: 
       - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n cloud-solutions-images
       - ./commit.sh
+    - script: 
+      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n heptio-images
+      - ./commit.sh
 
     - stage: export
       script: 
