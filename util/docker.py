@@ -36,12 +36,15 @@ def delete_pushed_image(docker_client=None, repository=None, tag='latest'):
         return False
 
 
-def retag_image(gcr_image_repository=None, dockerhub_username=None):
+def retag_image(gcr_image_repository=None, dockerhub_username=None, ignore_namespace=False):
     """
     re-tag the gcr.io image to dockerhub's name.
     """
     temp = gcr_image_repository.replace('gcr.io/', '')
-    temp = temp.replace('/', '.')
+    if ignore_namespace:
+        temp = temp.split('/')[-1]
+    else:
+        temp = temp.replace('/', '.')
     return f"{dockerhub_username}/{temp}"
 
 

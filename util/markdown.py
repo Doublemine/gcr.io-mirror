@@ -1,24 +1,24 @@
+import fileinput
+
 from .common import *
 from .docker import *
-import shutil
-import fileinput
-import glob
-import os
 
 
-def convert_to_array(namespace=None, dockerhub_name=None):
+def convert_to_array(namespace=None, dockerhub_name=None, organization=None):
     result = load_jsond(f'{namespace}-synced.json', False)
     if result is None or not isinstance(result, list):
         Logger.info('can not load any data, result may not except value.')
         return None
+    image_prefix = dockerhub_name
+    if organization is not None and len(organization) > 0:
+        image_prefix = organization
     result = sorted(result, key=lambda item: item['name'])
-    array = []
-    array.append(['gcr registry', 'dockerhub', 'tags num'])
+    array = [['gcr registry', 'dockerhub', 'tags num']]
     for item in result:
         temp = []
         name = item['name']
         temp.append(name)
-        docker_image = retag_image(name, dockerhub_name)
+        docker_image = retag_image(name, image_prefix, ignore_namespace=True)
         temp.append(f'[{docker_image}](https://hub.docker.com/r/{docker_image})')
         temp.append(str(len(item['tags'])))
         array.append(temp)
@@ -96,7 +96,7 @@ def generate_markdown(namespace=None, username=None):
             if '<title_place_holder>' in line:
                 print(line.replace("<title_place_holder>", namespace), end='')
             elif '<image_num_place_holder>' in line:
-                print(line.replace("<image_num_place_holder>", str(len(array)-1)), end='')
+                print(line.replace("<image_num_place_holder>", str(len(array) - 1)), end='')
 
             else:
                 print(line.replace("<synced_table_place_holder>", make_markdown_table(array)), end='')

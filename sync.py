@@ -1,18 +1,6 @@
-import requests
-import sys
-import os
-import re
-import docker
-import json
-from argparse import ArgumentParser
-import random
-import datetime
-import inspect
-from functools import wraps
 import signal
-from termcolor import colored
-import logging
-import time
+from argparse import ArgumentParser
+
 from util import *
 
 
@@ -22,17 +10,27 @@ class TravisTimeoutException(Exception):
 
 def travis_timeout_handler(signum, frame):
     update_trigger(True)
-    Logger.error("timeout for tavis, start store data...")
+    Logger.error("timeout for travis, start store data...")
     raise TravisTimeoutException("Travis timeout")
 
 
-def sync(docker_client=None, gcr_image=None, dockerhub_name=None):
+def sync(docker_client=None, gcr_image=None, dockerhub_name=None, organization=None):
+    """
+    :param docker_client: the instance
+    :param gcr_image: image
+    :param dockerhub_name: the username of docker hub
+    :param organization: if organization not None, the re-tag docker image will use organization name as prefix of image
+    instead of docker hub user name.
+    """
     if gcr_image['tags'] is None or not 'tags' in gcr_image or len(gcr_image['tags']) <= 0:
         Logger.info("Skip tag...")
         return
+    image_prefix = dockerhub_name
+    if organization is not None and len(organization) > 0:
+        image_prefix = organization
     gcr_tag_list = gcr_image['tags']
     gcr_image_repository = gcr_image['name']
-    dockerhub_repository = retag_image(gcr_image_repository, dockerhub_name)
+    dockerhub_repository = retag_image(gcr_image_repository, image_prefix, ignore_namespace=True)
     success_tag_list = []
     try:
         for tag in gcr_tag_list:
@@ -65,7 +63,8 @@ def sync(docker_client=None, gcr_image=None, dockerhub_name=None):
         Logger.error(error)
         total = len(gcr_tag_list)
         success = len(success_tag_list)
-        Logger.error("occur travis timeout warning, interrupt sync. total num: {} success sync num: {} ".format(total, success))
+        Logger.error(
+            "occur travis timeout warning, interrupt sync. total num: {} success sync num: {} ".format(total, success))
         return {'name': gcr_image_repository, 'tags': success_tag_list, 'interrupt': True}
 
 
@@ -90,7 +89,7 @@ def sync_to_dockerhub(docker_client=None, namespace=None, username=None):
                     if 'tags' in synced_image and len(synced_image['tags']) > 0:
                         synced_list.append(synced_image)
             else:
-                Logger.info('sync funcation return None, maybe sync all tag.')
+                Logger.info('sync function return None, maybe sync all tag.')
 
         if len(synced_list) > 0:
             Logger.info("update synced image data, synced_list: {}".format(str(synced_list)))
@@ -103,24 +102,33 @@ def sync_to_dockerhub(docker_client=None, namespace=None, username=None):
 
 
 def cli_parser():
-    parser = ArgumentParser(description='Pull image from gcr.io then re-tag and push to docker hub, You must specific the env var named GCR_COOKIE')
+    parser = ArgumentParser(
+        description='Pull image from gcr.io then re-tag and push to docker hub, You must specific the env var named '
+                    'GCR_COOKIE')
 
-    parser.add_argument('-n', '--namespace', help='specific namespace of gcr.io registry', default='google-containers', type=str, required=False, dest='namespace')
+    parser.add_argument('-n', '--namespace', help='specific namespace of gcr.io registry', default='google-containers',
+                        type=str, required=False, dest='namespace')
 
-    parser.add_argument('-un', '--username', help='the dockerhub username', default=None, type=str, required=True, dest='username')
+    parser.add_argument('-u', '--username', help='the docker hub username', default=None, type=str, required=True,
+                        dest='username')
 
-    parser.add_argument('-pwd', '--password', help='the dockerhub password', default=None, type=str, required=False, dest='password')
+    parser.add_argument('-o', '--username', help='the docker hub organization', default=None, type=str, required=False,
+                        dest='organization')
 
-    parser.add_argument('--markdown-only', help='generat markdown file', action='store_true', required=False, dest='markdown')
+    parser.add_argument('-p', '--password', help='the docker hub password', default=None, type=str, required=False,
+                        dest='password')
 
-    parser.add_argument('--travis-continue', help='trigger new build', action='store_true', required=False, dest='travis')
+    parser.add_argument('--markdown-only', help='generate markdown file', action='store_true', required=False,
+                        dest='markdown')
+
+    parser.add_argument('--travis-continue', help='trigger new build', action='store_true', required=False,
+                        dest='travis')
 
     args = parser.parse_args()
     return args
 
 
 def main():
-
     cli_vars = cli_parser()
     client = docker.from_env()
 
@@ -139,14 +147,15 @@ def main():
         return
 
     Logger.debug('ready for docker login...')
-    login_result = client.login(username=cli_vars.username, password=cli_vars.password, registry='https://index.docker.io/v1/')
-    Logger.info('docker login response:'+login_result['Status'])
+    login_result = client.login(username=cli_vars.username, password=cli_vars.password,
+                                registry='https://index.docker.io/v1/')
+    Logger.info('docker login response:' + login_result['Status'])
 
     signal.signal(signal.SIGALRM, travis_timeout_handler)
     alarm_sec = int(os.getenv('ALARM_SEC', -1))
     if alarm_sec == -1:
         Logger.debug("can not get alarm sec use default time 2400s.")
-        alarm_sec = 60*40
+        alarm_sec = 60 * 40
     signal.alarm(alarm_sec)
     sync_to_dockerhub(client, cli_vars.namespace, cli_vars.username)
 

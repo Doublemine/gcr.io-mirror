@@ -30,27 +30,27 @@ stages:
 jobs:
   include:
     - stage: sync
-      script: 
-      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n kubernetes-helm
+      script:
+        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n kubernetes-helm
       - ./commit.sh
-    - script: 
-      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n google-containers
+    - script:
+        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n google-containers
       - ./commit.sh
-    - script: 
-      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n cloud-solutions-images
+    - script:
+        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n cloud-solutions-images
       - ./commit.sh
-    - script: 
-      - python sync.py -un $HUB_NAME -pwd $HUB_PWD -n heptio-images
+    - script:
+        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n heptio-images
       - ./commit.sh
 
     - stage: export
-      script: 
-      - python sync.py -un $HUB_NAME --markdown-only
+      script:
+        - python sync.py -u $HUB_NAME -o $HUB_ORG --markdown-only
       - ./commit.sh
 
     - stage: trigger
       script:
-        - python sync.py -un $HUB_NAME --travis-continue
+        - python sync.py -u $HUB_NAME --travis-continue
         - ./commit.sh
 
       

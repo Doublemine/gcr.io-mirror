@@ -65,7 +65,8 @@ def filter_unsynced_image_tags(fetched_dict=None, synced_list=None):
         }
     """
     if not isinstance(fetched_dict, dict) or not isinstance(synced_list, list):
-        Logger.error("filter unsynced list cause some unexcept status, the fetched_dict type is: {}, synced_list type is:{}".format(str(type(fetched_dict)), str(type(synced_list))))
+        Logger.error("filter unsynced list cause some unexcept status, the fetched_dict type is: {}, synced_list type "
+                     "is:{}".format(str(type(fetched_dict)), str(type(synced_list))))
         return fetched_dict
     for do_item in synced_list:
         if not isinstance(do_item, dict):
