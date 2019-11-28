@@ -32,21 +32,21 @@ jobs:
     - stage: sync
       script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n kubernetes-helm
-      - ./commit.sh
+        - ./commit.sh
     - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n google-containers
-      - ./commit.sh
+        - ./commit.sh
     - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n cloud-solutions-images
-      - ./commit.sh
+        - ./commit.sh
     - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n heptio-images
-      - ./commit.sh
+        - ./commit.sh
 
     - stage: export
       script:
         - python sync.py -u $HUB_NAME -o $HUB_ORG --markdown-only
-      - ./commit.sh
+        - ./commit.sh
 
     - stage: trigger
       script:
