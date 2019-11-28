@@ -112,7 +112,7 @@ def cli_parser():
     parser.add_argument('-u', '--username', help='the docker hub username', default=None, type=str, required=True,
                         dest='username')
 
-    parser.add_argument('-o', '--username', help='the docker hub organization', default=None, type=str, required=False,
+    parser.add_argument('-o', '--organization', help='the docker hub organization', default=None, type=str, required=False,
                         dest='organization')
 
     parser.add_argument('-p', '--password', help='the docker hub password', default=None, type=str, required=False,
