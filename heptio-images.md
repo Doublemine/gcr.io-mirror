@@ -1,7 +1,7 @@
 # heptio-images
 
 
-Synced image num: 40 and image mapping as follow:
+Synced image num: 43 and image mapping as follow:
 
 
 
@@ -12,6 +12,7 @@ Synced image num: 40 and image mapping as follow:
 | gcr.io/heptio-images/ark-restic-restore-helper | [corelab/ark-restic-restore-helper](https://hub.docker.com/r/corelab/ark-restic-restore-helper) | 18 | 
 | gcr.io/heptio-images/authenticator | [corelab/authenticator](https://hub.docker.com/r/corelab/authenticator) | 9 | 
 | gcr.io/heptio-images/contour | [corelab/contour](https://hub.docker.com/r/corelab/contour) | 31 | 
+| gcr.io/heptio-images/contour-discoverer | [corelab/contour-discoverer](https://hub.docker.com/r/corelab/contour-discoverer) | 4 | 
 | gcr.io/heptio-images/cruise | [corelab/cruise](https://hub.docker.com/r/corelab/cruise) | 1 | 
 | gcr.io/heptio-images/dizzy | [corelab/dizzy](https://hub.docker.com/r/corelab/dizzy) | 2 | 
 | gcr.io/heptio-images/forwarder | [corelab/forwarder](https://hub.docker.com/r/corelab/forwarder) | 4 | 
@@ -24,6 +25,7 @@ Synced image num: 40 and image mapping as follow:
 | gcr.io/heptio-images/hept-forwarder | [corelab/hept-forwarder](https://hub.docker.com/r/corelab/hept-forwarder) | 309 | 
 | gcr.io/heptio-images/hept-health-collector | [corelab/hept-health-collector](https://hub.docker.com/r/corelab/hept-health-collector) | 67 | 
 | gcr.io/heptio-images/hept-magpie | [corelab/hept-magpie](https://hub.docker.com/r/corelab/hept-magpie) | 222 | 
+| gcr.io/heptio-images/hept-sonoext | [corelab/hept-sonoext](https://hub.docker.com/r/corelab/hept-sonoext) | 360 | 
 | gcr.io/heptio-images/hept-terminate | [corelab/hept-terminate](https://hub.docker.com/r/corelab/hept-terminate) | 85 | 
 | gcr.io/heptio-images/hept-updater | [corelab/hept-updater](https://hub.docker.com/r/corelab/hept-updater) | 279 | 
 | gcr.io/heptio-images/heptio-e2e | [corelab/heptio-e2e](https://hub.docker.com/r/corelab/heptio-e2e) | 6 | 
@@ -36,6 +38,7 @@ Synced image num: 40 and image mapping as follow:
 | gcr.io/heptio-images/ks-guestbook-demo | [corelab/ks-guestbook-demo](https://hub.docker.com/r/corelab/ks-guestbook-demo) | 2 | 
 | gcr.io/heptio-images/kube-conformance | [corelab/kube-conformance](https://hub.docker.com/r/corelab/kube-conformance) | 15 | 
 | gcr.io/heptio-images/lifecycler | [corelab/lifecycler](https://hub.docker.com/r/corelab/lifecycler) | 2 | 
+| gcr.io/heptio-images/magpie | [corelab/magpie](https://hub.docker.com/r/corelab/magpie) | 48 | 
 | gcr.io/heptio-images/namespace-deleter | [corelab/namespace-deleter](https://hub.docker.com/r/corelab/namespace-deleter) | 3 | 
 | gcr.io/heptio-images/p8s-test | [corelab/p8s-test](https://hub.docker.com/r/corelab/p8s-test) | 2 | 
 | gcr.io/heptio-images/rate-limit | [corelab/rate-limit](https://hub.docker.com/r/corelab/rate-limit) | 1 | 
