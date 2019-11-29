@@ -1,7 +1,7 @@
 # cloud-solutions-images
 
 
-Synced image num: 68 and image mapping as follow:
+Synced image num: 72 and image mapping as follow:
 
 
 
@@ -11,6 +11,7 @@ Synced image num: 68 and image mapping as follow:
 | gcr.io/cloud-solutions-images/apache-airflow | [corelab/apache-airflow](https://hub.docker.com/r/corelab/apache-airflow) | 1 | 
 | gcr.io/cloud-solutions-images/app | [corelab/app](https://hub.docker.com/r/corelab/app) | 2 | 
 | gcr.io/cloud-solutions-images/code-server-gke-ambassador-iap-auth | [corelab/code-server-gke-ambassador-iap-auth](https://hub.docker.com/r/corelab/code-server-gke-ambassador-iap-auth) | 8 | 
+| gcr.io/cloud-solutions-images/code-server-gke-code-server-cloudshell | [corelab/code-server-gke-code-server-cloudshell](https://hub.docker.com/r/corelab/code-server-gke-code-server-cloudshell) | 1 | 
 | gcr.io/cloud-solutions-images/code-server-gke-pod-broker | [corelab/code-server-gke-pod-broker](https://hub.docker.com/r/corelab/code-server-gke-pod-broker) | 38 | 
 | gcr.io/cloud-solutions-images/concourse-git-gcp | [corelab/concourse-git-gcp](https://hub.docker.com/r/corelab/concourse-git-gcp) | 4 | 
 | gcr.io/cloud-solutions-images/conourse-helm-gcp | [corelab/conourse-helm-gcp](https://hub.docker.com/r/corelab/conourse-helm-gcp) | 1 | 
@@ -21,7 +22,9 @@ Synced image num: 68 and image mapping as follow:
 | gcr.io/cloud-solutions-images/gcsfuse-ubuntu | [corelab/gcsfuse-ubuntu](https://hub.docker.com/r/corelab/gcsfuse-ubuntu) | 1 | 
 | gcr.io/cloud-solutions-images/github-viglesiasce-remote-builder | [corelab/github-viglesiasce-remote-builder](https://hub.docker.com/r/corelab/github-viglesiasce-remote-builder) | 1 | 
 | gcr.io/cloud-solutions-images/gke-accel-vdi-ambassador-iap-auth | [corelab/gke-accel-vdi-ambassador-iap-auth](https://hub.docker.com/r/corelab/gke-accel-vdi-ambassador-iap-auth) | 21 | 
+| gcr.io/cloud-solutions-images/gke-accel-vdi-app-streaming | [corelab/gke-accel-vdi-app-streaming](https://hub.docker.com/r/corelab/gke-accel-vdi-app-streaming) | 3 | 
 | gcr.io/cloud-solutions-images/gke-accel-vdi-chromoting | [corelab/gke-accel-vdi-chromoting](https://hub.docker.com/r/corelab/gke-accel-vdi-chromoting) | 17 | 
+| gcr.io/cloud-solutions-images/gke-accel-vdi-coturn | [corelab/gke-accel-vdi-coturn](https://hub.docker.com/r/corelab/gke-accel-vdi-coturn) | 22 | 
 | gcr.io/cloud-solutions-images/gke-accel-vdi-desktop | [corelab/gke-accel-vdi-desktop](https://hub.docker.com/r/corelab/gke-accel-vdi-desktop) | 20 | 
 | gcr.io/cloud-solutions-images/gke-accel-vdi-gst-base | [corelab/gke-accel-vdi-gst-base](https://hub.docker.com/r/corelab/gke-accel-vdi-gst-base) | 21 | 
 | gcr.io/cloud-solutions-images/gke-accel-vdi-gst-sender | [corelab/gke-accel-vdi-gst-sender](https://hub.docker.com/r/corelab/gke-accel-vdi-gst-sender) | 8 | 
@@ -47,6 +50,7 @@ Synced image num: 68 and image mapping as follow:
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-signalling | [corelab/gpu-accel-webrtc-signalling](https://hub.docker.com/r/corelab/gpu-accel-webrtc-signalling) | 7 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-ubuntu-nvidia-driver | [corelab/gpu-accel-webrtc-ubuntu-nvidia-driver](https://hub.docker.com/r/corelab/gpu-accel-webrtc-ubuntu-nvidia-driver) | 5 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-unity-tutorial | [corelab/gpu-accel-webrtc-unity-tutorial](https://hub.docker.com/r/corelab/gpu-accel-webrtc-unity-tutorial) | 1 | 
+| gcr.io/cloud-solutions-images/gpu-accel-webrtc-xserver | [corelab/gpu-accel-webrtc-xserver](https://hub.docker.com/r/corelab/gpu-accel-webrtc-xserver) | 18 | 
 | gcr.io/cloud-solutions-images/helm-helper | [corelab/helm-helper](https://hub.docker.com/r/corelab/helm-helper) | 2 | 
 | gcr.io/cloud-solutions-images/istio-rpm-builder | [corelab/istio-rpm-builder](https://hub.docker.com/r/corelab/istio-rpm-builder) | 2 | 
 | gcr.io/cloud-solutions-images/istio-rpm-proxy | [corelab/istio-rpm-proxy](https://hub.docker.com/r/corelab/istio-rpm-proxy) | 1 | 

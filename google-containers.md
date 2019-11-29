@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 90 and image mapping as follow:
+Synced image num: 93 and image mapping as follow:
 
 
 
@@ -30,6 +30,7 @@ Synced image num: 90 and image mapping as follow:
 | gcr.io/google-containers/dnsmasq-metrics-ppc64le | [corelab/dnsmasq-metrics-ppc64le](https://hub.docker.com/r/corelab/dnsmasq-metrics-ppc64le) | 1 | 
 | gcr.io/google-containers/echoserver-arm | [corelab/echoserver-arm](https://hub.docker.com/r/corelab/echoserver-arm) | 1 | 
 | gcr.io/google-containers/etcd-amd64 | [corelab/etcd-amd64](https://hub.docker.com/r/corelab/etcd-amd64) | 5 | 
+| gcr.io/google-containers/etcd-s390x | [corelab/etcd-s390x](https://hub.docker.com/r/corelab/etcd-s390x) | 33 | 
 | gcr.io/google-containers/etcd-version-monitor | [corelab/etcd-version-monitor](https://hub.docker.com/r/corelab/etcd-version-monitor) | 4 | 
 | gcr.io/google-containers/example-dns-frontend | [corelab/example-dns-frontend](https://hub.docker.com/r/corelab/example-dns-frontend) | 1 | 
 | gcr.io/google-containers/exechealthz-ppc64le | [corelab/exechealthz-ppc64le](https://hub.docker.com/r/corelab/exechealthz-ppc64le) | 4 | 
@@ -65,6 +66,7 @@ Synced image num: 90 and image mapping as follow:
 | gcr.io/google-containers/kube-addon-manager-arm64 | [corelab/kube-addon-manager-arm64](https://hub.docker.com/r/corelab/kube-addon-manager-arm64) | 20 | 
 | gcr.io/google-containers/kube-addon-manager-s390x | [corelab/kube-addon-manager-s390x](https://hub.docker.com/r/corelab/kube-addon-manager-s390x) | 13 | 
 | gcr.io/google-containers/kube-aggregator-arm64 | [corelab/kube-aggregator-arm64](https://hub.docker.com/r/corelab/kube-aggregator-arm64) | 59 | 
+| gcr.io/google-containers/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 124 | 
 | gcr.io/google-containers/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | gcr.io/google-containers/kube-dns-perf-client-amd64 | [corelab/kube-dns-perf-client-amd64](https://hub.docker.com/r/corelab/kube-dns-perf-client-amd64) | 2 | 
 | gcr.io/google-containers/kube-scheduler-ppc64le | [corelab/kube-scheduler-ppc64le](https://hub.docker.com/r/corelab/kube-scheduler-ppc64le) | 139 | 
@@ -79,6 +81,7 @@ Synced image num: 90 and image mapping as follow:
 | gcr.io/google-containers/kubernetes-dashboard-ppc64le | [corelab/kubernetes-dashboard-ppc64le](https://hub.docker.com/r/corelab/kubernetes-dashboard-ppc64le) | 22 | 
 | gcr.io/google-containers/mongodb-install | [corelab/mongodb-install](https://hub.docker.com/r/corelab/mongodb-install) | 6 | 
 | gcr.io/google-containers/netd | [corelab/netd](https://hub.docker.com/r/corelab/netd) | 1 | 
+| gcr.io/google-containers/nginx | [corelab/nginx](https://hub.docker.com/r/corelab/nginx) | 4 | 
 | gcr.io/google-containers/nginx-scale | [corelab/nginx-scale](https://hub.docker.com/r/corelab/nginx-scale) | 2 | 
 | gcr.io/google-containers/nginx-slim | [corelab/nginx-slim](https://hub.docker.com/r/corelab/nginx-slim) | 27 | 
 | gcr.io/google-containers/nginx-third-party | [corelab/nginx-third-party](https://hub.docker.com/r/corelab/nginx-third-party) | 2 | 
