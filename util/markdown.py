@@ -68,13 +68,16 @@ def get_synced_namespace():
     return synced_nm
 
 
-def do_export(username):
+def do_export(username, organization=None):
+    image_prefix = username
+    if organization is not None and len(organization) > 0:
+        image_prefix = organization
     nm = get_synced_namespace()
     if len(nm) <= 0:
         Logger.error("no yet synced namespace, skip...")
         return None
     for n in nm:
-        generate_markdown(n, username)
+        generate_markdown(n, image_prefix)
 
 
 def generate_markdown(namespace=None, username=None):

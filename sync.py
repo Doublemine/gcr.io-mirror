@@ -68,7 +68,7 @@ def sync(docker_client=None, gcr_image=None, dockerhub_name=None, organization=N
         return {'name': gcr_image_repository, 'tags': success_tag_list, 'interrupt': True}
 
 
-def sync_to_dockerhub(docker_client=None, namespace=None, username=None):
+def sync_to_dockerhub(docker_client=None, namespace=None, username=None, organization=None):
     synced_list = []
     image_list = fetch_image_list_by_namespace(namespace=namespace)
     completed = load_jsond(f'{namespace}-synced.json', False)
@@ -77,7 +77,7 @@ def sync_to_dockerhub(docker_client=None, namespace=None, username=None):
             gcr_image_dict = fetch_image_tag(namespace, image)
             gcr_image_dict = filter_unsynced_image_tags(gcr_image_dict, completed)
             Logger.debug('fetch special image list is {}'.format(str(gcr_image_dict)))
-            synced_image = sync(docker_client, gcr_image_dict, username)
+            synced_image = sync(docker_client, gcr_image_dict, username, organization)
             if synced_image is not None:
                 if synced_image['interrupt']:
                     synced_image.pop('interrupt', None)
@@ -112,7 +112,8 @@ def cli_parser():
     parser.add_argument('-u', '--username', help='the docker hub username', default=None, type=str, required=True,
                         dest='username')
 
-    parser.add_argument('-o', '--organization', help='the docker hub organization', default=None, type=str, required=False,
+    parser.add_argument('-o', '--organization', help='the docker hub organization', default=None, type=str,
+                        required=False,
                         dest='organization')
 
     parser.add_argument('-p', '--password', help='the docker hub password', default=None, type=str, required=False,
@@ -134,7 +135,7 @@ def main():
 
     if cli_vars.markdown:
         Logger.info("execute markdown table export...")
-        do_export(cli_vars.username)
+        do_export(cli_vars.username, cli_vars.organization)
         return
 
     if cli_vars.travis:
@@ -157,7 +158,7 @@ def main():
         Logger.debug("can not get alarm sec use default time 2400s.")
         alarm_sec = 60 * 40
     signal.alarm(alarm_sec)
-    sync_to_dockerhub(client, cli_vars.namespace, cli_vars.username)
+    sync_to_dockerhub(client, cli_vars.namespace, cli_vars.username, cli_vars.organization)
 
 
 if __name__ == '__main__':
