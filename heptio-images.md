@@ -1,7 +1,7 @@
 # heptio-images
 
 
-Synced image num: 53 and image mapping as follow:
+Synced image num: 54 and image mapping as follow:
 
 
 
@@ -23,13 +23,13 @@ Synced image num: 53 and image mapping as follow:
 | gcr.io/heptio-images/hept-arkext | [corelab/hept-arkext](https://hub.docker.com/r/corelab/hept-arkext) | 211 | 
 | gcr.io/heptio-images/hept-arkext-server | [corelab/hept-arkext-server](https://hub.docker.com/r/corelab/hept-arkext-server) | 5 | 
 | gcr.io/heptio-images/hept-audit-consumer | [corelab/hept-audit-consumer](https://hub.docker.com/r/corelab/hept-audit-consumer) | 1 | 
-| gcr.io/heptio-images/hept-auditext | [corelab/hept-auditext](https://hub.docker.com/r/corelab/hept-auditext) | 111 | 
+| gcr.io/heptio-images/hept-auditext | [corelab/hept-auditext](https://hub.docker.com/r/corelab/hept-auditext) | 392 | 
 | gcr.io/heptio-images/hept-ext-manager | [corelab/hept-ext-manager](https://hub.docker.com/r/corelab/hept-ext-manager) | 270 | 
 | gcr.io/heptio-images/hept-forwarder | [corelab/hept-forwarder](https://hub.docker.com/r/corelab/hept-forwarder) | 309 | 
 | gcr.io/heptio-images/hept-health-collector | [corelab/hept-health-collector](https://hub.docker.com/r/corelab/hept-health-collector) | 67 | 
 | gcr.io/heptio-images/hept-magpie | [corelab/hept-magpie](https://hub.docker.com/r/corelab/hept-magpie) | 222 | 
 | gcr.io/heptio-images/hept-sonoext | [corelab/hept-sonoext](https://hub.docker.com/r/corelab/hept-sonoext) | 418 | 
-| gcr.io/heptio-images/hept-terminate | [corelab/hept-terminate](https://hub.docker.com/r/corelab/hept-terminate) | 85 | 
+| gcr.io/heptio-images/hept-terminate | [corelab/hept-terminate](https://hub.docker.com/r/corelab/hept-terminate) | 298 | 
 | gcr.io/heptio-images/hept-updater | [corelab/hept-updater](https://hub.docker.com/r/corelab/hept-updater) | 279 | 
 | gcr.io/heptio-images/heptio-e2e | [corelab/heptio-e2e](https://hub.docker.com/r/corelab/heptio-e2e) | 6 | 
 | gcr.io/heptio-images/hq-demo-disk-filler | [corelab/hq-demo-disk-filler](https://hub.docker.com/r/corelab/hq-demo-disk-filler) | 13 | 
@@ -39,7 +39,7 @@ Synced image num: 53 and image mapping as follow:
 | gcr.io/heptio-images/ironclad | [corelab/ironclad](https://hub.docker.com/r/corelab/ironclad) | 2 | 
 | gcr.io/heptio-images/jenkins-agent | [corelab/jenkins-agent](https://hub.docker.com/r/corelab/jenkins-agent) | 1 | 
 | gcr.io/heptio-images/ks-guestbook-demo | [corelab/ks-guestbook-demo](https://hub.docker.com/r/corelab/ks-guestbook-demo) | 2 | 
-| gcr.io/heptio-images/kube-conformance | [corelab/kube-conformance](https://hub.docker.com/r/corelab/kube-conformance) | 15 | 
+| gcr.io/heptio-images/kube-conformance | [corelab/kube-conformance](https://hub.docker.com/r/corelab/kube-conformance) | 31 | 
 | gcr.io/heptio-images/lifecycler | [corelab/lifecycler](https://hub.docker.com/r/corelab/lifecycler) | 2 | 
 | gcr.io/heptio-images/magpie | [corelab/magpie](https://hub.docker.com/r/corelab/magpie) | 48 | 
 | gcr.io/heptio-images/namespace-deleter | [corelab/namespace-deleter](https://hub.docker.com/r/corelab/namespace-deleter) | 3 | 
@@ -59,5 +59,6 @@ Synced image num: 53 and image mapping as follow:
 | gcr.io/heptio-images/sonobuoy-plugin-systemd-logs-arm64 | [corelab/sonobuoy-plugin-systemd-logs-arm64](https://hub.docker.com/r/corelab/sonobuoy-plugin-systemd-logs-arm64) | 2 | 
 | gcr.io/heptio-images/sonobuoy-plugin-systemd-logs-ppc64le | [corelab/sonobuoy-plugin-systemd-logs-ppc64le](https://hub.docker.com/r/corelab/sonobuoy-plugin-systemd-logs-ppc64le) | 2 | 
 | gcr.io/heptio-images/test-proj | [corelab/test-proj](https://hub.docker.com/r/corelab/test-proj) | 1 | 
+| gcr.io/heptio-images/velero | [corelab/velero](https://hub.docker.com/r/corelab/velero) | 6 | 
 | gcr.io/heptio-images/velero-restic-restore-helper | [corelab/velero-restic-restore-helper](https://hub.docker.com/r/corelab/velero-restic-restore-helper) | 6 | 
 

@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 113 and image mapping as follow:
+Synced image num: 119 and image mapping as follow:
 
 
 
@@ -16,6 +16,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/google-containers/cloud-controller-manager | [corelab/cloud-controller-manager](https://hub.docker.com/r/corelab/cloud-controller-manager) | 85 | 
 | gcr.io/google-containers/cloud-controller-manager-arm | [corelab/cloud-controller-manager-arm](https://hub.docker.com/r/corelab/cloud-controller-manager-arm) | 60 | 
 | gcr.io/google-containers/cloud-controller-manager-arm64 | [corelab/cloud-controller-manager-arm64](https://hub.docker.com/r/corelab/cloud-controller-manager-arm64) | 111 | 
+| gcr.io/google-containers/cloud-controller-manager-s390x | [corelab/cloud-controller-manager-s390x](https://hub.docker.com/r/corelab/cloud-controller-manager-s390x) | 111 | 
 | gcr.io/google-containers/cluster-proportional-autoscaler-arm | [corelab/cluster-proportional-autoscaler-arm](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm) | 13 | 
 | gcr.io/google-containers/cluster-proportional-autoscaler-arm64 | [corelab/cluster-proportional-autoscaler-arm64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm64) | 13 | 
 | gcr.io/google-containers/cluster-proportional-autoscaler-ppc64le | [corelab/cluster-proportional-autoscaler-ppc64le](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-ppc64le) | 13 | 
@@ -35,6 +36,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/google-containers/dnsmasq-metrics-ppc64le | [corelab/dnsmasq-metrics-ppc64le](https://hub.docker.com/r/corelab/dnsmasq-metrics-ppc64le) | 1 | 
 | gcr.io/google-containers/echoserver-arm | [corelab/echoserver-arm](https://hub.docker.com/r/corelab/echoserver-arm) | 1 | 
 | gcr.io/google-containers/etcd-amd64 | [corelab/etcd-amd64](https://hub.docker.com/r/corelab/etcd-amd64) | 5 | 
+| gcr.io/google-containers/etcd-arm | [corelab/etcd-arm](https://hub.docker.com/r/corelab/etcd-arm) | 24 | 
 | gcr.io/google-containers/etcd-s390x | [corelab/etcd-s390x](https://hub.docker.com/r/corelab/etcd-s390x) | 33 | 
 | gcr.io/google-containers/etcd-version-monitor | [corelab/etcd-version-monitor](https://hub.docker.com/r/corelab/etcd-version-monitor) | 4 | 
 | gcr.io/google-containers/example-dns-frontend | [corelab/example-dns-frontend](https://hub.docker.com/r/corelab/example-dns-frontend) | 1 | 
@@ -76,6 +78,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/google-containers/k8s-dns-sidecar | [corelab/k8s-dns-sidecar](https://hub.docker.com/r/corelab/k8s-dns-sidecar) | 11 | 
 | gcr.io/google-containers/k8s-dns-sidecar-amd64 | [corelab/k8s-dns-sidecar-amd64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-amd64) | 29 | 
 | gcr.io/google-containers/k8s-dns-sidecar-e2e-arm64 | [corelab/k8s-dns-sidecar-e2e-arm64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-arm64) | 4 | 
+| gcr.io/google-containers/kube-addon-manager-amd64 | [corelab/kube-addon-manager-amd64](https://hub.docker.com/r/corelab/kube-addon-manager-amd64) | 24 | 
 | gcr.io/google-containers/kube-addon-manager-arm64 | [corelab/kube-addon-manager-arm64](https://hub.docker.com/r/corelab/kube-addon-manager-arm64) | 20 | 
 | gcr.io/google-containers/kube-addon-manager-s390x | [corelab/kube-addon-manager-s390x](https://hub.docker.com/r/corelab/kube-addon-manager-s390x) | 13 | 
 | gcr.io/google-containers/kube-aggregator-arm64 | [corelab/kube-aggregator-arm64](https://hub.docker.com/r/corelab/kube-aggregator-arm64) | 59 | 
@@ -100,9 +103,11 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/google-containers/nginx | [corelab/nginx](https://hub.docker.com/r/corelab/nginx) | 4 | 
 | gcr.io/google-containers/nginx-scale | [corelab/nginx-scale](https://hub.docker.com/r/corelab/nginx-scale) | 2 | 
 | gcr.io/google-containers/nginx-slim | [corelab/nginx-slim](https://hub.docker.com/r/corelab/nginx-slim) | 27 | 
+| gcr.io/google-containers/nginx-slim-arm | [corelab/nginx-slim-arm](https://hub.docker.com/r/corelab/nginx-slim-arm) | 12 | 
 | gcr.io/google-containers/nginx-third-party | [corelab/nginx-third-party](https://hub.docker.com/r/corelab/nginx-third-party) | 2 | 
 | gcr.io/google-containers/no-snat-test-amd64 | [corelab/no-snat-test-amd64](https://hub.docker.com/r/corelab/no-snat-test-amd64) | 2 | 
 | gcr.io/google-containers/pause | [corelab/pause](https://hub.docker.com/r/corelab/pause) | 9 | 
+| gcr.io/google-containers/pause-arm64 | [corelab/pause-arm64](https://hub.docker.com/r/corelab/pause-arm64) | 3 | 
 | gcr.io/google-containers/podmaster | [corelab/podmaster](https://hub.docker.com/r/corelab/podmaster) | 1 | 
 | gcr.io/google-containers/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 1 | 
 | gcr.io/google-containers/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 3 | 
@@ -110,6 +115,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/google-containers/serve-hostname-amd64 | [corelab/serve-hostname-amd64](https://hub.docker.com/r/corelab/serve-hostname-amd64) | 1 | 
 | gcr.io/google-containers/serve-hostname-arm | [corelab/serve-hostname-arm](https://hub.docker.com/r/corelab/serve-hostname-arm) | 1 | 
 | gcr.io/google-containers/serve-hostname-arm64 | [corelab/serve-hostname-arm64](https://hub.docker.com/r/corelab/serve-hostname-arm64) | 1 | 
+| gcr.io/google-containers/skydns | [corelab/skydns](https://hub.docker.com/r/corelab/skydns) | 3 | 
 | gcr.io/google-containers/skydns-arm64 | [corelab/skydns-arm64](https://hub.docker.com/r/corelab/skydns-arm64) | 1 | 
 | gcr.io/google-containers/slo-monitor | [corelab/slo-monitor](https://hub.docker.com/r/corelab/slo-monitor) | 8 | 
 | gcr.io/google-containers/spark-driver | [corelab/spark-driver](https://hub.docker.com/r/corelab/spark-driver) | 6 | 
