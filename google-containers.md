@@ -1,13 +1,14 @@
 # google-containers
 
 
-Synced image num: 119 and image mapping as follow:
+Synced image num: 121 and image mapping as follow:
 
 
 
 |  gcr registry | dockerhub | tags num |
 |-------------- | -------------- | -------------- | 
 | gcr.io/google-containers/addon-resizer-amd64 | [corelab/addon-resizer-amd64](https://hub.docker.com/r/corelab/addon-resizer-amd64) | 1 | 
+| gcr.io/google-containers/addon-resizer-arm64 | [corelab/addon-resizer-arm64](https://hub.docker.com/r/corelab/addon-resizer-arm64) | 1 | 
 | gcr.io/google-containers/alpine-iptables-arm | [corelab/alpine-iptables-arm](https://hub.docker.com/r/corelab/alpine-iptables-arm) | 1 | 
 | gcr.io/google-containers/alpine-with-bash | [corelab/alpine-with-bash](https://hub.docker.com/r/corelab/alpine-with-bash) | 1 | 
 | gcr.io/google-containers/apparmor-loader | [corelab/apparmor-loader](https://hub.docker.com/r/corelab/apparmor-loader) | 3 | 
@@ -82,6 +83,7 @@ Synced image num: 119 and image mapping as follow:
 | gcr.io/google-containers/kube-addon-manager-arm64 | [corelab/kube-addon-manager-arm64](https://hub.docker.com/r/corelab/kube-addon-manager-arm64) | 20 | 
 | gcr.io/google-containers/kube-addon-manager-s390x | [corelab/kube-addon-manager-s390x](https://hub.docker.com/r/corelab/kube-addon-manager-s390x) | 13 | 
 | gcr.io/google-containers/kube-aggregator-arm64 | [corelab/kube-aggregator-arm64](https://hub.docker.com/r/corelab/kube-aggregator-arm64) | 59 | 
+| gcr.io/google-containers/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 160 | 
 | gcr.io/google-containers/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 124 | 
 | gcr.io/google-containers/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
