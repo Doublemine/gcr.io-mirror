@@ -1,7 +1,7 @@
 # cloud-solutions-images
 
 
-Synced image num: 72 and image mapping as follow:
+Synced image num: 78 and image mapping as follow:
 
 
 
@@ -11,8 +11,9 @@ Synced image num: 72 and image mapping as follow:
 | gcr.io/cloud-solutions-images/apache-airflow | [corelab/apache-airflow](https://hub.docker.com/r/corelab/apache-airflow) | 1 | 
 | gcr.io/cloud-solutions-images/app | [corelab/app](https://hub.docker.com/r/corelab/app) | 2 | 
 | gcr.io/cloud-solutions-images/code-server-gke-ambassador-iap-auth | [corelab/code-server-gke-ambassador-iap-auth](https://hub.docker.com/r/corelab/code-server-gke-ambassador-iap-auth) | 8 | 
+| gcr.io/cloud-solutions-images/code-server-gke-code-server | [corelab/code-server-gke-code-server](https://hub.docker.com/r/corelab/code-server-gke-code-server) | 7 | 
 | gcr.io/cloud-solutions-images/code-server-gke-code-server-cloudshell | [corelab/code-server-gke-code-server-cloudshell](https://hub.docker.com/r/corelab/code-server-gke-code-server-cloudshell) | 1 | 
-| gcr.io/cloud-solutions-images/code-server-gke-pod-broker | [corelab/code-server-gke-pod-broker](https://hub.docker.com/r/corelab/code-server-gke-pod-broker) | 38 | 
+| gcr.io/cloud-solutions-images/code-server-gke-pod-broker | [corelab/code-server-gke-pod-broker](https://hub.docker.com/r/corelab/code-server-gke-pod-broker) | 39 | 
 | gcr.io/cloud-solutions-images/concourse-git-gcp | [corelab/concourse-git-gcp](https://hub.docker.com/r/corelab/concourse-git-gcp) | 4 | 
 | gcr.io/cloud-solutions-images/conourse-helm-gcp | [corelab/conourse-helm-gcp](https://hub.docker.com/r/corelab/conourse-helm-gcp) | 1 | 
 | gcr.io/cloud-solutions-images/df-log-streaming-pipeline | [corelab/df-log-streaming-pipeline](https://hub.docker.com/r/corelab/df-log-streaming-pipeline) | 1 | 
@@ -44,6 +45,7 @@ Synced image num: 72 and image mapping as follow:
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-desktop-supertuxkart | [corelab/gpu-accel-webrtc-desktop-supertuxkart](https://hub.docker.com/r/corelab/gpu-accel-webrtc-desktop-supertuxkart) | 1 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-gst-base | [corelab/gpu-accel-webrtc-gst-base](https://hub.docker.com/r/corelab/gpu-accel-webrtc-gst-base) | 15 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-gst-web | [corelab/gpu-accel-webrtc-gst-web](https://hub.docker.com/r/corelab/gpu-accel-webrtc-gst-web) | 23 | 
+| gcr.io/cloud-solutions-images/gpu-accel-webrtc-gst-webrtc-app | [corelab/gpu-accel-webrtc-gst-webrtc-app](https://hub.docker.com/r/corelab/gpu-accel-webrtc-gst-webrtc-app) | 25 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-novnc | [corelab/gpu-accel-webrtc-novnc](https://hub.docker.com/r/corelab/gpu-accel-webrtc-novnc) | 13 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-nvidia-gpu-device-plugin | [corelab/gpu-accel-webrtc-nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/gpu-accel-webrtc-nvidia-gpu-device-plugin) | 4 | 
 | gcr.io/cloud-solutions-images/gpu-accel-webrtc-pod-broker | [corelab/gpu-accel-webrtc-pod-broker](https://hub.docker.com/r/corelab/gpu-accel-webrtc-pod-broker) | 22 | 
@@ -66,11 +68,13 @@ Synced image num: 72 and image mapping as follow:
 | gcr.io/cloud-solutions-images/map-pushapp | [corelab/map-pushapp](https://hub.docker.com/r/corelab/map-pushapp) | 1 | 
 | gcr.io/cloud-solutions-images/nginx-gcs-resizer | [corelab/nginx-gcs-resizer](https://hub.docker.com/r/corelab/nginx-gcs-resizer) | 1 | 
 | gcr.io/cloud-solutions-images/nginx-ssl-proxy | [corelab/nginx-ssl-proxy](https://hub.docker.com/r/corelab/nginx-ssl-proxy) | 1 | 
+| gcr.io/cloud-solutions-images/nomad | [corelab/nomad](https://hub.docker.com/r/corelab/nomad) | 1 | 
 | gcr.io/cloud-solutions-images/nvidia-gpu-device-plugin | [corelab/nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/nvidia-gpu-device-plugin) | 1 | 
 | gcr.io/cloud-solutions-images/opentsdb-bigtable | [corelab/opentsdb-bigtable](https://hub.docker.com/r/corelab/opentsdb-bigtable) | 1 | 
 | gcr.io/cloud-solutions-images/packer | [corelab/packer](https://hub.docker.com/r/corelab/packer) | 2 | 
 | gcr.io/cloud-solutions-images/processing-logs-at-scale-browse-service | [corelab/processing-logs-at-scale-browse-service](https://hub.docker.com/r/corelab/processing-logs-at-scale-browse-service) | 1 | 
 | gcr.io/cloud-solutions-images/processing-logs-at-scale-home-service | [corelab/processing-logs-at-scale-home-service](https://hub.docker.com/r/corelab/processing-logs-at-scale-home-service) | 1 | 
+| gcr.io/cloud-solutions-images/processing-logs-at-scale-locate-service | [corelab/processing-logs-at-scale-locate-service](https://hub.docker.com/r/corelab/processing-logs-at-scale-locate-service) | 1 | 
 | gcr.io/cloud-solutions-images/redis | [corelab/redis](https://hub.docker.com/r/corelab/redis) | 1 | 
 | gcr.io/cloud-solutions-images/remote-builder | [corelab/remote-builder](https://hub.docker.com/r/corelab/remote-builder) | 5 | 
 | gcr.io/cloud-solutions-images/sample-browse-service | [corelab/sample-browse-service](https://hub.docker.com/r/corelab/sample-browse-service) | 1 | 
@@ -79,4 +83,6 @@ Synced image num: 72 and image mapping as follow:
 | gcr.io/cloud-solutions-images/solution-pg-pitr-trans-gen | [corelab/solution-pg-pitr-trans-gen](https://hub.docker.com/r/corelab/solution-pg-pitr-trans-gen) | 1 | 
 | gcr.io/cloud-solutions-images/test-logger | [corelab/test-logger](https://hub.docker.com/r/corelab/test-logger) | 2 | 
 | gcr.io/cloud-solutions-images/tf-gcptools-su | [corelab/tf-gcptools-su](https://hub.docker.com/r/corelab/tf-gcptools-su) | 1 | 
+| gcr.io/cloud-solutions-images/uinput-device-plugin | [corelab/uinput-device-plugin](https://hub.docker.com/r/corelab/uinput-device-plugin) | 1 | 
+| gcr.io/cloud-solutions-images/vegeta | [corelab/vegeta](https://hub.docker.com/r/corelab/vegeta) | 1 | 
 

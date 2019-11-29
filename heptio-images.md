@@ -1,7 +1,7 @@
 # heptio-images
 
 
-Synced image num: 51 and image mapping as follow:
+Synced image num: 53 and image mapping as follow:
 
 
 
@@ -17,6 +17,7 @@ Synced image num: 51 and image mapping as follow:
 | gcr.io/heptio-images/dizzy | [corelab/dizzy](https://hub.docker.com/r/corelab/dizzy) | 2 | 
 | gcr.io/heptio-images/forwarder | [corelab/forwarder](https://hub.docker.com/r/corelab/forwarder) | 4 | 
 | gcr.io/heptio-images/fsfreeze-pause | [corelab/fsfreeze-pause](https://hub.docker.com/r/corelab/fsfreeze-pause) | 9 | 
+| gcr.io/heptio-images/gangway | [corelab/gangway](https://hub.docker.com/r/corelab/gangway) | 13 | 
 | gcr.io/heptio-images/gimbal-discoverer | [corelab/gimbal-discoverer](https://hub.docker.com/r/corelab/gimbal-discoverer) | 20 | 
 | gcr.io/heptio-images/golang | [corelab/golang](https://hub.docker.com/r/corelab/golang) | 4 | 
 | gcr.io/heptio-images/hept-arkext | [corelab/hept-arkext](https://hub.docker.com/r/corelab/hept-arkext) | 211 | 
@@ -48,6 +49,7 @@ Synced image num: 51 and image mapping as follow:
 | gcr.io/heptio-images/restic-init-container | [corelab/restic-init-container](https://hub.docker.com/r/corelab/restic-init-container) | 1 | 
 | gcr.io/heptio-images/sample-cluster | [corelab/sample-cluster](https://hub.docker.com/r/corelab/sample-cluster) | 3 | 
 | gcr.io/heptio-images/scanner-forwarder | [corelab/scanner-forwarder](https://hub.docker.com/r/corelab/scanner-forwarder) | 2 | 
+| gcr.io/heptio-images/sonobuoy | [corelab/sonobuoy](https://hub.docker.com/r/corelab/sonobuoy) | 261 | 
 | gcr.io/heptio-images/sonobuoy-amd64 | [corelab/sonobuoy-amd64](https://hub.docker.com/r/corelab/sonobuoy-amd64) | 149 | 
 | gcr.io/heptio-images/sonobuoy-arm64 | [corelab/sonobuoy-arm64](https://hub.docker.com/r/corelab/sonobuoy-arm64) | 147 | 
 | gcr.io/heptio-images/sonobuoy-plugin-conformance | [corelab/sonobuoy-plugin-conformance](https://hub.docker.com/r/corelab/sonobuoy-plugin-conformance) | 2 | 
