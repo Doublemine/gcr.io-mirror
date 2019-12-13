@@ -36,9 +36,9 @@ jobs:
     - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n google-containers
         - ./commit.sh
-    - script:
-        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n cloud-solutions-images
-        - ./commit.sh
+#     - script:
+#         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n cloud-solutions-images
+#         - ./commit.sh
     - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n heptio-images
         - ./commit.sh
