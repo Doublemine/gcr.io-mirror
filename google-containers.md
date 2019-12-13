@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 288 and image mapping as follow:
+Synced image num: 290 and image mapping as follow:
 
 
 
@@ -125,6 +125,7 @@ Synced image num: 288 and image mapping as follow:
 | gcr.io/google-containers/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 25 | 
+| gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 9 | 
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 49 | 
 | gcr.io/google-containers/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
 | gcr.io/google-containers/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 28 | 
@@ -174,7 +175,7 @@ Synced image num: 288 and image mapping as follow:
 | gcr.io/google-containers/kube-apiserver-arm | [corelab/kube-apiserver-arm](https://hub.docker.com/r/corelab/kube-apiserver-arm) | 111 | 
 | gcr.io/google-containers/kube-apiserver-ppc64le | [corelab/kube-apiserver-ppc64le](https://hub.docker.com/r/corelab/kube-apiserver-ppc64le) | 104 | 
 | gcr.io/google-containers/kube-apiserver-s390x | [corelab/kube-apiserver-s390x](https://hub.docker.com/r/corelab/kube-apiserver-s390x) | 79 | 
-| gcr.io/google-containers/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 33 | 
+| gcr.io/google-containers/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 173 | 
 | gcr.io/google-containers/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 124 | 
 | gcr.io/google-containers/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 53 | 
 | gcr.io/google-containers/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
@@ -295,4 +296,5 @@ Synced image num: 288 and image mapping as follow:
 | gcr.io/google-containers/watcher-daemonset | [corelab/watcher-daemonset](https://hub.docker.com/r/corelab/watcher-daemonset) | 1 | 
 | gcr.io/google-containers/webhooks-publisher | [corelab/webhooks-publisher](https://hub.docker.com/r/corelab/webhooks-publisher) | 3 | 
 | gcr.io/google-containers/zeppelin | [corelab/zeppelin](https://hub.docker.com/r/corelab/zeppelin) | 11 | 
+| gcr.io/google-containers/zookeeper-install | [corelab/zookeeper-install](https://hub.docker.com/r/corelab/zookeeper-install) | 1 | 
 
