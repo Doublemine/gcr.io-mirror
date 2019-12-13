@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 371 and image mapping as follow:
+Synced image num: 375 and image mapping as follow:
 
 
 
@@ -13,6 +13,7 @@ Synced image num: 371 and image mapping as follow:
 | gcr.io/google-containers/addon-resizer-arm | [corelab/addon-resizer-arm](https://hub.docker.com/r/corelab/addon-resizer-arm) | 1 | 
 | gcr.io/google-containers/addon-resizer-arm64 | [corelab/addon-resizer-arm64](https://hub.docker.com/r/corelab/addon-resizer-arm64) | 1 | 
 | gcr.io/google-containers/addon-resizer-ppc64le | [corelab/addon-resizer-ppc64le](https://hub.docker.com/r/corelab/addon-resizer-ppc64le) | 1 | 
+| gcr.io/google-containers/addon-resizer-s390x | [corelab/addon-resizer-s390x](https://hub.docker.com/r/corelab/addon-resizer-s390x) | 1 | 
 | gcr.io/google-containers/aggregator | [corelab/aggregator](https://hub.docker.com/r/corelab/aggregator) | 1 | 
 | gcr.io/google-containers/alpine-iptables-amd64 | [corelab/alpine-iptables-amd64](https://hub.docker.com/r/corelab/alpine-iptables-amd64) | 1 | 
 | gcr.io/google-containers/alpine-iptables-arm | [corelab/alpine-iptables-arm](https://hub.docker.com/r/corelab/alpine-iptables-arm) | 1 | 
@@ -24,7 +25,7 @@ Synced image num: 371 and image mapping as follow:
 | gcr.io/google-containers/cassandra | [corelab/cassandra](https://hub.docker.com/r/corelab/cassandra) | 6 | 
 | gcr.io/google-containers/cassandra-e2e-test | [corelab/cassandra-e2e-test](https://hub.docker.com/r/corelab/cassandra-e2e-test) | 1 | 
 | gcr.io/google-containers/check-metadata-concealment | [corelab/check-metadata-concealment](https://hub.docker.com/r/corelab/check-metadata-concealment) | 3 | 
-| gcr.io/google-containers/cloud-controller-manager | [corelab/cloud-controller-manager](https://hub.docker.com/r/corelab/cloud-controller-manager) | 85 | 
+| gcr.io/google-containers/cloud-controller-manager | [corelab/cloud-controller-manager](https://hub.docker.com/r/corelab/cloud-controller-manager) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-amd64 | [corelab/cloud-controller-manager-amd64](https://hub.docker.com/r/corelab/cloud-controller-manager-amd64) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-arm | [corelab/cloud-controller-manager-arm](https://hub.docker.com/r/corelab/cloud-controller-manager-arm) | 60 | 
 | gcr.io/google-containers/cloud-controller-manager-arm64 | [corelab/cloud-controller-manager-arm64](https://hub.docker.com/r/corelab/cloud-controller-manager-arm64) | 113 | 
@@ -42,6 +43,7 @@ Synced image num: 371 and image mapping as follow:
 | gcr.io/google-containers/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 38 | 
 | gcr.io/google-containers/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 27 | 
 | gcr.io/google-containers/cos-kernel-headers | [corelab/cos-kernel-headers](https://hub.docker.com/r/corelab/cos-kernel-headers) | 11 | 
+| gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 9 | 
 | gcr.io/google-containers/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
 | gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 12 | 
 | gcr.io/google-containers/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 6 | 
@@ -54,7 +56,7 @@ Synced image num: 371 and image mapping as follow:
 | gcr.io/google-containers/debian-hyperkube-base-amd64 | [corelab/debian-hyperkube-base-amd64](https://hub.docker.com/r/corelab/debian-hyperkube-base-amd64) | 16 | 
 | gcr.io/google-containers/debian-hyperkube-base-arm | [corelab/debian-hyperkube-base-arm](https://hub.docker.com/r/corelab/debian-hyperkube-base-arm) | 16 | 
 | gcr.io/google-containers/debian-hyperkube-base-arm64 | [corelab/debian-hyperkube-base-arm64](https://hub.docker.com/r/corelab/debian-hyperkube-base-arm64) | 16 | 
-| gcr.io/google-containers/debian-hyperkube-base-ppc64le | [corelab/debian-hyperkube-base-ppc64le](https://hub.docker.com/r/corelab/debian-hyperkube-base-ppc64le) | 13 | 
+| gcr.io/google-containers/debian-hyperkube-base-ppc64le | [corelab/debian-hyperkube-base-ppc64le](https://hub.docker.com/r/corelab/debian-hyperkube-base-ppc64le) | 16 | 
 | gcr.io/google-containers/debian-hyperkube-base-s390x | [corelab/debian-hyperkube-base-s390x](https://hub.docker.com/r/corelab/debian-hyperkube-base-s390x) | 16 | 
 | gcr.io/google-containers/debian-iptables | [corelab/debian-iptables](https://hub.docker.com/r/corelab/debian-iptables) | 7 | 
 | gcr.io/google-containers/debian-iptables-amd64 | [corelab/debian-iptables-amd64](https://hub.docker.com/r/corelab/debian-iptables-amd64) | 18 | 
@@ -62,6 +64,7 @@ Synced image num: 371 and image mapping as follow:
 | gcr.io/google-containers/debian-iptables-arm64 | [corelab/debian-iptables-arm64](https://hub.docker.com/r/corelab/debian-iptables-arm64) | 18 | 
 | gcr.io/google-containers/debian-iptables-ppc64le | [corelab/debian-iptables-ppc64le](https://hub.docker.com/r/corelab/debian-iptables-ppc64le) | 18 | 
 | gcr.io/google-containers/debian-iptables-s390x | [corelab/debian-iptables-s390x](https://hub.docker.com/r/corelab/debian-iptables-s390x) | 14 | 
+| gcr.io/google-containers/defaultbackend | [corelab/defaultbackend](https://hub.docker.com/r/corelab/defaultbackend) | 5 | 
 | gcr.io/google-containers/defaultbackend-ppc64le | [corelab/defaultbackend-ppc64le](https://hub.docker.com/r/corelab/defaultbackend-ppc64le) | 4 | 
 | gcr.io/google-containers/defaultbackend-s390x | [corelab/defaultbackend-s390x](https://hub.docker.com/r/corelab/defaultbackend-s390x) | 2 | 
 | gcr.io/google-containers/device-plugin-gpu | [corelab/device-plugin-gpu](https://hub.docker.com/r/corelab/device-plugin-gpu) | 20 | 
@@ -239,6 +242,7 @@ Synced image num: 371 and image mapping as follow:
 | gcr.io/google-containers/kube-scheduler-ppc64le | [corelab/kube-scheduler-ppc64le](https://hub.docker.com/r/corelab/kube-scheduler-ppc64le) | 143 | 
 | gcr.io/google-containers/kube-scheduler-s390x | [corelab/kube-scheduler-s390x](https://hub.docker.com/r/corelab/kube-scheduler-s390x) | 133 | 
 | gcr.io/google-containers/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 18 | 
+| gcr.io/google-containers/kube-state-metrics-amd64 | [corelab/kube-state-metrics-amd64](https://hub.docker.com/r/corelab/kube-state-metrics-amd64) | 11 | 
 | gcr.io/google-containers/kube-state-metrics-arm | [corelab/kube-state-metrics-arm](https://hub.docker.com/r/corelab/kube-state-metrics-arm) | 5 | 
 | gcr.io/google-containers/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 6 | 
 | gcr.io/google-containers/kube-state-metrics-s390x | [corelab/kube-state-metrics-s390x](https://hub.docker.com/r/corelab/kube-state-metrics-s390x) | 6 | 
