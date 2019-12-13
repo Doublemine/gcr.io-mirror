@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 355 and image mapping as follow:
+Synced image num: 371 and image mapping as follow:
 
 
 
@@ -16,6 +16,7 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/aggregator | [corelab/aggregator](https://hub.docker.com/r/corelab/aggregator) | 1 | 
 | gcr.io/google-containers/alpine-iptables-amd64 | [corelab/alpine-iptables-amd64](https://hub.docker.com/r/corelab/alpine-iptables-amd64) | 1 | 
 | gcr.io/google-containers/alpine-iptables-arm | [corelab/alpine-iptables-arm](https://hub.docker.com/r/corelab/alpine-iptables-arm) | 1 | 
+| gcr.io/google-containers/alpine-iptables-arm64 | [corelab/alpine-iptables-arm64](https://hub.docker.com/r/corelab/alpine-iptables-arm64) | 1 | 
 | gcr.io/google-containers/alpine-with-bash | [corelab/alpine-with-bash](https://hub.docker.com/r/corelab/alpine-with-bash) | 1 | 
 | gcr.io/google-containers/apparmor-loader | [corelab/apparmor-loader](https://hub.docker.com/r/corelab/apparmor-loader) | 3 | 
 | gcr.io/google-containers/busybox | [corelab/busybox](https://hub.docker.com/r/corelab/busybox) | 4 | 
@@ -44,6 +45,7 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
 | gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 12 | 
 | gcr.io/google-containers/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 6 | 
+| gcr.io/google-containers/debian-base-amd64 | [corelab/debian-base-amd64](https://hub.docker.com/r/corelab/debian-base-amd64) | 11 | 
 | gcr.io/google-containers/debian-base-arm | [corelab/debian-base-arm](https://hub.docker.com/r/corelab/debian-base-arm) | 11 | 
 | gcr.io/google-containers/debian-base-arm64 | [corelab/debian-base-arm64](https://hub.docker.com/r/corelab/debian-base-arm64) | 11 | 
 | gcr.io/google-containers/debian-base-ppc64le | [corelab/debian-base-ppc64le](https://hub.docker.com/r/corelab/debian-base-ppc64le) | 11 | 
@@ -88,6 +90,7 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/event-exporter | [corelab/event-exporter](https://hub.docker.com/r/corelab/event-exporter) | 19 | 
 | gcr.io/google-containers/example-dns-frontend | [corelab/example-dns-frontend](https://hub.docker.com/r/corelab/example-dns-frontend) | 1 | 
 | gcr.io/google-containers/example-guestbook-php-redis | [corelab/example-guestbook-php-redis](https://hub.docker.com/r/corelab/example-guestbook-php-redis) | 2 | 
+| gcr.io/google-containers/exechealthz-arm | [corelab/exechealthz-arm](https://hub.docker.com/r/corelab/exechealthz-arm) | 5 | 
 | gcr.io/google-containers/exechealthz-ppc64le | [corelab/exechealthz-ppc64le](https://hub.docker.com/r/corelab/exechealthz-ppc64le) | 4 | 
 | gcr.io/google-containers/exechealthz-s390x | [corelab/exechealthz-s390x](https://hub.docker.com/r/corelab/exechealthz-s390x) | 2 | 
 | gcr.io/google-containers/federation-apiserver | [corelab/federation-apiserver](https://hub.docker.com/r/corelab/federation-apiserver) | 7 | 
@@ -137,14 +140,16 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/heapster-grafana-ppc64le | [corelab/heapster-grafana-ppc64le](https://hub.docker.com/r/corelab/heapster-grafana-ppc64le) | 3 | 
 | gcr.io/google-containers/heapster-grafana-s390x | [corelab/heapster-grafana-s390x](https://hub.docker.com/r/corelab/heapster-grafana-s390x) | 2 | 
 | gcr.io/google-containers/heapster-influxdb | [corelab/heapster-influxdb](https://hub.docker.com/r/corelab/heapster-influxdb) | 6 | 
+| gcr.io/google-containers/heapster-influxdb-amd64 | [corelab/heapster-influxdb-amd64](https://hub.docker.com/r/corelab/heapster-influxdb-amd64) | 3 | 
 | gcr.io/google-containers/heapster-influxdb-arm | [corelab/heapster-influxdb-arm](https://hub.docker.com/r/corelab/heapster-influxdb-arm) | 3 | 
 | gcr.io/google-containers/heapster-influxdb-arm64 | [corelab/heapster-influxdb-arm64](https://hub.docker.com/r/corelab/heapster-influxdb-arm64) | 3 | 
 | gcr.io/google-containers/heapster-ppc64le | [corelab/heapster-ppc64le](https://hub.docker.com/r/corelab/heapster-ppc64le) | 10 | 
 | gcr.io/google-containers/heapster-s390x | [corelab/heapster-s390x](https://hub.docker.com/r/corelab/heapster-s390x) | 10 | 
 | gcr.io/google-containers/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
+| gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
 | gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 25 | 
-| gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 9 | 
+| gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 59 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 9 | 
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 49 | 
 | gcr.io/google-containers/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
@@ -171,12 +176,14 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/k8s-dns-e2e-arm | [corelab/k8s-dns-e2e-arm](https://hub.docker.com/r/corelab/k8s-dns-e2e-arm) | 1 | 
 | gcr.io/google-containers/k8s-dns-e2e-arm64 | [corelab/k8s-dns-e2e-arm64](https://hub.docker.com/r/corelab/k8s-dns-e2e-arm64) | 1 | 
 | gcr.io/google-containers/k8s-dns-e2e-ppc64le | [corelab/k8s-dns-e2e-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-e2e-ppc64le) | 1 | 
+| gcr.io/google-containers/k8s-dns-ginkgo-amd64 | [corelab/k8s-dns-ginkgo-amd64](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-amd64) | 1 | 
 | gcr.io/google-containers/k8s-dns-ginkgo-arm | [corelab/k8s-dns-ginkgo-arm](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-arm) | 1 | 
 | gcr.io/google-containers/k8s-dns-ginkgo-arm64 | [corelab/k8s-dns-ginkgo-arm64](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-arm64) | 1 | 
 | gcr.io/google-containers/k8s-dns-ginkgo-ppc64le | [corelab/k8s-dns-ginkgo-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-ppc64le) | 1 | 
 | gcr.io/google-containers/k8s-dns-kube-dns | [corelab/k8s-dns-kube-dns](https://hub.docker.com/r/corelab/k8s-dns-kube-dns) | 11 | 
 | gcr.io/google-containers/k8s-dns-kube-dns-amd64 | [corelab/k8s-dns-kube-dns-amd64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-amd64) | 28 | 
 | gcr.io/google-containers/k8s-dns-kube-dns-arm | [corelab/k8s-dns-kube-dns-arm](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm) | 28 | 
+| gcr.io/google-containers/k8s-dns-kube-dns-arm64 | [corelab/k8s-dns-kube-dns-arm64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm64) | 28 | 
 | gcr.io/google-containers/k8s-dns-node-cache | [corelab/k8s-dns-node-cache](https://hub.docker.com/r/corelab/k8s-dns-node-cache) | 9 | 
 | gcr.io/google-containers/k8s-dns-node-cache-amd64 | [corelab/k8s-dns-node-cache-amd64](https://hub.docker.com/r/corelab/k8s-dns-node-cache-amd64) | 9 | 
 | gcr.io/google-containers/k8s-dns-node-cache-arm | [corelab/k8s-dns-node-cache-arm](https://hub.docker.com/r/corelab/k8s-dns-node-cache-arm) | 9 | 
@@ -215,6 +222,7 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
 | gcr.io/google-containers/kube-dns-perf-client-amd64 | [corelab/kube-dns-perf-client-amd64](https://hub.docker.com/r/corelab/kube-dns-perf-client-amd64) | 2 | 
+| gcr.io/google-containers/kube-dnsmasq-amd64 | [corelab/kube-dnsmasq-amd64](https://hub.docker.com/r/corelab/kube-dnsmasq-amd64) | 4 | 
 | gcr.io/google-containers/kube-dnsmasq-arm | [corelab/kube-dnsmasq-arm](https://hub.docker.com/r/corelab/kube-dnsmasq-arm) | 3 | 
 | gcr.io/google-containers/kube-dnsmasq-arm64 | [corelab/kube-dnsmasq-arm64](https://hub.docker.com/r/corelab/kube-dnsmasq-arm64) | 3 | 
 | gcr.io/google-containers/kube-dnsmasq-ppc64le | [corelab/kube-dnsmasq-ppc64le](https://hub.docker.com/r/corelab/kube-dnsmasq-ppc64le) | 3 | 
@@ -265,6 +273,7 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
 | gcr.io/google-containers/metrics-server | [corelab/metrics-server](https://hub.docker.com/r/corelab/metrics-server) | 6 | 
 | gcr.io/google-containers/metrics-server-amd64 | [corelab/metrics-server-amd64](https://hub.docker.com/r/corelab/metrics-server-amd64) | 11 | 
+| gcr.io/google-containers/metrics-server-arm | [corelab/metrics-server-arm](https://hub.docker.com/r/corelab/metrics-server-arm) | 8 | 
 | gcr.io/google-containers/metrics-server-ppc64le | [corelab/metrics-server-ppc64le](https://hub.docker.com/r/corelab/metrics-server-ppc64le) | 8 | 
 | gcr.io/google-containers/metrics-server-s390x | [corelab/metrics-server-s390x](https://hub.docker.com/r/corelab/metrics-server-s390x) | 8 | 
 | gcr.io/google-containers/minikube-nvidia-driver-installer | [corelab/minikube-nvidia-driver-installer](https://hub.docker.com/r/corelab/minikube-nvidia-driver-installer) | 2 | 
@@ -296,8 +305,10 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/node-test | [corelab/node-test](https://hub.docker.com/r/corelab/node-test) | 1 | 
 | gcr.io/google-containers/node-test-amd64 | [corelab/node-test-amd64](https://hub.docker.com/r/corelab/node-test-amd64) | 2 | 
 | gcr.io/google-containers/node-test-arm64 | [corelab/node-test-arm64](https://hub.docker.com/r/corelab/node-test-arm64) | 2 | 
+| gcr.io/google-containers/non-masquerade-daemon-amd64 | [corelab/non-masquerade-daemon-amd64](https://hub.docker.com/r/corelab/non-masquerade-daemon-amd64) | 3 | 
 | gcr.io/google-containers/nonewprivs | [corelab/nonewprivs](https://hub.docker.com/r/corelab/nonewprivs) | 3 | 
 | gcr.io/google-containers/pause | [corelab/pause](https://hub.docker.com/r/corelab/pause) | 9 | 
+| gcr.io/google-containers/pause-amd64 | [corelab/pause-amd64](https://hub.docker.com/r/corelab/pause-amd64) | 2 | 
 | gcr.io/google-containers/pause-arm | [corelab/pause-arm](https://hub.docker.com/r/corelab/pause-arm) | 3 | 
 | gcr.io/google-containers/pause-arm64 | [corelab/pause-arm64](https://hub.docker.com/r/corelab/pause-arm64) | 3 | 
 | gcr.io/google-containers/pause-ppc64le | [corelab/pause-ppc64le](https://hub.docker.com/r/corelab/pause-ppc64le) | 3 | 
@@ -317,6 +328,7 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/redis-slave | [corelab/redis-slave](https://hub.docker.com/r/corelab/redis-slave) | 1 | 
 | gcr.io/google-containers/registry-promoter-test-image | [corelab/registry-promoter-test-image](https://hub.docker.com/r/corelab/registry-promoter-test-image) | 1 | 
 | gcr.io/google-containers/rescheduler-amd64 | [corelab/rescheduler-amd64](https://hub.docker.com/r/corelab/rescheduler-amd64) | 1 | 
+| gcr.io/google-containers/rescheduler-arm | [corelab/rescheduler-arm](https://hub.docker.com/r/corelab/rescheduler-arm) | 1 | 
 | gcr.io/google-containers/rescheduler-arm64 | [corelab/rescheduler-arm64](https://hub.docker.com/r/corelab/rescheduler-arm64) | 1 | 
 | gcr.io/google-containers/rescheduler-ppc64le | [corelab/rescheduler-ppc64le](https://hub.docker.com/r/corelab/rescheduler-ppc64le) | 1 | 
 | gcr.io/google-containers/rethinkdb | [corelab/rethinkdb](https://hub.docker.com/r/corelab/rethinkdb) | 1 | 
@@ -345,10 +357,13 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/test-webserver | [corelab/test-webserver](https://hub.docker.com/r/corelab/test-webserver) | 2 | 
 | gcr.io/google-containers/tf-models | [corelab/tf-models](https://hub.docker.com/r/corelab/tf-models) | 1 | 
 | gcr.io/google-containers/tiny-glibc-amd64 | [corelab/tiny-glibc-amd64](https://hub.docker.com/r/corelab/tiny-glibc-amd64) | 1 | 
+| gcr.io/google-containers/tiny-glibc-arm | [corelab/tiny-glibc-arm](https://hub.docker.com/r/corelab/tiny-glibc-arm) | 1 | 
+| gcr.io/google-containers/tiny-glibc-arm64 | [corelab/tiny-glibc-arm64](https://hub.docker.com/r/corelab/tiny-glibc-arm64) | 1 | 
 | gcr.io/google-containers/tiny-glibc-ppc64le | [corelab/tiny-glibc-ppc64le](https://hub.docker.com/r/corelab/tiny-glibc-ppc64le) | 1 | 
 | gcr.io/google-containers/ubuntu-nvidia-driver-installer | [corelab/ubuntu-nvidia-driver-installer](https://hub.docker.com/r/corelab/ubuntu-nvidia-driver-installer) | 52 | 
 | gcr.io/google-containers/ubuntu-slim | [corelab/ubuntu-slim](https://hub.docker.com/r/corelab/ubuntu-slim) | 15 | 
 | gcr.io/google-containers/ubuntu-slim-arm | [corelab/ubuntu-slim-arm](https://hub.docker.com/r/corelab/ubuntu-slim-arm) | 6 | 
+| gcr.io/google-containers/ubuntu-slim-ppc64le | [corelab/ubuntu-slim-ppc64le](https://hub.docker.com/r/corelab/ubuntu-slim-ppc64le) | 6 | 
 | gcr.io/google-containers/visio-stencil-creator | [corelab/visio-stencil-creator](https://hub.docker.com/r/corelab/visio-stencil-creator) | 1 | 
 | gcr.io/google-containers/volume-ceph | [corelab/volume-ceph](https://hub.docker.com/r/corelab/volume-ceph) | 2 | 
 | gcr.io/google-containers/volume-gluster | [corelab/volume-gluster](https://hub.docker.com/r/corelab/volume-gluster) | 6 | 
@@ -361,5 +376,6 @@ Synced image num: 355 and image mapping as follow:
 | gcr.io/google-containers/watcher-daemonset | [corelab/watcher-daemonset](https://hub.docker.com/r/corelab/watcher-daemonset) | 1 | 
 | gcr.io/google-containers/webhooks-publisher | [corelab/webhooks-publisher](https://hub.docker.com/r/corelab/webhooks-publisher) | 3 | 
 | gcr.io/google-containers/zeppelin | [corelab/zeppelin](https://hub.docker.com/r/corelab/zeppelin) | 11 | 
+| gcr.io/google-containers/zeppelin-proxy | [corelab/zeppelin-proxy](https://hub.docker.com/r/corelab/zeppelin-proxy) | 3 | 
 | gcr.io/google-containers/zookeeper-install | [corelab/zookeeper-install](https://hub.docker.com/r/corelab/zookeeper-install) | 1 | 
 
