@@ -46,7 +46,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 38 | 
 | gcr.io/google-containers/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 28 | 
 | gcr.io/google-containers/cos-kernel-headers | [corelab/cos-kernel-headers](https://hub.docker.com/r/corelab/cos-kernel-headers) | 17 | 
-| gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 9 | 
+| gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 11 | 
 | gcr.io/google-containers/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 4 | 
 | gcr.io/google-containers/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
 | gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 12 | 
@@ -182,7 +182,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
 | gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 106 | 
-| gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 73 | 
+| gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 154 | 
 | gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 99 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 21 | 
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 49 | 
