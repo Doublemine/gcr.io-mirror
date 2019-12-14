@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 456 and image mapping as follow:
+Synced image num: 458 and image mapping as follow:
 
 
 
@@ -30,7 +30,7 @@ Synced image num: 456 and image mapping as follow:
 | gcr.io/google-containers/cloud-controller-manager-arm | [corelab/cloud-controller-manager-arm](https://hub.docker.com/r/corelab/cloud-controller-manager-arm) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-arm64 | [corelab/cloud-controller-manager-arm64](https://hub.docker.com/r/corelab/cloud-controller-manager-arm64) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-ppc64le | [corelab/cloud-controller-manager-ppc64le](https://hub.docker.com/r/corelab/cloud-controller-manager-ppc64le) | 113 | 
-| gcr.io/google-containers/cloud-controller-manager-s390x | [corelab/cloud-controller-manager-s390x](https://hub.docker.com/r/corelab/cloud-controller-manager-s390x) | 111 | 
+| gcr.io/google-containers/cloud-controller-manager-s390x | [corelab/cloud-controller-manager-s390x](https://hub.docker.com/r/corelab/cloud-controller-manager-s390x) | 113 | 
 | gcr.io/google-containers/cloudsql-authenticator | [corelab/cloudsql-authenticator](https://hub.docker.com/r/corelab/cloudsql-authenticator) | 1 | 
 | gcr.io/google-containers/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 83 | 
 | gcr.io/google-containers/cluster-proportional-autoscaler-amd64 | [corelab/cluster-proportional-autoscaler-amd64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-amd64) | 24 | 
@@ -71,6 +71,7 @@ Synced image num: 456 and image mapping as follow:
 | gcr.io/google-containers/debian-iptables-s390x | [corelab/debian-iptables-s390x](https://hub.docker.com/r/corelab/debian-iptables-s390x) | 14 | 
 | gcr.io/google-containers/defaultbackend | [corelab/defaultbackend](https://hub.docker.com/r/corelab/defaultbackend) | 5 | 
 | gcr.io/google-containers/defaultbackend-amd64 | [corelab/defaultbackend-amd64](https://hub.docker.com/r/corelab/defaultbackend-amd64) | 5 | 
+| gcr.io/google-containers/defaultbackend-arm | [corelab/defaultbackend-arm](https://hub.docker.com/r/corelab/defaultbackend-arm) | 5 | 
 | gcr.io/google-containers/defaultbackend-arm64 | [corelab/defaultbackend-arm64](https://hub.docker.com/r/corelab/defaultbackend-arm64) | 5 | 
 | gcr.io/google-containers/defaultbackend-ppc64le | [corelab/defaultbackend-ppc64le](https://hub.docker.com/r/corelab/defaultbackend-ppc64le) | 4 | 
 | gcr.io/google-containers/defaultbackend-s390x | [corelab/defaultbackend-s390x](https://hub.docker.com/r/corelab/defaultbackend-s390x) | 2 | 
@@ -185,7 +186,7 @@ Synced image num: 456 and image mapping as follow:
 | gcr.io/google-containers/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
-| gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 106 | 
+| gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 181 | 
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 173 | 
 | gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 166 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 164 | 
@@ -236,6 +237,7 @@ Synced image num: 456 and image mapping as follow:
 | gcr.io/google-containers/k8s-dns-node-cache-s390x | [corelab/k8s-dns-node-cache-s390x](https://hub.docker.com/r/corelab/k8s-dns-node-cache-s390x) | 9 | 
 | gcr.io/google-containers/k8s-dns-sidecar | [corelab/k8s-dns-sidecar](https://hub.docker.com/r/corelab/k8s-dns-sidecar) | 11 | 
 | gcr.io/google-containers/k8s-dns-sidecar-amd64 | [corelab/k8s-dns-sidecar-amd64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-amd64) | 29 | 
+| gcr.io/google-containers/k8s-dns-sidecar-arm | [corelab/k8s-dns-sidecar-arm](https://hub.docker.com/r/corelab/k8s-dns-sidecar-arm) | 29 | 
 | gcr.io/google-containers/k8s-dns-sidecar-arm64 | [corelab/k8s-dns-sidecar-arm64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-arm64) | 29 | 
 | gcr.io/google-containers/k8s-dns-sidecar-e2e-amd64 | [corelab/k8s-dns-sidecar-e2e-amd64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-amd64) | 4 | 
 | gcr.io/google-containers/k8s-dns-sidecar-e2e-arm | [corelab/k8s-dns-sidecar-e2e-arm](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-arm) | 4 | 
