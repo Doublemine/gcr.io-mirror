@@ -186,7 +186,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
-| gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 181 | 
+| gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 195 | 
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 173 | 
 | gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 166 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 164 | 
@@ -272,7 +272,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 164 | 
 | gcr.io/google-containers/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 143 | 
 | gcr.io/google-containers/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 133 | 
-| gcr.io/google-containers/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 45 | 
+| gcr.io/google-containers/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 60 | 
 | gcr.io/google-containers/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
