@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 441 and image mapping as follow:
+Synced image num: 443 and image mapping as follow:
 
 
 
@@ -179,7 +179,7 @@ Synced image num: 441 and image mapping as follow:
 | gcr.io/google-containers/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
-| gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 25 | 
+| gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 106 | 
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 73 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 21 | 
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 49 | 
@@ -220,6 +220,7 @@ Synced image num: 441 and image mapping as follow:
 | gcr.io/google-containers/k8s-dns-kube-dns-arm | [corelab/k8s-dns-kube-dns-arm](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm) | 28 | 
 | gcr.io/google-containers/k8s-dns-kube-dns-arm64 | [corelab/k8s-dns-kube-dns-arm64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm64) | 28 | 
 | gcr.io/google-containers/k8s-dns-kube-dns-ppc64le | [corelab/k8s-dns-kube-dns-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-ppc64le) | 28 | 
+| gcr.io/google-containers/k8s-dns-kube-dns-s390x | [corelab/k8s-dns-kube-dns-s390x](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-s390x) | 24 | 
 | gcr.io/google-containers/k8s-dns-node-cache | [corelab/k8s-dns-node-cache](https://hub.docker.com/r/corelab/k8s-dns-node-cache) | 9 | 
 | gcr.io/google-containers/k8s-dns-node-cache-amd64 | [corelab/k8s-dns-node-cache-amd64](https://hub.docker.com/r/corelab/k8s-dns-node-cache-amd64) | 9 | 
 | gcr.io/google-containers/k8s-dns-node-cache-arm | [corelab/k8s-dns-node-cache-arm](https://hub.docker.com/r/corelab/k8s-dns-node-cache-arm) | 9 | 
@@ -407,6 +408,7 @@ Synced image num: 441 and image mapping as follow:
 | gcr.io/google-containers/shyamjvs-logexp | [corelab/shyamjvs-logexp](https://hub.docker.com/r/corelab/shyamjvs-logexp) | 1 | 
 | gcr.io/google-containers/shyamjvs-prometheus-to-sd | [corelab/shyamjvs-prometheus-to-sd](https://hub.docker.com/r/corelab/shyamjvs-prometheus-to-sd) | 1 | 
 | gcr.io/google-containers/skydns | [corelab/skydns](https://hub.docker.com/r/corelab/skydns) | 3 | 
+| gcr.io/google-containers/skydns-amd64 | [corelab/skydns-amd64](https://hub.docker.com/r/corelab/skydns-amd64) | 1 | 
 | gcr.io/google-containers/skydns-arm | [corelab/skydns-arm](https://hub.docker.com/r/corelab/skydns-arm) | 2 | 
 | gcr.io/google-containers/skydns-arm64 | [corelab/skydns-arm64](https://hub.docker.com/r/corelab/skydns-arm64) | 1 | 
 | gcr.io/google-containers/skydns-ppc64le | [corelab/skydns-ppc64le](https://hub.docker.com/r/corelab/skydns-ppc64le) | 1 | 
