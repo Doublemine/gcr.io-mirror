@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 458 and image mapping as follow:
+Synced image num: 459 and image mapping as follow:
 
 
 
@@ -272,7 +272,7 @@ Synced image num: 458 and image mapping as follow:
 | gcr.io/google-containers/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 164 | 
 | gcr.io/google-containers/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 143 | 
 | gcr.io/google-containers/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 133 | 
-| gcr.io/google-containers/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 23 | 
+| gcr.io/google-containers/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 45 | 
 | gcr.io/google-containers/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
@@ -290,6 +290,7 @@ Synced image num: 458 and image mapping as follow:
 | gcr.io/google-containers/kube-proxy-arm64 | [corelab/kube-proxy-arm64](https://hub.docker.com/r/corelab/kube-proxy-arm64) | 164 | 
 | gcr.io/google-containers/kube-proxy-ppc64le | [corelab/kube-proxy-ppc64le](https://hub.docker.com/r/corelab/kube-proxy-ppc64le) | 143 | 
 | gcr.io/google-containers/kube-proxy-s390x | [corelab/kube-proxy-s390x](https://hub.docker.com/r/corelab/kube-proxy-s390x) | 133 | 
+| gcr.io/google-containers/kube-registry-proxy | [corelab/kube-registry-proxy](https://hub.docker.com/r/corelab/kube-registry-proxy) | 2 | 
 | gcr.io/google-containers/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 173 | 
 | gcr.io/google-containers/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 173 | 
 | gcr.io/google-containers/kube-scheduler-arm | [corelab/kube-scheduler-arm](https://hub.docker.com/r/corelab/kube-scheduler-arm) | 172 | 
