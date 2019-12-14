@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 451 and image mapping as follow:
+Synced image num: 452 and image mapping as follow:
 
 
 
@@ -105,6 +105,7 @@ Synced image num: 451 and image mapping as follow:
 | gcr.io/google-containers/example-dns-frontend | [corelab/example-dns-frontend](https://hub.docker.com/r/corelab/example-dns-frontend) | 1 | 
 | gcr.io/google-containers/example-guestbook-php-redis | [corelab/example-guestbook-php-redis](https://hub.docker.com/r/corelab/example-guestbook-php-redis) | 2 | 
 | gcr.io/google-containers/exechealthz | [corelab/exechealthz](https://hub.docker.com/r/corelab/exechealthz) | 3 | 
+| gcr.io/google-containers/exechealthz-amd64 | [corelab/exechealthz-amd64](https://hub.docker.com/r/corelab/exechealthz-amd64) | 5 | 
 | gcr.io/google-containers/exechealthz-arm | [corelab/exechealthz-arm](https://hub.docker.com/r/corelab/exechealthz-arm) | 5 | 
 | gcr.io/google-containers/exechealthz-arm64 | [corelab/exechealthz-arm64](https://hub.docker.com/r/corelab/exechealthz-arm64) | 4 | 
 | gcr.io/google-containers/exechealthz-ppc64le | [corelab/exechealthz-ppc64le](https://hub.docker.com/r/corelab/exechealthz-ppc64le) | 4 | 
@@ -185,7 +186,7 @@ Synced image num: 451 and image mapping as follow:
 | gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 106 | 
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 154 | 
 | gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 99 | 
-| gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 21 | 
+| gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 106 | 
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 133 | 
 | gcr.io/google-containers/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 133 | 
 | gcr.io/google-containers/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
