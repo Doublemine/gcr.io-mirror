@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 452 and image mapping as follow:
+Synced image num: 453 and image mapping as follow:
 
 
 
@@ -41,6 +41,7 @@ Synced image num: 452 and image mapping as follow:
 | gcr.io/google-containers/clusterregistry | [corelab/clusterregistry](https://hub.docker.com/r/corelab/clusterregistry) | 1 | 
 | gcr.io/google-containers/conformance | [corelab/conformance](https://hub.docker.com/r/corelab/conformance) | 38 | 
 | gcr.io/google-containers/conformance-amd64 | [corelab/conformance-amd64](https://hub.docker.com/r/corelab/conformance-amd64) | 38 | 
+| gcr.io/google-containers/conformance-arm | [corelab/conformance-arm](https://hub.docker.com/r/corelab/conformance-arm) | 38 | 
 | gcr.io/google-containers/conformance-arm64 | [corelab/conformance-arm64](https://hub.docker.com/r/corelab/conformance-arm64) | 38 | 
 | gcr.io/google-containers/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 38 | 
 | gcr.io/google-containers/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 38 | 
@@ -185,7 +186,7 @@ Synced image num: 452 and image mapping as follow:
 | gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
 | gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 106 | 
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 154 | 
-| gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 99 | 
+| gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 166 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 106 | 
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 133 | 
 | gcr.io/google-containers/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 133 | 
@@ -280,7 +281,7 @@ Synced image num: 452 and image mapping as follow:
 | gcr.io/google-containers/kube-keepalived-vip | [corelab/kube-keepalived-vip](https://hub.docker.com/r/corelab/kube-keepalived-vip) | 9 | 
 | gcr.io/google-containers/kube-nethealth-amd64 | [corelab/kube-nethealth-amd64](https://hub.docker.com/r/corelab/kube-nethealth-amd64) | 1 | 
 | gcr.io/google-containers/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 172 | 
-| gcr.io/google-containers/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 105 | 
+| gcr.io/google-containers/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 134 | 
 | gcr.io/google-containers/kube-proxy-arm | [corelab/kube-proxy-arm](https://hub.docker.com/r/corelab/kube-proxy-arm) | 172 | 
 | gcr.io/google-containers/kube-proxy-arm64 | [corelab/kube-proxy-arm64](https://hub.docker.com/r/corelab/kube-proxy-arm64) | 164 | 
 | gcr.io/google-containers/kube-proxy-ppc64le | [corelab/kube-proxy-ppc64le](https://hub.docker.com/r/corelab/kube-proxy-ppc64le) | 143 | 
