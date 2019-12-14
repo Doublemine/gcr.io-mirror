@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 448 and image mapping as follow:
+Synced image num: 451 and image mapping as follow:
 
 
 
@@ -29,7 +29,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/cloud-controller-manager-amd64 | [corelab/cloud-controller-manager-amd64](https://hub.docker.com/r/corelab/cloud-controller-manager-amd64) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-arm | [corelab/cloud-controller-manager-arm](https://hub.docker.com/r/corelab/cloud-controller-manager-arm) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-arm64 | [corelab/cloud-controller-manager-arm64](https://hub.docker.com/r/corelab/cloud-controller-manager-arm64) | 113 | 
-| gcr.io/google-containers/cloud-controller-manager-ppc64le | [corelab/cloud-controller-manager-ppc64le](https://hub.docker.com/r/corelab/cloud-controller-manager-ppc64le) | 111 | 
+| gcr.io/google-containers/cloud-controller-manager-ppc64le | [corelab/cloud-controller-manager-ppc64le](https://hub.docker.com/r/corelab/cloud-controller-manager-ppc64le) | 113 | 
 | gcr.io/google-containers/cloud-controller-manager-s390x | [corelab/cloud-controller-manager-s390x](https://hub.docker.com/r/corelab/cloud-controller-manager-s390x) | 111 | 
 | gcr.io/google-containers/cloudsql-authenticator | [corelab/cloudsql-authenticator](https://hub.docker.com/r/corelab/cloudsql-authenticator) | 1 | 
 | gcr.io/google-containers/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 83 | 
@@ -40,7 +40,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/clusterapi-tester | [corelab/clusterapi-tester](https://hub.docker.com/r/corelab/clusterapi-tester) | 1 | 
 | gcr.io/google-containers/clusterregistry | [corelab/clusterregistry](https://hub.docker.com/r/corelab/clusterregistry) | 1 | 
 | gcr.io/google-containers/conformance | [corelab/conformance](https://hub.docker.com/r/corelab/conformance) | 38 | 
-| gcr.io/google-containers/conformance-amd64 | [corelab/conformance-amd64](https://hub.docker.com/r/corelab/conformance-amd64) | 34 | 
+| gcr.io/google-containers/conformance-amd64 | [corelab/conformance-amd64](https://hub.docker.com/r/corelab/conformance-amd64) | 38 | 
 | gcr.io/google-containers/conformance-arm64 | [corelab/conformance-arm64](https://hub.docker.com/r/corelab/conformance-arm64) | 38 | 
 | gcr.io/google-containers/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 38 | 
 | gcr.io/google-containers/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 38 | 
@@ -69,6 +69,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/debian-iptables-ppc64le | [corelab/debian-iptables-ppc64le](https://hub.docker.com/r/corelab/debian-iptables-ppc64le) | 18 | 
 | gcr.io/google-containers/debian-iptables-s390x | [corelab/debian-iptables-s390x](https://hub.docker.com/r/corelab/debian-iptables-s390x) | 14 | 
 | gcr.io/google-containers/defaultbackend | [corelab/defaultbackend](https://hub.docker.com/r/corelab/defaultbackend) | 5 | 
+| gcr.io/google-containers/defaultbackend-amd64 | [corelab/defaultbackend-amd64](https://hub.docker.com/r/corelab/defaultbackend-amd64) | 5 | 
 | gcr.io/google-containers/defaultbackend-arm64 | [corelab/defaultbackend-arm64](https://hub.docker.com/r/corelab/defaultbackend-arm64) | 5 | 
 | gcr.io/google-containers/defaultbackend-ppc64le | [corelab/defaultbackend-ppc64le](https://hub.docker.com/r/corelab/defaultbackend-ppc64le) | 4 | 
 | gcr.io/google-containers/defaultbackend-s390x | [corelab/defaultbackend-s390x](https://hub.docker.com/r/corelab/defaultbackend-s390x) | 2 | 
@@ -185,7 +186,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 154 | 
 | gcr.io/google-containers/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 99 | 
 | gcr.io/google-containers/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 21 | 
-| gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 49 | 
+| gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 133 | 
 | gcr.io/google-containers/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 133 | 
 | gcr.io/google-containers/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
 | gcr.io/google-containers/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 29 | 
@@ -234,6 +235,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/k8s-dns-sidecar-amd64 | [corelab/k8s-dns-sidecar-amd64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-amd64) | 29 | 
 | gcr.io/google-containers/k8s-dns-sidecar-arm64 | [corelab/k8s-dns-sidecar-arm64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-arm64) | 29 | 
 | gcr.io/google-containers/k8s-dns-sidecar-e2e-amd64 | [corelab/k8s-dns-sidecar-e2e-amd64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-amd64) | 4 | 
+| gcr.io/google-containers/k8s-dns-sidecar-e2e-arm | [corelab/k8s-dns-sidecar-e2e-arm](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-arm) | 4 | 
 | gcr.io/google-containers/k8s-dns-sidecar-e2e-arm64 | [corelab/k8s-dns-sidecar-e2e-arm64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-arm64) | 4 | 
 | gcr.io/google-containers/k8s-dns-sidecar-e2e-ppc64le | [corelab/k8s-dns-sidecar-e2e-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-ppc64le) | 4 | 
 | gcr.io/google-containers/k8s-dns-sidecar-ppc64le | [corelab/k8s-dns-sidecar-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-sidecar-ppc64le) | 29 | 
@@ -349,6 +351,7 @@ Synced image num: 448 and image mapping as follow:
 | gcr.io/google-containers/nettest | [corelab/nettest](https://hub.docker.com/r/corelab/nettest) | 10 | 
 | gcr.io/google-containers/nginx | [corelab/nginx](https://hub.docker.com/r/corelab/nginx) | 4 | 
 | gcr.io/google-containers/nginx-ingress | [corelab/nginx-ingress](https://hub.docker.com/r/corelab/nginx-ingress) | 1 | 
+| gcr.io/google-containers/nginx-ingress-controller | [corelab/nginx-ingress-controller](https://hub.docker.com/r/corelab/nginx-ingress-controller) | 10 | 
 | gcr.io/google-containers/nginx-scale | [corelab/nginx-scale](https://hub.docker.com/r/corelab/nginx-scale) | 2 | 
 | gcr.io/google-containers/nginx-slim | [corelab/nginx-slim](https://hub.docker.com/r/corelab/nginx-slim) | 27 | 
 | gcr.io/google-containers/nginx-slim-amd64 | [corelab/nginx-slim-amd64](https://hub.docker.com/r/corelab/nginx-slim-amd64) | 12 | 
