@@ -297,12 +297,12 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/kube-scheduler-arm64 | [corelab/kube-scheduler-arm64](https://hub.docker.com/r/corelab/kube-scheduler-arm64) | 164 | 
 | gcr.io/google-containers/kube-scheduler-ppc64le | [corelab/kube-scheduler-ppc64le](https://hub.docker.com/r/corelab/kube-scheduler-ppc64le) | 143 | 
 | gcr.io/google-containers/kube-scheduler-s390x | [corelab/kube-scheduler-s390x](https://hub.docker.com/r/corelab/kube-scheduler-s390x) | 133 | 
-| gcr.io/google-containers/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 18 | 
-| gcr.io/google-containers/kube-state-metrics-amd64 | [corelab/kube-state-metrics-amd64](https://hub.docker.com/r/corelab/kube-state-metrics-amd64) | 11 | 
-| gcr.io/google-containers/kube-state-metrics-arm | [corelab/kube-state-metrics-arm](https://hub.docker.com/r/corelab/kube-state-metrics-arm) | 6 | 
-| gcr.io/google-containers/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 6 | 
-| gcr.io/google-containers/kube-state-metrics-ppc64le | [corelab/kube-state-metrics-ppc64le](https://hub.docker.com/r/corelab/kube-state-metrics-ppc64le) | 6 | 
-| gcr.io/google-containers/kube-state-metrics-s390x | [corelab/kube-state-metrics-s390x](https://hub.docker.com/r/corelab/kube-state-metrics-s390x) | 6 | 
+| gcr.io/google-containers/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 19 | 
+| gcr.io/google-containers/kube-state-metrics-amd64 | [corelab/kube-state-metrics-amd64](https://hub.docker.com/r/corelab/kube-state-metrics-amd64) | 12 | 
+| gcr.io/google-containers/kube-state-metrics-arm | [corelab/kube-state-metrics-arm](https://hub.docker.com/r/corelab/kube-state-metrics-arm) | 7 | 
+| gcr.io/google-containers/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 7 | 
+| gcr.io/google-containers/kube-state-metrics-ppc64le | [corelab/kube-state-metrics-ppc64le](https://hub.docker.com/r/corelab/kube-state-metrics-ppc64le) | 7 | 
+| gcr.io/google-containers/kube-state-metrics-s390x | [corelab/kube-state-metrics-s390x](https://hub.docker.com/r/corelab/kube-state-metrics-s390x) | 7 | 
 | gcr.io/google-containers/kube-ui | [corelab/kube-ui](https://hub.docker.com/r/corelab/kube-ui) | 6 | 
 | gcr.io/google-containers/kube2sky | [corelab/kube2sky](https://hub.docker.com/r/corelab/kube2sky) | 18 | 
 | gcr.io/google-containers/kube2sky-amd64 | [corelab/kube2sky-amd64](https://hub.docker.com/r/corelab/kube2sky-amd64) | 1 | 
@@ -391,7 +391,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/porter | [corelab/porter](https://hub.docker.com/r/corelab/porter) | 4 | 
 | gcr.io/google-containers/portforwardtester | [corelab/portforwardtester](https://hub.docker.com/r/corelab/portforwardtester) | 3 | 
 | gcr.io/google-containers/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 1 | 
-| gcr.io/google-containers/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 29 | 
+| gcr.io/google-containers/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 30 | 
 | gcr.io/google-containers/proxy-agent | [corelab/proxy-agent](https://hub.docker.com/r/corelab/proxy-agent) | 3 | 
 | gcr.io/google-containers/proxy-server | [corelab/proxy-server](https://hub.docker.com/r/corelab/proxy-server) | 3 | 
 | gcr.io/google-containers/proxy-to-service | [corelab/proxy-to-service](https://hub.docker.com/r/corelab/proxy-to-service) | 2 | 
