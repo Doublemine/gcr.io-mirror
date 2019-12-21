@@ -15,7 +15,7 @@ Synced image num: 55 and image mapping as follow:
 | gcr.io/heptio-images/contour-discoverer | [corelab/contour-discoverer](https://hub.docker.com/r/corelab/contour-discoverer) | 4 | 
 | gcr.io/heptio-images/cruise | [corelab/cruise](https://hub.docker.com/r/corelab/cruise) | 1 | 
 | gcr.io/heptio-images/dizzy | [corelab/dizzy](https://hub.docker.com/r/corelab/dizzy) | 2 | 
-| gcr.io/heptio-images/eventrouter | [corelab/eventrouter](https://hub.docker.com/r/corelab/eventrouter) | 3 | 
+| gcr.io/heptio-images/eventrouter | [corelab/eventrouter](https://hub.docker.com/r/corelab/eventrouter) | 4 | 
 | gcr.io/heptio-images/forwarder | [corelab/forwarder](https://hub.docker.com/r/corelab/forwarder) | 4 | 
 | gcr.io/heptio-images/fsfreeze-pause | [corelab/fsfreeze-pause](https://hub.docker.com/r/corelab/fsfreeze-pause) | 9 | 
 | gcr.io/heptio-images/gangway | [corelab/gangway](https://hub.docker.com/r/corelab/gangway) | 13 | 
