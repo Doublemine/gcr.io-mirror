@@ -143,7 +143,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/gcsweb | [corelab/gcsweb](https://hub.docker.com/r/corelab/gcsweb) | 1 | 
 | gcr.io/google-containers/gcsweb-amd64 | [corelab/gcsweb-amd64](https://hub.docker.com/r/corelab/gcsweb-amd64) | 7 | 
 | gcr.io/google-containers/gen-swagger-docs | [corelab/gen-swagger-docs](https://hub.docker.com/r/corelab/gen-swagger-docs) | 11 | 
-| gcr.io/google-containers/git-sync | [corelab/git-sync](https://hub.docker.com/r/corelab/git-sync) | 13 | 
+| gcr.io/google-containers/git-sync | [corelab/git-sync](https://hub.docker.com/r/corelab/git-sync) | 14 | 
 | gcr.io/google-containers/git-sync-amd64 | [corelab/git-sync-amd64](https://hub.docker.com/r/corelab/git-sync-amd64) | 8 | 
 | gcr.io/google-containers/github-fetcher | [corelab/github-fetcher](https://hub.docker.com/r/corelab/github-fetcher) | 10 | 
 | gcr.io/google-containers/github-token-counter | [corelab/github-token-counter](https://hub.docker.com/r/corelab/github-token-counter) | 9 | 
