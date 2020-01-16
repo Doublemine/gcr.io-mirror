@@ -272,7 +272,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 165 | 
 | gcr.io/google-containers/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 144 | 
 | gcr.io/google-containers/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 134 | 
-| gcr.io/google-containers/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 74 | 
+| gcr.io/google-containers/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 75 | 
 | gcr.io/google-containers/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | gcr.io/google-containers/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
