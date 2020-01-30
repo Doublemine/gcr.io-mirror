@@ -335,7 +335,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/logexp | [corelab/logexp](https://hub.docker.com/r/corelab/logexp) | 2 | 
 | gcr.io/google-containers/logexporter | [corelab/logexporter](https://hub.docker.com/r/corelab/logexporter) | 4 | 
 | gcr.io/google-containers/logs-generator | [corelab/logs-generator](https://hub.docker.com/r/corelab/logs-generator) | 4 | 
-| gcr.io/google-containers/managed-certificate-controller | [corelab/managed-certificate-controller](https://hub.docker.com/r/corelab/managed-certificate-controller) | 10 | 
+| gcr.io/google-containers/managed-certificate-controller | [corelab/managed-certificate-controller](https://hub.docker.com/r/corelab/managed-certificate-controller) | 11 | 
 | gcr.io/google-containers/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
 | gcr.io/google-containers/metrics-server | [corelab/metrics-server](https://hub.docker.com/r/corelab/metrics-server) | 6 | 
 | gcr.io/google-containers/metrics-server-amd64 | [corelab/metrics-server-amd64](https://hub.docker.com/r/corelab/metrics-server-amd64) | 11 | 
