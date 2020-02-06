@@ -50,7 +50,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 11 | 
 | gcr.io/google-containers/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 4 | 
 | gcr.io/google-containers/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
-| gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 12 | 
+| gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 13 | 
 | gcr.io/google-containers/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 6 | 
 | gcr.io/google-containers/debian-base-amd64 | [corelab/debian-base-amd64](https://hub.docker.com/r/corelab/debian-base-amd64) | 11 | 
 | gcr.io/google-containers/debian-base-arm | [corelab/debian-base-arm](https://hub.docker.com/r/corelab/debian-base-arm) | 11 | 
