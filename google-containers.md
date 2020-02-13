@@ -318,7 +318,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/kubekins-e2e | [corelab/kubekins-e2e](https://hub.docker.com/r/corelab/kubekins-e2e) | 69 | 
 | gcr.io/google-containers/kubekins-job-builder | [corelab/kubekins-job-builder](https://hub.docker.com/r/corelab/kubekins-job-builder) | 6 | 
 | gcr.io/google-containers/kubekins-test | [corelab/kubekins-test](https://hub.docker.com/r/corelab/kubekins-test) | 23 | 
-| gcr.io/google-containers/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 16 | 
+| gcr.io/google-containers/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
 | gcr.io/google-containers/kubernetes-dashboard | [corelab/kubernetes-dashboard](https://hub.docker.com/r/corelab/kubernetes-dashboard) | 2 | 
 | gcr.io/google-containers/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 23 | 
 | gcr.io/google-containers/kubernetes-dashboard-arm | [corelab/kubernetes-dashboard-arm](https://hub.docker.com/r/corelab/kubernetes-dashboard-arm) | 23 | 
