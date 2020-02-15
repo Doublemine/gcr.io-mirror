@@ -45,7 +45,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/conformance-arm64 | [corelab/conformance-arm64](https://hub.docker.com/r/corelab/conformance-arm64) | 47 | 
 | gcr.io/google-containers/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 47 | 
 | gcr.io/google-containers/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 47 | 
-| gcr.io/google-containers/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 28 | 
+| gcr.io/google-containers/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 29 | 
 | gcr.io/google-containers/cos-kernel-headers | [corelab/cos-kernel-headers](https://hub.docker.com/r/corelab/cos-kernel-headers) | 17 | 
 | gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 11 | 
 | gcr.io/google-containers/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 4 | 
@@ -379,12 +379,12 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/non-masquerade-daemon-amd64 | [corelab/non-masquerade-daemon-amd64](https://hub.docker.com/r/corelab/non-masquerade-daemon-amd64) | 3 | 
 | gcr.io/google-containers/nonewprivs | [corelab/nonewprivs](https://hub.docker.com/r/corelab/nonewprivs) | 3 | 
 | gcr.io/google-containers/nvidia-gpu-device-plugin | [corelab/nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/nvidia-gpu-device-plugin) | 66 | 
-| gcr.io/google-containers/pause | [corelab/pause](https://hub.docker.com/r/corelab/pause) | 9 | 
-| gcr.io/google-containers/pause-amd64 | [corelab/pause-amd64](https://hub.docker.com/r/corelab/pause-amd64) | 2 | 
-| gcr.io/google-containers/pause-arm | [corelab/pause-arm](https://hub.docker.com/r/corelab/pause-arm) | 3 | 
-| gcr.io/google-containers/pause-arm64 | [corelab/pause-arm64](https://hub.docker.com/r/corelab/pause-arm64) | 3 | 
-| gcr.io/google-containers/pause-ppc64le | [corelab/pause-ppc64le](https://hub.docker.com/r/corelab/pause-ppc64le) | 3 | 
-| gcr.io/google-containers/pause-s390x | [corelab/pause-s390x](https://hub.docker.com/r/corelab/pause-s390x) | 2 | 
+| gcr.io/google-containers/pause | [corelab/pause](https://hub.docker.com/r/corelab/pause) | 10 | 
+| gcr.io/google-containers/pause-amd64 | [corelab/pause-amd64](https://hub.docker.com/r/corelab/pause-amd64) | 3 | 
+| gcr.io/google-containers/pause-arm | [corelab/pause-arm](https://hub.docker.com/r/corelab/pause-arm) | 4 | 
+| gcr.io/google-containers/pause-arm64 | [corelab/pause-arm64](https://hub.docker.com/r/corelab/pause-arm64) | 4 | 
+| gcr.io/google-containers/pause-ppc64le | [corelab/pause-ppc64le](https://hub.docker.com/r/corelab/pause-ppc64le) | 4 | 
+| gcr.io/google-containers/pause-s390x | [corelab/pause-s390x](https://hub.docker.com/r/corelab/pause-s390x) | 3 | 
 | gcr.io/google-containers/peer-finder | [corelab/peer-finder](https://hub.docker.com/r/corelab/peer-finder) | 1 | 
 | gcr.io/google-containers/perfdash | [corelab/perfdash](https://hub.docker.com/r/corelab/perfdash) | 14 | 
 | gcr.io/google-containers/podmaster | [corelab/podmaster](https://hub.docker.com/r/corelab/podmaster) | 1 | 
