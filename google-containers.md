@@ -193,7 +193,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 142 | 
 | gcr.io/google-containers/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 142 | 
 | gcr.io/google-containers/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
-| gcr.io/google-containers/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 30 | 
+| gcr.io/google-containers/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 32 | 
 | gcr.io/google-containers/ip-masq-agent | [corelab/ip-masq-agent](https://hub.docker.com/r/corelab/ip-masq-agent) | 3 | 
 | gcr.io/google-containers/ip-masq-agent-amd64 | [corelab/ip-masq-agent-amd64](https://hub.docker.com/r/corelab/ip-masq-agent-amd64) | 13 | 
 | gcr.io/google-containers/ip-masq-agent-arm | [corelab/ip-masq-agent-arm](https://hub.docker.com/r/corelab/ip-masq-agent-arm) | 4 | 
