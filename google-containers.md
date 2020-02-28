@@ -1,7 +1,7 @@
 # google-containers
 
 
-Synced image num: 459 and image mapping as follow:
+Synced image num: 460 and image mapping as follow:
 
 
 
@@ -21,7 +21,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/alpine-with-bash | [corelab/alpine-with-bash](https://hub.docker.com/r/corelab/alpine-with-bash) | 1 | 
 | gcr.io/google-containers/apparmor-loader | [corelab/apparmor-loader](https://hub.docker.com/r/corelab/apparmor-loader) | 3 | 
 | gcr.io/google-containers/busybox | [corelab/busybox](https://hub.docker.com/r/corelab/busybox) | 4 | 
-| gcr.io/google-containers/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 28 | 
+| gcr.io/google-containers/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 29 | 
 | gcr.io/google-containers/cassandra | [corelab/cassandra](https://hub.docker.com/r/corelab/cassandra) | 6 | 
 | gcr.io/google-containers/cassandra-e2e-test | [corelab/cassandra-e2e-test](https://hub.docker.com/r/corelab/cassandra-e2e-test) | 1 | 
 | gcr.io/google-containers/check-metadata-concealment | [corelab/check-metadata-concealment](https://hub.docker.com/r/corelab/check-metadata-concealment) | 3 | 
@@ -50,7 +50,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 11 | 
 | gcr.io/google-containers/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 4 | 
 | gcr.io/google-containers/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
-| gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 14 | 
+| gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 15 | 
 | gcr.io/google-containers/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 7 | 
 | gcr.io/google-containers/debian-base-amd64 | [corelab/debian-base-amd64](https://hub.docker.com/r/corelab/debian-base-amd64) | 12 | 
 | gcr.io/google-containers/debian-base-arm | [corelab/debian-base-arm](https://hub.docker.com/r/corelab/debian-base-arm) | 12 | 
@@ -93,10 +93,10 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/elasticsearch | [corelab/elasticsearch](https://hub.docker.com/r/corelab/elasticsearch) | 21 | 
 | gcr.io/google-containers/eptest | [corelab/eptest](https://hub.docker.com/r/corelab/eptest) | 1 | 
 | gcr.io/google-containers/etcd | [corelab/etcd](https://hub.docker.com/r/corelab/etcd) | 53 | 
-| gcr.io/google-containers/etcd-amd64 | [corelab/etcd-amd64](https://hub.docker.com/r/corelab/etcd-amd64) | 45 | 
+| gcr.io/google-containers/etcd-amd64 | [corelab/etcd-amd64](https://hub.docker.com/r/corelab/etcd-amd64) | 46 | 
 | gcr.io/google-containers/etcd-arm | [corelab/etcd-arm](https://hub.docker.com/r/corelab/etcd-arm) | 36 | 
 | gcr.io/google-containers/etcd-arm64 | [corelab/etcd-arm64](https://hub.docker.com/r/corelab/etcd-arm64) | 34 | 
-| gcr.io/google-containers/etcd-empty-dir-cleanup | [corelab/etcd-empty-dir-cleanup](https://hub.docker.com/r/corelab/etcd-empty-dir-cleanup) | 18 | 
+| gcr.io/google-containers/etcd-empty-dir-cleanup | [corelab/etcd-empty-dir-cleanup](https://hub.docker.com/r/corelab/etcd-empty-dir-cleanup) | 19 | 
 | gcr.io/google-containers/etcd-ppc64le | [corelab/etcd-ppc64le](https://hub.docker.com/r/corelab/etcd-ppc64le) | 34 | 
 | gcr.io/google-containers/etcd-s390x | [corelab/etcd-s390x](https://hub.docker.com/r/corelab/etcd-s390x) | 33 | 
 | gcr.io/google-containers/etcd-statefulset-e2e-test | [corelab/etcd-statefulset-e2e-test](https://hub.docker.com/r/corelab/etcd-statefulset-e2e-test) | 1 | 
@@ -185,6 +185,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/heapster-s390x | [corelab/heapster-s390x](https://hub.docker.com/r/corelab/heapster-s390x) | 10 | 
 | gcr.io/google-containers/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | gcr.io/google-containers/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
+| gcr.io/google-containers/hpa-example2 | [corelab/hpa-example2](https://hub.docker.com/r/corelab/hpa-example2) | 1 | 
 | gcr.io/google-containers/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
 | gcr.io/google-containers/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 204 | 
 | gcr.io/google-containers/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 182 | 
@@ -193,7 +194,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 142 | 
 | gcr.io/google-containers/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 142 | 
 | gcr.io/google-containers/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
-| gcr.io/google-containers/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 32 | 
+| gcr.io/google-containers/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 33 | 
 | gcr.io/google-containers/ip-masq-agent | [corelab/ip-masq-agent](https://hub.docker.com/r/corelab/ip-masq-agent) | 3 | 
 | gcr.io/google-containers/ip-masq-agent-amd64 | [corelab/ip-masq-agent-amd64](https://hub.docker.com/r/corelab/ip-masq-agent-amd64) | 13 | 
 | gcr.io/google-containers/ip-masq-agent-arm | [corelab/ip-masq-agent-arm](https://hub.docker.com/r/corelab/ip-masq-agent-arm) | 4 | 
@@ -370,7 +371,7 @@ Synced image num: 459 and image mapping as follow:
 | gcr.io/google-containers/no-snat-test-proxy-amd64 | [corelab/no-snat-test-proxy-amd64](https://hub.docker.com/r/corelab/no-snat-test-proxy-amd64) | 2 | 
 | gcr.io/google-containers/node-conformance | [corelab/node-conformance](https://hub.docker.com/r/corelab/node-conformance) | 4 | 
 | gcr.io/google-containers/node-perf-dash | [corelab/node-perf-dash](https://hub.docker.com/r/corelab/node-perf-dash) | 3 | 
-| gcr.io/google-containers/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 18 | 
+| gcr.io/google-containers/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 19 | 
 | gcr.io/google-containers/node-test | [corelab/node-test](https://hub.docker.com/r/corelab/node-test) | 1 | 
 | gcr.io/google-containers/node-test-amd64 | [corelab/node-test-amd64](https://hub.docker.com/r/corelab/node-test-amd64) | 2 | 
 | gcr.io/google-containers/node-test-arm | [corelab/node-test-arm](https://hub.docker.com/r/corelab/node-test-arm) | 2 | 
