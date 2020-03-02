@@ -392,7 +392,7 @@ Synced image num: 460 and image mapping as follow:
 | gcr.io/google-containers/porter | [corelab/porter](https://hub.docker.com/r/corelab/porter) | 4 | 
 | gcr.io/google-containers/portforwardtester | [corelab/portforwardtester](https://hub.docker.com/r/corelab/portforwardtester) | 3 | 
 | gcr.io/google-containers/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 1 | 
-| gcr.io/google-containers/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 30 | 
+| gcr.io/google-containers/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 31 | 
 | gcr.io/google-containers/proxy-agent | [corelab/proxy-agent](https://hub.docker.com/r/corelab/proxy-agent) | 3 | 
 | gcr.io/google-containers/proxy-server | [corelab/proxy-server](https://hub.docker.com/r/corelab/proxy-server) | 3 | 
 | gcr.io/google-containers/proxy-to-service | [corelab/proxy-to-service](https://hub.docker.com/r/corelab/proxy-to-service) | 2 | 
