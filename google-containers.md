@@ -21,7 +21,7 @@ Synced image num: 460 and image mapping as follow:
 | gcr.io/google-containers/alpine-with-bash | [corelab/alpine-with-bash](https://hub.docker.com/r/corelab/alpine-with-bash) | 1 | 
 | gcr.io/google-containers/apparmor-loader | [corelab/apparmor-loader](https://hub.docker.com/r/corelab/apparmor-loader) | 3 | 
 | gcr.io/google-containers/busybox | [corelab/busybox](https://hub.docker.com/r/corelab/busybox) | 4 | 
-| gcr.io/google-containers/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 29 | 
+| gcr.io/google-containers/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 30 | 
 | gcr.io/google-containers/cassandra | [corelab/cassandra](https://hub.docker.com/r/corelab/cassandra) | 6 | 
 | gcr.io/google-containers/cassandra-e2e-test | [corelab/cassandra-e2e-test](https://hub.docker.com/r/corelab/cassandra-e2e-test) | 1 | 
 | gcr.io/google-containers/check-metadata-concealment | [corelab/check-metadata-concealment](https://hub.docker.com/r/corelab/check-metadata-concealment) | 3 | 
