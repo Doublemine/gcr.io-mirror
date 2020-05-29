@@ -48,7 +48,7 @@ Synced image num: 460 and image mapping as follow:
 | gcr.io/google-containers/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 29 | 
 | gcr.io/google-containers/cos-kernel-headers | [corelab/cos-kernel-headers](https://hub.docker.com/r/corelab/cos-kernel-headers) | 17 | 
 | gcr.io/google-containers/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 11 | 
-| gcr.io/google-containers/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 5 | 
+| gcr.io/google-containers/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 6 | 
 | gcr.io/google-containers/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
 | gcr.io/google-containers/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 15 | 
 | gcr.io/google-containers/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 7 | 
@@ -371,7 +371,7 @@ Synced image num: 460 and image mapping as follow:
 | gcr.io/google-containers/no-snat-test-proxy-amd64 | [corelab/no-snat-test-proxy-amd64](https://hub.docker.com/r/corelab/no-snat-test-proxy-amd64) | 2 | 
 | gcr.io/google-containers/node-conformance | [corelab/node-conformance](https://hub.docker.com/r/corelab/node-conformance) | 4 | 
 | gcr.io/google-containers/node-perf-dash | [corelab/node-perf-dash](https://hub.docker.com/r/corelab/node-perf-dash) | 3 | 
-| gcr.io/google-containers/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 19 | 
+| gcr.io/google-containers/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 20 | 
 | gcr.io/google-containers/node-test | [corelab/node-test](https://hub.docker.com/r/corelab/node-test) | 1 | 
 | gcr.io/google-containers/node-test-amd64 | [corelab/node-test-amd64](https://hub.docker.com/r/corelab/node-test-amd64) | 2 | 
 | gcr.io/google-containers/node-test-arm | [corelab/node-test-arm](https://hub.docker.com/r/corelab/node-test-arm) | 2 | 
