@@ -33,10 +33,10 @@ Synced image num: 460 and image mapping as follow:
 | gcr.io/google-containers/cloud-controller-manager-s390x | [corelab/cloud-controller-manager-s390x](https://hub.docker.com/r/corelab/cloud-controller-manager-s390x) | 118 | 
 | gcr.io/google-containers/cloudsql-authenticator | [corelab/cloudsql-authenticator](https://hub.docker.com/r/corelab/cloudsql-authenticator) | 1 | 
 | gcr.io/google-containers/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
-| gcr.io/google-containers/cluster-proportional-autoscaler-amd64 | [corelab/cluster-proportional-autoscaler-amd64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-amd64) | 25 | 
-| gcr.io/google-containers/cluster-proportional-autoscaler-arm | [corelab/cluster-proportional-autoscaler-arm](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm) | 14 | 
-| gcr.io/google-containers/cluster-proportional-autoscaler-arm64 | [corelab/cluster-proportional-autoscaler-arm64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm64) | 14 | 
-| gcr.io/google-containers/cluster-proportional-autoscaler-ppc64le | [corelab/cluster-proportional-autoscaler-ppc64le](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-ppc64le) | 14 | 
+| gcr.io/google-containers/cluster-proportional-autoscaler-amd64 | [corelab/cluster-proportional-autoscaler-amd64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-amd64) | 26 | 
+| gcr.io/google-containers/cluster-proportional-autoscaler-arm | [corelab/cluster-proportional-autoscaler-arm](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm) | 15 | 
+| gcr.io/google-containers/cluster-proportional-autoscaler-arm64 | [corelab/cluster-proportional-autoscaler-arm64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm64) | 15 | 
+| gcr.io/google-containers/cluster-proportional-autoscaler-ppc64le | [corelab/cluster-proportional-autoscaler-ppc64le](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-ppc64le) | 15 | 
 | gcr.io/google-containers/clusterapi-tester | [corelab/clusterapi-tester](https://hub.docker.com/r/corelab/clusterapi-tester) | 1 | 
 | gcr.io/google-containers/clusterregistry | [corelab/clusterregistry](https://hub.docker.com/r/corelab/clusterregistry) | 1 | 
 | gcr.io/google-containers/conformance | [corelab/conformance](https://hub.docker.com/r/corelab/conformance) | 59 | 
