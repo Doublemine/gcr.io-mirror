@@ -8,7 +8,7 @@ Synced image num: 460 and image mapping as follow:
 |  gcr registry | dockerhub | tags num |
 |-------------- | -------------- | -------------- | 
 | gcr.io/google-containers/addon-builder | [corelab/addon-builder](https://hub.docker.com/r/corelab/addon-builder) | 4 | 
-| gcr.io/google-containers/addon-resizer | [corelab/addon-resizer](https://hub.docker.com/r/corelab/addon-resizer) | 22 | 
+| gcr.io/google-containers/addon-resizer | [corelab/addon-resizer](https://hub.docker.com/r/corelab/addon-resizer) | 23 | 
 | gcr.io/google-containers/addon-resizer-amd64 | [corelab/addon-resizer-amd64](https://hub.docker.com/r/corelab/addon-resizer-amd64) | 2 | 
 | gcr.io/google-containers/addon-resizer-arm | [corelab/addon-resizer-arm](https://hub.docker.com/r/corelab/addon-resizer-arm) | 2 | 
 | gcr.io/google-containers/addon-resizer-arm64 | [corelab/addon-resizer-arm64](https://hub.docker.com/r/corelab/addon-resizer-arm64) | 2 | 
