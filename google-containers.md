@@ -446,7 +446,7 @@ Synced image num: 460 and image mapping as follow:
 | gcr.io/google-containers/tiny-glibc-ppc64le | [corelab/tiny-glibc-ppc64le](https://hub.docker.com/r/corelab/tiny-glibc-ppc64le) | 1 | 
 | gcr.io/google-containers/toolbox | [corelab/toolbox](https://hub.docker.com/r/corelab/toolbox) | 15 | 
 | gcr.io/google-containers/ubuntu | [corelab/ubuntu](https://hub.docker.com/r/corelab/ubuntu) | 1 | 
-| gcr.io/google-containers/ubuntu-nvidia-driver-installer | [corelab/ubuntu-nvidia-driver-installer](https://hub.docker.com/r/corelab/ubuntu-nvidia-driver-installer) | 57 | 
+| gcr.io/google-containers/ubuntu-nvidia-driver-installer | [corelab/ubuntu-nvidia-driver-installer](https://hub.docker.com/r/corelab/ubuntu-nvidia-driver-installer) | 58 | 
 | gcr.io/google-containers/ubuntu-slim | [corelab/ubuntu-slim](https://hub.docker.com/r/corelab/ubuntu-slim) | 15 | 
 | gcr.io/google-containers/ubuntu-slim-amd64 | [corelab/ubuntu-slim-amd64](https://hub.docker.com/r/corelab/ubuntu-slim-amd64) | 6 | 
 | gcr.io/google-containers/ubuntu-slim-arm | [corelab/ubuntu-slim-arm](https://hub.docker.com/r/corelab/ubuntu-slim-arm) | 6 | 
