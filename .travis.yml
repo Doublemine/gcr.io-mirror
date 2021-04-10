@@ -1,6 +1,8 @@
 language: python
 
-sudo: required
+os: linux
+
+dist: xenial
 
 services:
   - docker
@@ -39,9 +41,13 @@ jobs:
 #     - script:
 #         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n cloud-solutions-images
 #         - ./commit.sh
+    # - script:
+    #     - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n heptio-images
+    #     - ./commit.sh
+
     - script:
-        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n heptio-images
-        - ./commit.sh
+        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n k8s-artifacts-prod
+        - ./commit.sh    
 
     - stage: export
       script:
