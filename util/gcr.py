@@ -33,7 +33,11 @@ def fetch_image_tag(namespace=None, image_name=None):
     """
     fetch all image tags by specific repository
     """
+    
+    
     url = f"https://gcr.io/v2/{namespace}/{image_name}/tags/list"
+    if namespace== "k8s-artifacts-prod":
+      url = f"https://us.gcr.io/v2/{namespace}/{image_name}/tags/list"
     Logger.debug('request image tag uri:{}'.format(url))
     headers = {
         'Cache-Control': 'no-cache',
