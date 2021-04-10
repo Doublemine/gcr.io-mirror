@@ -1,17 +1,19 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 131 and image mapping as follow:
+Synced image num: 137 and image mapping as follow:
 
 
 
 |  gcr registry | dockerhub | tags num |
 |-------------- | -------------- | -------------- | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-arm | [corelab/addon-resizer-arm](https://hub.docker.com/r/corelab/addon-resizer-arm) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/cassandra-e2e-test | [corelab/cassandra-e2e-test](https://hub.docker.com/r/corelab/cassandra-e2e-test) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/check-metadata-concealment | [corelab/check-metadata-concealment](https://hub.docker.com/r/corelab/check-metadata-concealment) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/cloud-controller-manager-arm64 | [corelab/cloud-controller-manager-arm64](https://hub.docker.com/r/corelab/cloud-controller-manager-arm64) | 118 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
+| us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-arm | [corelab/cluster-proportional-autoscaler-arm](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-arm64 | [corelab/cluster-proportional-autoscaler-arm64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm64) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-ppc64le | [corelab/cluster-proportional-autoscaler-ppc64le](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-ppc64le) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/clusterregistry | [corelab/clusterregistry](https://hub.docker.com/r/corelab/clusterregistry) | 1 | 
@@ -23,6 +25,7 @@ Synced image num: 131 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/defaultbackend-arm | [corelab/defaultbackend-arm](https://hub.docker.com/r/corelab/defaultbackend-arm) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/defaultbackend-arm64 | [corelab/defaultbackend-arm64](https://hub.docker.com/r/corelab/defaultbackend-arm64) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/device-plugin-gpu | [corelab/device-plugin-gpu](https://hub.docker.com/r/corelab/device-plugin-gpu) | 20 | 
+| us.gcr.io/k8s-artifacts-prod/dns-pod-autoscaler | [corelab/dns-pod-autoscaler](https://hub.docker.com/r/corelab/dns-pod-autoscaler) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/dns-rc-autoscaler | [corelab/dns-rc-autoscaler](https://hub.docker.com/r/corelab/dns-rc-autoscaler) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq | [corelab/dnsmasq](https://hub.docker.com/r/corelab/dnsmasq) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver-amd64 | [corelab/echoserver-amd64](https://hub.docker.com/r/corelab/echoserver-amd64) | 3 | 
@@ -42,6 +45,7 @@ Synced image num: 131 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/flannel-server-helper | [corelab/flannel-server-helper](https://hub.docker.com/r/corelab/flannel-server-helper) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-journal-gcp | [corelab/fluentd-journal-gcp](https://hub.docker.com/r/corelab/fluentd-journal-gcp) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/gen-swagger-docs | [corelab/gen-swagger-docs](https://hub.docker.com/r/corelab/gen-swagger-docs) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/gitolite-http | [corelab/gitolite-http](https://hub.docker.com/r/corelab/gitolite-http) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gke-cloud-kms-sync | [corelab/gke-cloud-kms-sync](https://hub.docker.com/r/corelab/gke-cloud-kms-sync) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gke-launcher | [corelab/gke-launcher](https://hub.docker.com/r/corelab/gke-launcher) | 1 | 
@@ -60,6 +64,7 @@ Synced image num: 131 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/jessie-dnsutils | [corelab/jessie-dnsutils](https://hub.docker.com/r/corelab/jessie-dnsutils) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-cloud-kms-plugin | [corelab/k8s-cloud-kms-plugin](https://hub.docker.com/r/corelab/k8s-cloud-kms-plugin) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-custom-iptables | [corelab/k8s-custom-iptables](https://hub.docker.com/r/corelab/k8s-custom-iptables) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-amd64 | [corelab/k8s-dns-dnsmasq-nanny-amd64](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-amd64) | 28 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-arm | [corelab/k8s-dns-dnsmasq-nanny-arm](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-arm) | 28 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-arm64 | [corelab/k8s-dns-dnsmasq-nanny-arm64](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-arm64) | 28 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-ppc64le | [corelab/k8s-dns-dnsmasq-nanny-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-ppc64le) | 28 | 
@@ -74,6 +79,7 @@ Synced image num: 131 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-aggregator-amd64 | [corelab/kube-aggregator-amd64](https://hub.docker.com/r/corelab/kube-aggregator-amd64) | 59 | 
 | us.gcr.io/k8s-artifacts-prod/kube-aggregator-arm64 | [corelab/kube-aggregator-arm64](https://hub.docker.com/r/corelab/kube-aggregator-arm64) | 59 | 
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 151 | 
+| us.gcr.io/k8s-artifacts-prod/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 241 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 95 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm | [corelab/kube-controller-manager-arm](https://hub.docker.com/r/corelab/kube-controller-manager-arm) | 201 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
