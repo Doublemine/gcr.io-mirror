@@ -1,6 +1,6 @@
-# gcr.io mirror
+# k8s.gcr.io mirror
 
-Sync gcr.io images of docker to your private registry/dockerhub.   [![Build Status](https://travis-ci.org/Doublemine/gcr.io-mirror.svg?branch=sync)](https://travis-ci.org/Doublemine/gcr.io-mirror)
+同步 gcr.io( k8s.gcr.io ) 镜像到 [dockerhub](https://hub.docker.com/r/corelab) 以供国内网络环境使用。当前同步状态:   [![Build Status](https://travis-ci.org/Doublemine/gcr.io-mirror.svg?branch=sync)](https://travis-ci.org/Doublemine/gcr.io-mirror)
 
 
 # Synced Namespace
@@ -8,6 +8,8 @@ Sync gcr.io images of docker to your private registry/dockerhub.   [![Build Stat
  -  [**kubernetes-helm**](kubernetes-helm.md)
  -  [**google-containers**](google-containers.md)
  -  [**cloud-solutions-images**](cloud-solutions-images.md)
+ -  [**heption-images**](heption-images.md)
+ -  [**k8s.gcr.io**](k8s-artifacts-prod.md)
 
 
 ## Usage
