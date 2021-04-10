@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 98 and image mapping as follow:
+Synced image num: 102 and image mapping as follow:
 
 
 
@@ -9,6 +9,7 @@ Synced image num: 98 and image mapping as follow:
 |-------------- | -------------- | -------------- | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-arm | [corelab/addon-resizer-arm](https://hub.docker.com/r/corelab/addon-resizer-arm) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/cassandra-e2e-test | [corelab/cassandra-e2e-test](https://hub.docker.com/r/corelab/cassandra-e2e-test) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-arm64 | [corelab/cluster-proportional-autoscaler-arm64](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm64) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-ppc64le | [corelab/cluster-proportional-autoscaler-ppc64le](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-ppc64le) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-arm | [corelab/conformance-arm](https://hub.docker.com/r/corelab/conformance-arm) | 106 | 
@@ -40,6 +41,7 @@ Synced image num: 98 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/heapster-arm | [corelab/heapster-arm](https://hub.docker.com/r/corelab/heapster-arm) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-grafana-arm | [corelab/heapster-grafana-arm](https://hub.docker.com/r/corelab/heapster-grafana-arm) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-influxdb-amd64 | [corelab/heapster-influxdb-amd64](https://hub.docker.com/r/corelab/heapster-influxdb-amd64) | 3 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 98 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 56 | 
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
 | us.gcr.io/k8s-artifacts-prod/jessie-dnsutils | [corelab/jessie-dnsutils](https://hub.docker.com/r/corelab/jessie-dnsutils) | 2 | 
@@ -76,6 +78,7 @@ Synced image num: 98 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kubernetes-zookeeper | [corelab/kubernetes-zookeeper](https://hub.docker.com/r/corelab/kubernetes-zookeeper) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/leader-elector | [corelab/leader-elector](https://hub.docker.com/r/corelab/leader-elector) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/logs-generator | [corelab/logs-generator](https://hub.docker.com/r/corelab/logs-generator) | 4 | 
+| us.gcr.io/k8s-artifacts-prod/metrics-server-s390x | [corelab/metrics-server-s390x](https://hub.docker.com/r/corelab/metrics-server-s390x) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/mongodb-install | [corelab/mongodb-install](https://hub.docker.com/r/corelab/mongodb-install) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/netd-amd64 | [corelab/netd-amd64](https://hub.docker.com/r/corelab/netd-amd64) | 14 | 
 | us.gcr.io/k8s-artifacts-prod/netexec | [corelab/netexec](https://hub.docker.com/r/corelab/netexec) | 8 | 
@@ -97,6 +100,7 @@ Synced image num: 98 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/tf-models | [corelab/tf-models](https://hub.docker.com/r/corelab/tf-models) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/tiny-glibc-ppc64le | [corelab/tiny-glibc-ppc64le](https://hub.docker.com/r/corelab/tiny-glibc-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/toolbox | [corelab/toolbox](https://hub.docker.com/r/corelab/toolbox) | 15 | 
+| us.gcr.io/k8s-artifacts-prod/ubuntu-slim | [corelab/ubuntu-slim](https://hub.docker.com/r/corelab/ubuntu-slim) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/update-demo | [corelab/update-demo](https://hub.docker.com/r/corelab/update-demo) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/volume-ceph | [corelab/volume-ceph](https://hub.docker.com/r/corelab/volume-ceph) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/volume-iscsi | [corelab/volume-iscsi](https://hub.docker.com/r/corelab/volume-iscsi) | 3 | 
