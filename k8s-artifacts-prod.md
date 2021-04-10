@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 76 and image mapping as follow:
+Synced image num: 79 and image mapping as follow:
 
 
 
@@ -46,10 +46,13 @@ Synced image num: 76 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-s390x | [corelab/k8s-dns-sidecar-s390x](https://hub.docker.com/r/corelab/k8s-dns-sidecar-s390x) | 29 | 
 | us.gcr.io/k8s-artifacts-prod/kibana | [corelab/kibana](https://hub.docker.com/r/corelab/kibana) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/kube-addon-manager-amd64 | [corelab/kube-addon-manager-amd64](https://hub.docker.com/r/corelab/kube-addon-manager-amd64) | 26 | 
+| us.gcr.io/k8s-artifacts-prod/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 151 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 95 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm | [corelab/kube-controller-manager-arm](https://hub.docker.com/r/corelab/kube-controller-manager-arm) | 201 | 
+| us.gcr.io/k8s-artifacts-prod/kube-haproxy | [corelab/kube-haproxy](https://hub.docker.com/r/corelab/kube-haproxy) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/kube-nethealth-amd64 | [corelab/kube-nethealth-amd64](https://hub.docker.com/r/corelab/kube-nethealth-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-s390x | [corelab/kube-proxy-s390x](https://hub.docker.com/r/corelab/kube-proxy-s390x) | 201 | 
+| us.gcr.io/k8s-artifacts-prod/kube-scheduler-arm64 | [corelab/kube-scheduler-arm64](https://hub.docker.com/r/corelab/kube-scheduler-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/kube2sky-amd64 | [corelab/kube2sky-amd64](https://hub.docker.com/r/corelab/kube2sky-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube2sky-arm | [corelab/kube2sky-arm](https://hub.docker.com/r/corelab/kube2sky-arm) | 2 | 
