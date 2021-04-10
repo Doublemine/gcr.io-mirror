@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 143 and image mapping as follow:
+Synced image num: 148 and image mapping as follow:
 
 
 
@@ -21,6 +21,7 @@ Synced image num: 143 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/conformance-arm | [corelab/conformance-arm](https://hub.docker.com/r/corelab/conformance-arm) | 106 | 
 | us.gcr.io/k8s-artifacts-prod/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 7 | 
+| us.gcr.io/k8s-artifacts-prod/debian-base-arm64 | [corelab/debian-base-arm64](https://hub.docker.com/r/corelab/debian-base-arm64) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base-arm64 | [corelab/debian-hyperkube-base-arm64](https://hub.docker.com/r/corelab/debian-hyperkube-base-arm64) | 16 | 
 | us.gcr.io/k8s-artifacts-prod/debian-iptables-arm64 | [corelab/debian-iptables-arm64](https://hub.docker.com/r/corelab/debian-iptables-arm64) | 19 | 
 | us.gcr.io/k8s-artifacts-prod/defaultbackend | [corelab/defaultbackend](https://hub.docker.com/r/corelab/defaultbackend) | 5 | 
@@ -62,8 +63,10 @@ Synced image num: 143 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/heapster-ppc64le | [corelab/heapster-ppc64le](https://hub.docker.com/r/corelab/heapster-ppc64le) | 10 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 224 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 101 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 140 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 56 | 
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
+| us.gcr.io/k8s-artifacts-prod/ip-masq-agent-amd64 | [corelab/ip-masq-agent-amd64](https://hub.docker.com/r/corelab/ip-masq-agent-amd64) | 13 | 
 | us.gcr.io/k8s-artifacts-prod/jessie-dnsutils | [corelab/jessie-dnsutils](https://hub.docker.com/r/corelab/jessie-dnsutils) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-cloud-kms-plugin | [corelab/k8s-cloud-kms-plugin](https://hub.docker.com/r/corelab/k8s-cloud-kms-plugin) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-custom-iptables | [corelab/k8s-custom-iptables](https://hub.docker.com/r/corelab/k8s-custom-iptables) | 1 | 
@@ -94,6 +97,7 @@ Synced image num: 143 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 20 | 
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-arm64 | [corelab/kube-scheduler-arm64](https://hub.docker.com/r/corelab/kube-scheduler-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 8 | 
+| us.gcr.io/k8s-artifacts-prod/kube-ui | [corelab/kube-ui](https://hub.docker.com/r/corelab/kube-ui) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/kube2sky-amd64 | [corelab/kube2sky-amd64](https://hub.docker.com/r/corelab/kube2sky-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube2sky-arm | [corelab/kube2sky-arm](https://hub.docker.com/r/corelab/kube2sky-arm) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/kubedash | [corelab/kubedash](https://hub.docker.com/r/corelab/kubedash) | 2 | 
@@ -107,6 +111,7 @@ Synced image num: 143 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kubernetes-zookeeper | [corelab/kubernetes-zookeeper](https://hub.docker.com/r/corelab/kubernetes-zookeeper) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/leader-elector | [corelab/leader-elector](https://hub.docker.com/r/corelab/leader-elector) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/logs-generator | [corelab/logs-generator](https://hub.docker.com/r/corelab/logs-generator) | 4 | 
+| us.gcr.io/k8s-artifacts-prod/metrics-server | [corelab/metrics-server](https://hub.docker.com/r/corelab/metrics-server) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/metrics-server-s390x | [corelab/metrics-server-s390x](https://hub.docker.com/r/corelab/metrics-server-s390x) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/mongodb-install | [corelab/mongodb-install](https://hub.docker.com/r/corelab/mongodb-install) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/netd-amd64 | [corelab/netd-amd64](https://hub.docker.com/r/corelab/netd-amd64) | 14 | 
