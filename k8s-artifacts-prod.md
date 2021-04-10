@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 161 and image mapping as follow:
+Synced image num: 177 and image mapping as follow:
 
 
 
@@ -11,10 +11,13 @@ Synced image num: 161 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-arm | [corelab/addon-resizer-arm](https://hub.docker.com/r/corelab/addon-resizer-arm) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-ppc64le | [corelab/addon-resizer-ppc64le](https://hub.docker.com/r/corelab/addon-resizer-ppc64le) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/alpine-iptables-amd64 | [corelab/alpine-iptables-amd64](https://hub.docker.com/r/corelab/alpine-iptables-amd64) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/busybox | [corelab/busybox](https://hub.docker.com/r/corelab/busybox) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/cassandra-e2e-test | [corelab/cassandra-e2e-test](https://hub.docker.com/r/corelab/cassandra-e2e-test) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/check-metadata-concealment | [corelab/check-metadata-concealment](https://hub.docker.com/r/corelab/check-metadata-concealment) | 3 | 
+| us.gcr.io/k8s-artifacts-prod/cloud-controller-manager-amd64 | [corelab/cloud-controller-manager-amd64](https://hub.docker.com/r/corelab/cloud-controller-manager-amd64) | 118 | 
 | us.gcr.io/k8s-artifacts-prod/cloud-controller-manager-arm64 | [corelab/cloud-controller-manager-arm64](https://hub.docker.com/r/corelab/cloud-controller-manager-arm64) | 118 | 
+| us.gcr.io/k8s-artifacts-prod/cloud-controller-manager-ppc64le | [corelab/cloud-controller-manager-ppc64le](https://hub.docker.com/r/corelab/cloud-controller-manager-ppc64le) | 118 | 
 | us.gcr.io/k8s-artifacts-prod/cloudsql-authenticator | [corelab/cloudsql-authenticator](https://hub.docker.com/r/corelab/cloudsql-authenticator) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
 | us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-arm | [corelab/cluster-proportional-autoscaler-arm](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-arm) | 15 | 
@@ -22,11 +25,13 @@ Synced image num: 161 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/cluster-proportional-autoscaler-ppc64le | [corelab/cluster-proportional-autoscaler-ppc64le](https://hub.docker.com/r/corelab/cluster-proportional-autoscaler-ppc64le) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/clusterregistry | [corelab/clusterregistry](https://hub.docker.com/r/corelab/clusterregistry) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-arm | [corelab/conformance-arm](https://hub.docker.com/r/corelab/conformance-arm) | 106 | 
+| us.gcr.io/k8s-artifacts-prod/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 74 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 106 | 
 | us.gcr.io/k8s-artifacts-prod/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/debian-base-arm64 | [corelab/debian-base-arm64](https://hub.docker.com/r/corelab/debian-base-arm64) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base-arm64 | [corelab/debian-hyperkube-base-arm64](https://hub.docker.com/r/corelab/debian-hyperkube-base-arm64) | 16 | 
+| us.gcr.io/k8s-artifacts-prod/debian-iptables-arm | [corelab/debian-iptables-arm](https://hub.docker.com/r/corelab/debian-iptables-arm) | 19 | 
 | us.gcr.io/k8s-artifacts-prod/debian-iptables-arm64 | [corelab/debian-iptables-arm64](https://hub.docker.com/r/corelab/debian-iptables-arm64) | 19 | 
 | us.gcr.io/k8s-artifacts-prod/defaultbackend | [corelab/defaultbackend](https://hub.docker.com/r/corelab/defaultbackend) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/defaultbackend-arm | [corelab/defaultbackend-arm](https://hub.docker.com/r/corelab/defaultbackend-arm) | 5 | 
@@ -36,23 +41,30 @@ Synced image num: 161 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/dns-rc-autoscaler | [corelab/dns-rc-autoscaler](https://hub.docker.com/r/corelab/dns-rc-autoscaler) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq | [corelab/dnsmasq](https://hub.docker.com/r/corelab/dnsmasq) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver-amd64 | [corelab/echoserver-amd64](https://hub.docker.com/r/corelab/echoserver-amd64) | 3 | 
+| us.gcr.io/k8s-artifacts-prod/echoserver-arm | [corelab/echoserver-arm](https://hub.docker.com/r/corelab/echoserver-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/eptest | [corelab/eptest](https://hub.docker.com/r/corelab/eptest) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/etcd | [corelab/etcd](https://hub.docker.com/r/corelab/etcd) | 25 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-arm | [corelab/etcd-arm](https://hub.docker.com/r/corelab/etcd-arm) | 42 | 
+| us.gcr.io/k8s-artifacts-prod/etcd-empty-dir-cleanup | [corelab/etcd-empty-dir-cleanup](https://hub.docker.com/r/corelab/etcd-empty-dir-cleanup) | 21 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-ppc64le | [corelab/etcd-ppc64le](https://hub.docker.com/r/corelab/etcd-ppc64le) | 40 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-s390x | [corelab/etcd-s390x](https://hub.docker.com/r/corelab/etcd-s390x) | 39 | 
 | us.gcr.io/k8s-artifacts-prod/example-dns-frontend | [corelab/example-dns-frontend](https://hub.docker.com/r/corelab/example-dns-frontend) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/exechealthz-amd64 | [corelab/exechealthz-amd64](https://hub.docker.com/r/corelab/exechealthz-amd64) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/exechealthz-arm | [corelab/exechealthz-arm](https://hub.docker.com/r/corelab/exechealthz-arm) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/exechealthz-arm64 | [corelab/exechealthz-arm64](https://hub.docker.com/r/corelab/exechealthz-arm64) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/exechealthz-ppc64le | [corelab/exechealthz-ppc64le](https://hub.docker.com/r/corelab/exechealthz-ppc64le) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/federation-apiserver | [corelab/federation-apiserver](https://hub.docker.com/r/corelab/federation-apiserver) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/federation-apiserver-arm | [corelab/federation-apiserver-arm](https://hub.docker.com/r/corelab/federation-apiserver-arm) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/federation-controller-manager | [corelab/federation-controller-manager](https://hub.docker.com/r/corelab/federation-controller-manager) | 7 | 
+| us.gcr.io/k8s-artifacts-prod/federation-controller-manager-amd64 | [corelab/federation-controller-manager-amd64](https://hub.docker.com/r/corelab/federation-controller-manager-amd64) | 7 | 
+| us.gcr.io/k8s-artifacts-prod/federation-controller-manager-arm | [corelab/federation-controller-manager-arm](https://hub.docker.com/r/corelab/federation-controller-manager-arm) | 7 | 
+| us.gcr.io/k8s-artifacts-prod/federation-controller-manager-arm64 | [corelab/federation-controller-manager-arm64](https://hub.docker.com/r/corelab/federation-controller-manager-arm64) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/flannel-arm64 | [corelab/flannel-arm64](https://hub.docker.com/r/corelab/flannel-arm64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/flannel-server-helper | [corelab/flannel-server-helper](https://hub.docker.com/r/corelab/flannel-server-helper) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-journal-gcp | [corelab/fluentd-journal-gcp](https://hub.docker.com/r/corelab/fluentd-journal-gcp) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-sidecar-es | [corelab/fluentd-sidecar-es](https://hub.docker.com/r/corelab/fluentd-sidecar-es) | 3 | 
+| us.gcr.io/k8s-artifacts-prod/galera-install | [corelab/galera-install](https://hub.docker.com/r/corelab/galera-install) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gen-swagger-docs | [corelab/gen-swagger-docs](https://hub.docker.com/r/corelab/gen-swagger-docs) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/gitolite-http | [corelab/gitolite-http](https://hub.docker.com/r/corelab/gitolite-http) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gke-certificates-controller | [corelab/gke-certificates-controller](https://hub.docker.com/r/corelab/gke-certificates-controller) | 5 | 
@@ -71,12 +83,14 @@ Synced image num: 161 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 101 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 140 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 56 | 
+| us.gcr.io/k8s-artifacts-prod/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
 | us.gcr.io/k8s-artifacts-prod/ip-masq-agent | [corelab/ip-masq-agent](https://hub.docker.com/r/corelab/ip-masq-agent) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/ip-masq-agent-amd64 | [corelab/ip-masq-agent-amd64](https://hub.docker.com/r/corelab/ip-masq-agent-amd64) | 13 | 
 | us.gcr.io/k8s-artifacts-prod/jessie-dnsutils | [corelab/jessie-dnsutils](https://hub.docker.com/r/corelab/jessie-dnsutils) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-cloud-kms-plugin | [corelab/k8s-cloud-kms-plugin](https://hub.docker.com/r/corelab/k8s-cloud-kms-plugin) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-custom-iptables | [corelab/k8s-custom-iptables](https://hub.docker.com/r/corelab/k8s-custom-iptables) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-arm64 | [corelab/k8s-dns-dnsmasq-arm64](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-arm64) | 17 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-amd64 | [corelab/k8s-dns-dnsmasq-nanny-amd64](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-amd64) | 28 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-arm | [corelab/k8s-dns-dnsmasq-nanny-arm](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-arm) | 28 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-dnsmasq-nanny-arm64 | [corelab/k8s-dns-dnsmasq-nanny-arm64](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny-arm64) | 28 | 
@@ -106,6 +120,7 @@ Synced image num: 161 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 20 | 
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-arm64 | [corelab/kube-scheduler-arm64](https://hub.docker.com/r/corelab/kube-scheduler-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 8 | 
+| us.gcr.io/k8s-artifacts-prod/kube-state-metrics-s390x | [corelab/kube-state-metrics-s390x](https://hub.docker.com/r/corelab/kube-state-metrics-s390x) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/kube-ui | [corelab/kube-ui](https://hub.docker.com/r/corelab/kube-ui) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/kube2sky-amd64 | [corelab/kube2sky-amd64](https://hub.docker.com/r/corelab/kube2sky-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube2sky-arm | [corelab/kube2sky-arm](https://hub.docker.com/r/corelab/kube2sky-arm) | 2 | 
@@ -148,6 +163,7 @@ Synced image num: 161 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/registry-promoter-test-image | [corelab/registry-promoter-test-image](https://hub.docker.com/r/corelab/registry-promoter-test-image) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/rescheduler-amd64 | [corelab/rescheduler-amd64](https://hub.docker.com/r/corelab/rescheduler-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/rescheduler-ppc64le | [corelab/rescheduler-ppc64le](https://hub.docker.com/r/corelab/rescheduler-ppc64le) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/rescheduler-s390x | [corelab/rescheduler-s390x](https://hub.docker.com/r/corelab/rescheduler-s390x) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/rethinkdb | [corelab/rethinkdb](https://hub.docker.com/r/corelab/rethinkdb) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/sd-dummy-exporter | [corelab/sd-dummy-exporter](https://hub.docker.com/r/corelab/sd-dummy-exporter) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/skydns-arm64 | [corelab/skydns-arm64](https://hub.docker.com/r/corelab/skydns-arm64) | 1 | 
