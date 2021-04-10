@@ -33,10 +33,8 @@ def fetch_image_tag(namespace=None, image_name=None):
     """
     fetch all image tags by specific repository
     """
-    
-    
     url = f"https://gcr.io/v2/{namespace}/{image_name}/tags/list"
-    if namespace== "k8s-artifacts-prod":
+    if namespace == "k8s-artifacts-prod":
       url = f"https://us.gcr.io/v2/{namespace}/{image_name}/tags/list"
     Logger.debug('request image tag uri:{}'.format(url))
     headers = {
@@ -51,6 +49,8 @@ def fetch_image_tag(namespace=None, image_name=None):
         Logger.error("tag list is None, Skip...")
         tag_list = []
     name = response.json()['name']
+    if namespace == "k8s-artifacts-prod":
+      return {'name': f"us.gcr.io/{name}", 'tags': tag_list}
     return {'name': f"gcr.io/{name}", 'tags': tag_list}
 
 
