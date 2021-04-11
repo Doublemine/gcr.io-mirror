@@ -173,7 +173,7 @@ Synced image num: 407 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 151 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 224 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 101 | 
-| us.gcr.io/k8s-artifacts-prod/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 51 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 196 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 184 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 56 | 
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
