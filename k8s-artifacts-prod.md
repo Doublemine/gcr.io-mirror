@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 445 and image mapping as follow:
+Synced image num: 447 and image mapping as follow:
 
 
 
@@ -265,6 +265,7 @@ Synced image num: 445 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 211 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 27 | 
+| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 26 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
@@ -441,6 +442,7 @@ Synced image num: 445 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/update-demo | [corelab/update-demo](https://hub.docker.com/r/corelab/update-demo) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/visio-stencil-creator | [corelab/visio-stencil-creator](https://hub.docker.com/r/corelab/visio-stencil-creator) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/volume-ceph | [corelab/volume-ceph](https://hub.docker.com/r/corelab/volume-ceph) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/volume-gluster | [corelab/volume-gluster](https://hub.docker.com/r/corelab/volume-gluster) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/volume-iscsi | [corelab/volume-iscsi](https://hub.docker.com/r/corelab/volume-iscsi) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/volume-nfs | [corelab/volume-nfs](https://hub.docker.com/r/corelab/volume-nfs) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/volume-rbd | [corelab/volume-rbd](https://hub.docker.com/r/corelab/volume-rbd) | 3 | 
