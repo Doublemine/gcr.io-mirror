@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 401 and image mapping as follow:
+Synced image num: 407 and image mapping as follow:
 
 
 
@@ -11,6 +11,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/addon-resizer | [corelab/addon-resizer](https://hub.docker.com/r/corelab/addon-resizer) | 23 | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-amd64 | [corelab/addon-resizer-amd64](https://hub.docker.com/r/corelab/addon-resizer-amd64) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-arm | [corelab/addon-resizer-arm](https://hub.docker.com/r/corelab/addon-resizer-arm) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/addon-resizer-arm64 | [corelab/addon-resizer-arm64](https://hub.docker.com/r/corelab/addon-resizer-arm64) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-ppc64le | [corelab/addon-resizer-ppc64le](https://hub.docker.com/r/corelab/addon-resizer-ppc64le) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/addon-resizer-s390x | [corelab/addon-resizer-s390x](https://hub.docker.com/r/corelab/addon-resizer-s390x) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/aggregator | [corelab/aggregator](https://hub.docker.com/r/corelab/aggregator) | 1 | 
@@ -75,6 +76,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/dnsmasq | [corelab/dnsmasq](https://hub.docker.com/r/corelab/dnsmasq) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq-amd64 | [corelab/dnsmasq-amd64](https://hub.docker.com/r/corelab/dnsmasq-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq-metrics-amd64 | [corelab/dnsmasq-metrics-amd64](https://hub.docker.com/r/corelab/dnsmasq-metrics-amd64) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/dnsmasq-metrics-ppc64le | [corelab/dnsmasq-metrics-ppc64le](https://hub.docker.com/r/corelab/dnsmasq-metrics-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/dnsutils | [corelab/dnsutils](https://hub.docker.com/r/corelab/dnsutils) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver | [corelab/echoserver](https://hub.docker.com/r/corelab/echoserver) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver-amd64 | [corelab/echoserver-amd64](https://hub.docker.com/r/corelab/echoserver-amd64) | 3 | 
@@ -121,6 +123,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/flannel-server-helper | [corelab/flannel-server-helper](https://hub.docker.com/r/corelab/flannel-server-helper) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/fluent-bit-sd | [corelab/fluent-bit-sd](https://hub.docker.com/r/corelab/fluent-bit-sd) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-elasticsearch | [corelab/fluentd-elasticsearch](https://hub.docker.com/r/corelab/fluentd-elasticsearch) | 31 | 
+| us.gcr.io/k8s-artifacts-prod/fluentd-gcp | [corelab/fluentd-gcp](https://hub.docker.com/r/corelab/fluentd-gcp) | 69 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-journal-gcp | [corelab/fluentd-journal-gcp](https://hub.docker.com/r/corelab/fluentd-journal-gcp) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/fluentd-sidecar-es | [corelab/fluentd-sidecar-es](https://hub.docker.com/r/corelab/fluentd-sidecar-es) | 3 | 
@@ -167,7 +170,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hpa-example2 | [corelab/hpa-example2](https://hub.docker.com/r/corelab/hpa-example2) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
-| us.gcr.io/k8s-artifacts-prod/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 103 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 151 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 224 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 101 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 51 | 
@@ -200,6 +203,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-ginkgo-arm64 | [corelab/k8s-dns-ginkgo-arm64](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-arm64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-ginkgo-ppc64le | [corelab/k8s-dns-ginkgo-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns | [corelab/k8s-dns-kube-dns](https://hub.docker.com/r/corelab/k8s-dns-kube-dns) | 16 | 
+| us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-arm | [corelab/k8s-dns-kube-dns-arm](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm) | 33 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-arm64 | [corelab/k8s-dns-kube-dns-arm64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm64) | 33 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-ppc64le | [corelab/k8s-dns-kube-dns-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-ppc64le) | 33 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-s390x | [corelab/k8s-dns-kube-dns-s390x](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-s390x) | 29 | 
@@ -213,6 +217,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-arm | [corelab/k8s-dns-sidecar-arm](https://hub.docker.com/r/corelab/k8s-dns-sidecar-arm) | 34 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-arm64 | [corelab/k8s-dns-sidecar-arm64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-arm64) | 34 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-e2e-amd64 | [corelab/k8s-dns-sidecar-e2e-amd64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-amd64) | 4 | 
+| us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-e2e-arm64 | [corelab/k8s-dns-sidecar-e2e-arm64](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-arm64) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-e2e-ppc64le | [corelab/k8s-dns-sidecar-e2e-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-sidecar-e2e-ppc64le) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-ppc64le | [corelab/k8s-dns-sidecar-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-sidecar-ppc64le) | 34 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-sidecar-s390x | [corelab/k8s-dns-sidecar-s390x](https://hub.docker.com/r/corelab/k8s-dns-sidecar-s390x) | 29 | 
@@ -322,6 +327,7 @@ Synced image num: 401 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/nginx-slim-arm | [corelab/nginx-slim-arm](https://hub.docker.com/r/corelab/nginx-slim-arm) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/nginx-slim-arm64 | [corelab/nginx-slim-arm64](https://hub.docker.com/r/corelab/nginx-slim-arm64) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/nginx-slim-ppc64le | [corelab/nginx-slim-ppc64le](https://hub.docker.com/r/corelab/nginx-slim-ppc64le) | 12 | 
+| us.gcr.io/k8s-artifacts-prod/nginx-third-party | [corelab/nginx-third-party](https://hub.docker.com/r/corelab/nginx-third-party) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/no-snat-test-amd64 | [corelab/no-snat-test-amd64](https://hub.docker.com/r/corelab/no-snat-test-amd64) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/no-snat-test-proxy-amd64 | [corelab/no-snat-test-proxy-amd64](https://hub.docker.com/r/corelab/no-snat-test-proxy-amd64) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/node-conformance | [corelab/node-conformance](https://hub.docker.com/r/corelab/node-conformance) | 4 | 
