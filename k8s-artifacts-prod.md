@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 360 and image mapping as follow:
+Synced image num: 362 and image mapping as follow:
 
 
 
@@ -41,7 +41,7 @@ Synced image num: 360 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 74 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 106 | 
 | us.gcr.io/k8s-artifacts-prod/cos-kernel-headers | [corelab/cos-kernel-headers](https://hub.docker.com/r/corelab/cos-kernel-headers) | 17 | 
-| us.gcr.io/k8s-artifacts-prod/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/cos-nvidia-driver-install | [corelab/cos-nvidia-driver-install](https://hub.docker.com/r/corelab/cos-nvidia-driver-install) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 15 | 
@@ -119,6 +119,7 @@ Synced image num: 360 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/gcsweb | [corelab/gcsweb](https://hub.docker.com/r/corelab/gcsweb) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gcsweb-amd64 | [corelab/gcsweb-amd64](https://hub.docker.com/r/corelab/gcsweb-amd64) | 7 | 
 | us.gcr.io/k8s-artifacts-prod/gen-swagger-docs | [corelab/gen-swagger-docs](https://hub.docker.com/r/corelab/gen-swagger-docs) | 11 | 
+| us.gcr.io/k8s-artifacts-prod/git-sync | [corelab/git-sync](https://hub.docker.com/r/corelab/git-sync) | 16 | 
 | us.gcr.io/k8s-artifacts-prod/github-token-counter | [corelab/github-token-counter](https://hub.docker.com/r/corelab/github-token-counter) | 9 | 
 | us.gcr.io/k8s-artifacts-prod/github-transform | [corelab/github-transform](https://hub.docker.com/r/corelab/github-transform) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/gitolite-http | [corelab/gitolite-http](https://hub.docker.com/r/corelab/gitolite-http) | 1 | 
@@ -217,8 +218,9 @@ Synced image num: 360 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver-s390x | [corelab/kube-apiserver-s390x](https://hub.docker.com/r/corelab/kube-apiserver-s390x) | 201 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 95 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm | [corelab/kube-controller-manager-arm](https://hub.docker.com/r/corelab/kube-controller-manager-arm) | 240 | 
-| us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 67 | 
+| us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 185 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 24 | 
+| us.gcr.io/k8s-artifacts-prod/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-dns-perf-client-amd64 | [corelab/kube-dns-perf-client-amd64](https://hub.docker.com/r/corelab/kube-dns-perf-client-amd64) | 3 | 
