@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 407 and image mapping as follow:
+Synced image num: 409 and image mapping as follow:
 
 
 
@@ -172,7 +172,7 @@ Synced image num: 407 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 151 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 224 | 
-| us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 101 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 177 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 196 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 184 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 56 | 
@@ -257,6 +257,7 @@ Synced image num: 407 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 241 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-arm | [corelab/kube-proxy-arm](https://hub.docker.com/r/corelab/kube-proxy-arm) | 240 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-arm64 | [corelab/kube-proxy-arm64](https://hub.docker.com/r/corelab/kube-proxy-arm64) | 108 | 
+| us.gcr.io/k8s-artifacts-prod/kube-proxy-ppc64le | [corelab/kube-proxy-ppc64le](https://hub.docker.com/r/corelab/kube-proxy-ppc64le) | 211 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-s390x | [corelab/kube-proxy-s390x](https://hub.docker.com/r/corelab/kube-proxy-s390x) | 201 | 
 | us.gcr.io/k8s-artifacts-prod/kube-registry-proxy | [corelab/kube-registry-proxy](https://hub.docker.com/r/corelab/kube-registry-proxy) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 241 | 
@@ -283,6 +284,7 @@ Synced image num: 407 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kubedns-ppc64le | [corelab/kubedns-ppc64le](https://hub.docker.com/r/corelab/kubedns-ppc64le) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/kubekins-e2e | [corelab/kubekins-e2e](https://hub.docker.com/r/corelab/kubekins-e2e) | 69 | 
 | us.gcr.io/k8s-artifacts-prod/kubekins-test | [corelab/kubekins-test](https://hub.docker.com/r/corelab/kubekins-test) | 23 | 
+| us.gcr.io/k8s-artifacts-prod/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
 | us.gcr.io/k8s-artifacts-prod/kubernetes-dashboard | [corelab/kubernetes-dashboard](https://hub.docker.com/r/corelab/kubernetes-dashboard) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 23 | 
 | us.gcr.io/k8s-artifacts-prod/kubernetes-dashboard-arm | [corelab/kubernetes-dashboard-arm](https://hub.docker.com/r/corelab/kubernetes-dashboard-arm) | 23 | 
