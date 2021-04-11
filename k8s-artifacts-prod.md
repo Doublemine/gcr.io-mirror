@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 417 and image mapping as follow:
+Synced image num: 423 and image mapping as follow:
 
 
 
@@ -79,8 +79,10 @@ Synced image num: 417 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/dnsmasq | [corelab/dnsmasq](https://hub.docker.com/r/corelab/dnsmasq) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq-amd64 | [corelab/dnsmasq-amd64](https://hub.docker.com/r/corelab/dnsmasq-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq-metrics-amd64 | [corelab/dnsmasq-metrics-amd64](https://hub.docker.com/r/corelab/dnsmasq-metrics-amd64) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/dnsmasq-metrics-arm | [corelab/dnsmasq-metrics-arm](https://hub.docker.com/r/corelab/dnsmasq-metrics-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/dnsmasq-metrics-ppc64le | [corelab/dnsmasq-metrics-ppc64le](https://hub.docker.com/r/corelab/dnsmasq-metrics-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/dnsutils | [corelab/dnsutils](https://hub.docker.com/r/corelab/dnsutils) | 3 | 
+| us.gcr.io/k8s-artifacts-prod/e2e-net-amd64 | [corelab/e2e-net-amd64](https://hub.docker.com/r/corelab/e2e-net-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver | [corelab/echoserver](https://hub.docker.com/r/corelab/echoserver) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver-amd64 | [corelab/echoserver-amd64](https://hub.docker.com/r/corelab/echoserver-amd64) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/echoserver-arm | [corelab/echoserver-arm](https://hub.docker.com/r/corelab/echoserver-arm) | 1 | 
@@ -97,6 +99,7 @@ Synced image num: 417 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/etcd-statefulset-e2e-test | [corelab/etcd-statefulset-e2e-test](https://hub.docker.com/r/corelab/etcd-statefulset-e2e-test) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-version-monitor | [corelab/etcd-version-monitor](https://hub.docker.com/r/corelab/etcd-version-monitor) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-version-monitor-shyamjvs | [corelab/etcd-version-monitor-shyamjvs](https://hub.docker.com/r/corelab/etcd-version-monitor-shyamjvs) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/event-exporter | [corelab/event-exporter](https://hub.docker.com/r/corelab/event-exporter) | 19 | 
 | us.gcr.io/k8s-artifacts-prod/example-dns-backend | [corelab/example-dns-backend](https://hub.docker.com/r/corelab/example-dns-backend) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/example-dns-frontend | [corelab/example-dns-frontend](https://hub.docker.com/r/corelab/example-dns-frontend) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/example-guestbook-php-redis | [corelab/example-guestbook-php-redis](https://hub.docker.com/r/corelab/example-guestbook-php-redis) | 2 | 
@@ -174,7 +177,7 @@ Synced image num: 417 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hpa-example2 | [corelab/hpa-example2](https://hub.docker.com/r/corelab/hpa-example2) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hugo | [corelab/hugo](https://hub.docker.com/r/corelab/hugo) | 1 | 
-| us.gcr.io/k8s-artifacts-prod/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 151 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 180 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 224 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 177 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 196 | 
@@ -247,6 +250,7 @@ Synced image num: 417 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver-s390x | [corelab/kube-apiserver-s390x](https://hub.docker.com/r/corelab/kube-apiserver-s390x) | 201 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 241 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm | [corelab/kube-controller-manager-arm](https://hub.docker.com/r/corelab/kube-controller-manager-arm) | 240 | 
+| us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 185 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 24 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
@@ -273,6 +277,7 @@ Synced image num: 417 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-ppc64le | [corelab/kube-scheduler-ppc64le](https://hub.docker.com/r/corelab/kube-scheduler-ppc64le) | 211 | 
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-s390x | [corelab/kube-scheduler-s390x](https://hub.docker.com/r/corelab/kube-scheduler-s390x) | 201 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 20 | 
+| us.gcr.io/k8s-artifacts-prod/kube-state-metrics-amd64 | [corelab/kube-state-metrics-amd64](https://hub.docker.com/r/corelab/kube-state-metrics-amd64) | 13 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics-arm | [corelab/kube-state-metrics-arm](https://hub.docker.com/r/corelab/kube-state-metrics-arm) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics-arm64 | [corelab/kube-state-metrics-arm64](https://hub.docker.com/r/corelab/kube-state-metrics-arm64) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/kube-state-metrics-ppc64le | [corelab/kube-state-metrics-ppc64le](https://hub.docker.com/r/corelab/kube-state-metrics-ppc64le) | 8 | 
@@ -350,6 +355,7 @@ Synced image num: 417 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/non-masquerade-daemon-amd64 | [corelab/non-masquerade-daemon-amd64](https://hub.docker.com/r/corelab/non-masquerade-daemon-amd64) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/nonewprivs | [corelab/nonewprivs](https://hub.docker.com/r/corelab/nonewprivs) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/nvidia-gpu-device-plugin | [corelab/nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/nvidia-gpu-device-plugin) | 67 | 
+| us.gcr.io/k8s-artifacts-prod/pause | [corelab/pause](https://hub.docker.com/r/corelab/pause) | 13 | 
 | us.gcr.io/k8s-artifacts-prod/pause-amd64 | [corelab/pause-amd64](https://hub.docker.com/r/corelab/pause-amd64) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/pause-arm | [corelab/pause-arm](https://hub.docker.com/r/corelab/pause-arm) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/pause-ppc64le | [corelab/pause-ppc64le](https://hub.docker.com/r/corelab/pause-ppc64le) | 5 | 
