@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 409 and image mapping as follow:
+Synced image num: 417 and image mapping as follow:
 
 
 
@@ -42,6 +42,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/conformance | [corelab/conformance](https://hub.docker.com/r/corelab/conformance) | 106 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-amd64 | [corelab/conformance-amd64](https://hub.docker.com/r/corelab/conformance-amd64) | 106 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-arm | [corelab/conformance-arm](https://hub.docker.com/r/corelab/conformance-arm) | 106 | 
+| us.gcr.io/k8s-artifacts-prod/conformance-arm64 | [corelab/conformance-arm64](https://hub.docker.com/r/corelab/conformance-arm64) | 90 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-ppc64le | [corelab/conformance-ppc64le](https://hub.docker.com/r/corelab/conformance-ppc64le) | 74 | 
 | us.gcr.io/k8s-artifacts-prod/conformance-s390x | [corelab/conformance-s390x](https://hub.docker.com/r/corelab/conformance-s390x) | 106 | 
 | us.gcr.io/k8s-artifacts-prod/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 30 | 
@@ -55,9 +56,11 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/debian-base-arm | [corelab/debian-base-arm](https://hub.docker.com/r/corelab/debian-base-arm) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/debian-base-arm64 | [corelab/debian-base-arm64](https://hub.docker.com/r/corelab/debian-base-arm64) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/debian-base-ppc64le | [corelab/debian-base-ppc64le](https://hub.docker.com/r/corelab/debian-base-ppc64le) | 12 | 
+| us.gcr.io/k8s-artifacts-prod/debian-base-s390x | [corelab/debian-base-s390x](https://hub.docker.com/r/corelab/debian-base-s390x) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base | [corelab/debian-hyperkube-base](https://hub.docker.com/r/corelab/debian-hyperkube-base) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base-arm | [corelab/debian-hyperkube-base-arm](https://hub.docker.com/r/corelab/debian-hyperkube-base-arm) | 16 | 
 | us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base-arm64 | [corelab/debian-hyperkube-base-arm64](https://hub.docker.com/r/corelab/debian-hyperkube-base-arm64) | 16 | 
+| us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base-ppc64le | [corelab/debian-hyperkube-base-ppc64le](https://hub.docker.com/r/corelab/debian-hyperkube-base-ppc64le) | 16 | 
 | us.gcr.io/k8s-artifacts-prod/debian-hyperkube-base-s390x | [corelab/debian-hyperkube-base-s390x](https://hub.docker.com/r/corelab/debian-hyperkube-base-s390x) | 16 | 
 | us.gcr.io/k8s-artifacts-prod/debian-iptables | [corelab/debian-iptables](https://hub.docker.com/r/corelab/debian-iptables) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/debian-iptables-arm | [corelab/debian-iptables-arm](https://hub.docker.com/r/corelab/debian-iptables-arm) | 19 | 
@@ -84,7 +87,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/echoserver-ppc64le | [corelab/echoserver-ppc64le](https://hub.docker.com/r/corelab/echoserver-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/elasticsearch | [corelab/elasticsearch](https://hub.docker.com/r/corelab/elasticsearch) | 21 | 
 | us.gcr.io/k8s-artifacts-prod/eptest | [corelab/eptest](https://hub.docker.com/r/corelab/eptest) | 1 | 
-| us.gcr.io/k8s-artifacts-prod/etcd | [corelab/etcd](https://hub.docker.com/r/corelab/etcd) | 25 | 
+| us.gcr.io/k8s-artifacts-prod/etcd | [corelab/etcd](https://hub.docker.com/r/corelab/etcd) | 64 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-amd64 | [corelab/etcd-amd64](https://hub.docker.com/r/corelab/etcd-amd64) | 52 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-arm | [corelab/etcd-arm](https://hub.docker.com/r/corelab/etcd-arm) | 42 | 
 | us.gcr.io/k8s-artifacts-prod/etcd-arm64 | [corelab/etcd-arm64](https://hub.docker.com/r/corelab/etcd-arm64) | 40 | 
@@ -166,6 +169,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/heapster-influxdb-ppc64le | [corelab/heapster-influxdb-ppc64le](https://hub.docker.com/r/corelab/heapster-influxdb-ppc64le) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-influxdb-s390x | [corelab/heapster-influxdb-s390x](https://hub.docker.com/r/corelab/heapster-influxdb-s390x) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-ppc64le | [corelab/heapster-ppc64le](https://hub.docker.com/r/corelab/heapster-ppc64le) | 10 | 
+| us.gcr.io/k8s-artifacts-prod/heapster-s390x | [corelab/heapster-s390x](https://hub.docker.com/r/corelab/heapster-s390x) | 10 | 
 | us.gcr.io/k8s-artifacts-prod/hostexec | [corelab/hostexec](https://hub.docker.com/r/corelab/hostexec) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/hpa-example2 | [corelab/hpa-example2](https://hub.docker.com/r/corelab/hpa-example2) | 1 | 
@@ -180,6 +184,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
 | us.gcr.io/k8s-artifacts-prod/ip-masq-agent | [corelab/ip-masq-agent](https://hub.docker.com/r/corelab/ip-masq-agent) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/ip-masq-agent-amd64 | [corelab/ip-masq-agent-amd64](https://hub.docker.com/r/corelab/ip-masq-agent-amd64) | 13 | 
+| us.gcr.io/k8s-artifacts-prod/ip-masq-agent-arm64 | [corelab/ip-masq-agent-arm64](https://hub.docker.com/r/corelab/ip-masq-agent-arm64) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/ip-masq-agent-ppc64le | [corelab/ip-masq-agent-ppc64le](https://hub.docker.com/r/corelab/ip-masq-agent-ppc64le) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/iperf | [corelab/iperf](https://hub.docker.com/r/corelab/iperf) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/jessie-dnsutils | [corelab/jessie-dnsutils](https://hub.docker.com/r/corelab/jessie-dnsutils) | 2 | 
@@ -203,6 +208,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-ginkgo-arm64 | [corelab/k8s-dns-ginkgo-arm64](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-arm64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-ginkgo-ppc64le | [corelab/k8s-dns-ginkgo-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-ginkgo-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns | [corelab/k8s-dns-kube-dns](https://hub.docker.com/r/corelab/k8s-dns-kube-dns) | 16 | 
+| us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-amd64 | [corelab/k8s-dns-kube-dns-amd64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-amd64) | 33 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-arm | [corelab/k8s-dns-kube-dns-arm](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm) | 33 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-arm64 | [corelab/k8s-dns-kube-dns-arm64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-arm64) | 33 | 
 | us.gcr.io/k8s-artifacts-prod/k8s-dns-kube-dns-ppc64le | [corelab/k8s-dns-kube-dns-ppc64le](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-ppc64le) | 33 | 
@@ -249,6 +255,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-dns-perf-client-amd64 | [corelab/kube-dns-perf-client-amd64](https://hub.docker.com/r/corelab/kube-dns-perf-client-amd64) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/kube-dnsmasq-amd64 | [corelab/kube-dnsmasq-amd64](https://hub.docker.com/r/corelab/kube-dnsmasq-amd64) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/kube-dnsmasq-arm | [corelab/kube-dnsmasq-arm](https://hub.docker.com/r/corelab/kube-dnsmasq-arm) | 3 | 
+| us.gcr.io/k8s-artifacts-prod/kube-dnsmasq-arm64 | [corelab/kube-dnsmasq-arm64](https://hub.docker.com/r/corelab/kube-dnsmasq-arm64) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/kube-dnsmasq-ppc64le | [corelab/kube-dnsmasq-ppc64le](https://hub.docker.com/r/corelab/kube-dnsmasq-ppc64le) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/kube-haproxy | [corelab/kube-haproxy](https://hub.docker.com/r/corelab/kube-haproxy) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/kube-keepalived-vip | [corelab/kube-keepalived-vip](https://hub.docker.com/r/corelab/kube-keepalived-vip) | 9 | 
@@ -256,7 +263,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 240 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 241 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-arm | [corelab/kube-proxy-arm](https://hub.docker.com/r/corelab/kube-proxy-arm) | 240 | 
-| us.gcr.io/k8s-artifacts-prod/kube-proxy-arm64 | [corelab/kube-proxy-arm64](https://hub.docker.com/r/corelab/kube-proxy-arm64) | 108 | 
+| us.gcr.io/k8s-artifacts-prod/kube-proxy-arm64 | [corelab/kube-proxy-arm64](https://hub.docker.com/r/corelab/kube-proxy-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-ppc64le | [corelab/kube-proxy-ppc64le](https://hub.docker.com/r/corelab/kube-proxy-ppc64le) | 211 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-s390x | [corelab/kube-proxy-s390x](https://hub.docker.com/r/corelab/kube-proxy-s390x) | 201 | 
 | us.gcr.io/k8s-artifacts-prod/kube-registry-proxy | [corelab/kube-registry-proxy](https://hub.docker.com/r/corelab/kube-registry-proxy) | 2 | 
@@ -360,6 +367,7 @@ Synced image num: 409 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/queue-health-base | [corelab/queue-health-base](https://hub.docker.com/r/corelab/queue-health-base) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/queue-health-graph | [corelab/queue-health-graph](https://hub.docker.com/r/corelab/queue-health-graph) | 12 | 
 | us.gcr.io/k8s-artifacts-prod/queue-health-poll | [corelab/queue-health-poll](https://hub.docker.com/r/corelab/queue-health-poll) | 5 | 
+| us.gcr.io/k8s-artifacts-prod/redis | [corelab/redis](https://hub.docker.com/r/corelab/redis) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/redis-install | [corelab/redis-install](https://hub.docker.com/r/corelab/redis-install) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/redis-slave | [corelab/redis-slave](https://hub.docker.com/r/corelab/redis-slave) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/registry-promoter-test-image | [corelab/registry-promoter-test-image](https://hub.docker.com/r/corelab/registry-promoter-test-image) | 1 | 
