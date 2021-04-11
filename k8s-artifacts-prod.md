@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 455 and image mapping as follow:
+Synced image num: 458 and image mapping as follow:
 
 
 
@@ -147,7 +147,7 @@ Synced image num: 455 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/git-sync-amd64 | [corelab/git-sync-amd64](https://hub.docker.com/r/corelab/git-sync-amd64) | 8 | 
 | us.gcr.io/k8s-artifacts-prod/github-fetcher | [corelab/github-fetcher](https://hub.docker.com/r/corelab/github-fetcher) | 10 | 
 | us.gcr.io/k8s-artifacts-prod/github-token-counter | [corelab/github-token-counter](https://hub.docker.com/r/corelab/github-token-counter) | 9 | 
-| us.gcr.io/k8s-artifacts-prod/github-transform | [corelab/github-transform](https://hub.docker.com/r/corelab/github-transform) | 12 | 
+| us.gcr.io/k8s-artifacts-prod/github-transform | [corelab/github-transform](https://hub.docker.com/r/corelab/github-transform) | 61 | 
 | us.gcr.io/k8s-artifacts-prod/gitolite-http | [corelab/gitolite-http](https://hub.docker.com/r/corelab/gitolite-http) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gke-certificates-controller | [corelab/gke-certificates-controller](https://hub.docker.com/r/corelab/gke-certificates-controller) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/gke-cloud-kms-plugin | [corelab/gke-cloud-kms-plugin](https://hub.docker.com/r/corelab/gke-cloud-kms-plugin) | 2 | 
@@ -164,9 +164,11 @@ Synced image num: 455 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/gvisor-admission-webhook-amd64 | [corelab/gvisor-admission-webhook-amd64](https://hub.docker.com/r/corelab/gvisor-admission-webhook-amd64) | 9 | 
 | us.gcr.io/k8s-artifacts-prod/haproxy | [corelab/haproxy](https://hub.docker.com/r/corelab/haproxy) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/healthz-server | [corelab/healthz-server](https://hub.docker.com/r/corelab/healthz-server) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/heapster | [corelab/heapster](https://hub.docker.com/r/corelab/heapster) | 42 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-amd64 | [corelab/heapster-amd64](https://hub.docker.com/r/corelab/heapster-amd64) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-arm | [corelab/heapster-arm](https://hub.docker.com/r/corelab/heapster-arm) | 11 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-arm64 | [corelab/heapster-arm64](https://hub.docker.com/r/corelab/heapster-arm64) | 10 | 
+| us.gcr.io/k8s-artifacts-prod/heapster-grafana | [corelab/heapster-grafana](https://hub.docker.com/r/corelab/heapster-grafana) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-grafana-amd64 | [corelab/heapster-grafana-amd64](https://hub.docker.com/r/corelab/heapster-grafana-amd64) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-grafana-arm | [corelab/heapster-grafana-arm](https://hub.docker.com/r/corelab/heapster-grafana-arm) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/heapster-grafana-arm64 | [corelab/heapster-grafana-arm64](https://hub.docker.com/r/corelab/heapster-grafana-arm64) | 3 | 
@@ -270,7 +272,7 @@ Synced image num: 455 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 211 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 27 | 
-| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 52 | 
+| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 72 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
@@ -331,6 +333,7 @@ Synced image num: 455 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/liveness | [corelab/liveness](https://hub.docker.com/r/corelab/liveness) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/loader | [corelab/loader](https://hub.docker.com/r/corelab/loader) | 5 | 
 | us.gcr.io/k8s-artifacts-prod/logexp | [corelab/logexp](https://hub.docker.com/r/corelab/logexp) | 2 | 
+| us.gcr.io/k8s-artifacts-prod/logexporter | [corelab/logexporter](https://hub.docker.com/r/corelab/logexporter) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/logs-generator | [corelab/logs-generator](https://hub.docker.com/r/corelab/logs-generator) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/managed-certificate-controller | [corelab/managed-certificate-controller](https://hub.docker.com/r/corelab/managed-certificate-controller) | 13 | 
 | us.gcr.io/k8s-artifacts-prod/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
