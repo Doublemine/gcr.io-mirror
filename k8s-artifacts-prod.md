@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 447 and image mapping as follow:
+Synced image num: 448 and image mapping as follow:
 
 
 
@@ -265,7 +265,7 @@ Synced image num: 447 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 211 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 27 | 
-| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 26 | 
+| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 52 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
@@ -382,6 +382,7 @@ Synced image num: 447 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/porter | [corelab/porter](https://hub.docker.com/r/corelab/porter) | 4 | 
 | us.gcr.io/k8s-artifacts-prod/portforwardtester | [corelab/portforwardtester](https://hub.docker.com/r/corelab/portforwardtester) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 32 | 
 | us.gcr.io/k8s-artifacts-prod/proxy-agent | [corelab/proxy-agent](https://hub.docker.com/r/corelab/proxy-agent) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/proxy-server | [corelab/proxy-server](https://hub.docker.com/r/corelab/proxy-server) | 3 | 
 | us.gcr.io/k8s-artifacts-prod/proxy-to-service | [corelab/proxy-to-service](https://hub.docker.com/r/corelab/proxy-to-service) | 2 | 
