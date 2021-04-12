@@ -1,7 +1,7 @@
 # k8s-artifacts-prod
 
 
-Synced image num: 458 and image mapping as follow:
+Synced image num: 460 and image mapping as follow:
 
 
 
@@ -160,6 +160,7 @@ Synced image num: 458 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/gke-node-termination-handler | [corelab/gke-node-termination-handler](https://hub.docker.com/r/corelab/gke-node-termination-handler) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/glbc | [corelab/glbc](https://hub.docker.com/r/corelab/glbc) | 18 | 
 | us.gcr.io/k8s-artifacts-prod/google-containers-test-image | [corelab/google-containers-test-image](https://hub.docker.com/r/corelab/google-containers-test-image) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/goproxy | [corelab/goproxy](https://hub.docker.com/r/corelab/goproxy) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/guestbook | [corelab/guestbook](https://hub.docker.com/r/corelab/guestbook) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/gvisor-admission-webhook-amd64 | [corelab/gvisor-admission-webhook-amd64](https://hub.docker.com/r/corelab/gvisor-admission-webhook-amd64) | 9 | 
 | us.gcr.io/k8s-artifacts-prod/haproxy | [corelab/haproxy](https://hub.docker.com/r/corelab/haproxy) | 4 | 
@@ -191,7 +192,7 @@ Synced image num: 458 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm | [corelab/hyperkube-arm](https://hub.docker.com/r/corelab/hyperkube-arm) | 217 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-arm64 | [corelab/hyperkube-arm64](https://hub.docker.com/r/corelab/hyperkube-arm64) | 215 | 
 | us.gcr.io/k8s-artifacts-prod/hyperkube-ppc64le | [corelab/hyperkube-ppc64le](https://hub.docker.com/r/corelab/hyperkube-ppc64le) | 184 | 
-| us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 168 | 
+| us.gcr.io/k8s-artifacts-prod/hyperkube-s390x | [corelab/hyperkube-s390x](https://hub.docker.com/r/corelab/hyperkube-s390x) | 184 | 
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
 | us.gcr.io/k8s-artifacts-prod/ip-masq-agent | [corelab/ip-masq-agent](https://hub.docker.com/r/corelab/ip-masq-agent) | 3 | 
@@ -271,8 +272,8 @@ Synced image num: 458 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm | [corelab/kube-controller-manager-arm](https://hub.docker.com/r/corelab/kube-controller-manager-arm) | 240 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-arm64 | [corelab/kube-controller-manager-arm64](https://hub.docker.com/r/corelab/kube-controller-manager-arm64) | 232 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-ppc64le | [corelab/kube-controller-manager-ppc64le](https://hub.docker.com/r/corelab/kube-controller-manager-ppc64le) | 211 | 
-| us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 27 | 
-| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 72 | 
+| us.gcr.io/k8s-artifacts-prod/kube-controller-manager-s390x | [corelab/kube-controller-manager-s390x](https://hub.docker.com/r/corelab/kube-controller-manager-s390x) | 201 | 
+| us.gcr.io/k8s-artifacts-prod/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 75 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-amd64 | [corelab/kube-discovery-amd64](https://hub.docker.com/r/corelab/kube-discovery-amd64) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm | [corelab/kube-discovery-arm](https://hub.docker.com/r/corelab/kube-discovery-arm) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/kube-discovery-arm64 | [corelab/kube-discovery-arm64](https://hub.docker.com/r/corelab/kube-discovery-arm64) | 1 | 
@@ -445,6 +446,7 @@ Synced image num: 458 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/tiny-glibc-ppc64le | [corelab/tiny-glibc-ppc64le](https://hub.docker.com/r/corelab/tiny-glibc-ppc64le) | 1 | 
 | us.gcr.io/k8s-artifacts-prod/toolbox | [corelab/toolbox](https://hub.docker.com/r/corelab/toolbox) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/ubuntu | [corelab/ubuntu](https://hub.docker.com/r/corelab/ubuntu) | 1 | 
+| us.gcr.io/k8s-artifacts-prod/ubuntu-nvidia-driver-installer | [corelab/ubuntu-nvidia-driver-installer](https://hub.docker.com/r/corelab/ubuntu-nvidia-driver-installer) | 53 | 
 | us.gcr.io/k8s-artifacts-prod/ubuntu-slim | [corelab/ubuntu-slim](https://hub.docker.com/r/corelab/ubuntu-slim) | 15 | 
 | us.gcr.io/k8s-artifacts-prod/ubuntu-slim-amd64 | [corelab/ubuntu-slim-amd64](https://hub.docker.com/r/corelab/ubuntu-slim-amd64) | 6 | 
 | us.gcr.io/k8s-artifacts-prod/ubuntu-slim-arm | [corelab/ubuntu-slim-arm](https://hub.docker.com/r/corelab/ubuntu-slim-arm) | 6 | 
