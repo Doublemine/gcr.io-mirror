@@ -48,6 +48,10 @@ jobs:
     - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n k8s-artifacts-prod
         - ./commit.sh    
+        
+    - script:
+        - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n kubernetes-e2e-test-images
+        - ./commit.sh  
 
     - stage: export
       script:
