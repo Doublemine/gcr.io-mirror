@@ -10,6 +10,7 @@
  -  [**cloud-solutions-images**](cloud-solutions-images.md)
  -  [**heption-images**](heption-images.md)
  -  [**k8s.gcr.io**](k8s-artifacts-prod.md)
+ -  [**kubernetes-e2e-test-images**](kubernetes-e2e-test-images.md)
 
 
 ## Usage
