@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 40 and image mapping as follow:
+Synced image num: 45 and image mapping as follow:
 
 
 
@@ -16,13 +16,17 @@ Synced image num: 40 and image mapping as follow:
 | gcr.io/gke-release/csi-driver-registrar | [corelab/csi-driver-registrar](https://hub.docker.com/r/corelab/csi-driver-registrar) | 3 | 
 | gcr.io/gke-release/csi-node-driver-registrar | [corelab/csi-node-driver-registrar](https://hub.docker.com/r/corelab/csi-node-driver-registrar) | 7 | 
 | gcr.io/gke-release/csi-resizer | [corelab/csi-resizer](https://hub.docker.com/r/corelab/csi-resizer) | 4 | 
+| gcr.io/gke-release/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 1 | 
+| gcr.io/gke-release/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 8 | 
 | gcr.io/gke-release/defaultbackend-amd64 | [corelab/defaultbackend-amd64](https://hub.docker.com/r/corelab/defaultbackend-amd64) | 5 | 
 | gcr.io/gke-release/echoserver | [corelab/echoserver](https://hub.docker.com/r/corelab/echoserver) | 11 | 
 | gcr.io/gke-release/etcd-empty-dir-cleanup | [corelab/etcd-empty-dir-cleanup](https://hub.docker.com/r/corelab/etcd-empty-dir-cleanup) | 21 | 
 | gcr.io/gke-release/fluent-bit | [corelab/fluent-bit](https://hub.docker.com/r/corelab/fluent-bit) | 5 | 
 | gcr.io/gke-release/fluentd-gcp | [corelab/fluentd-gcp](https://hub.docker.com/r/corelab/fluentd-gcp) | 36 | 
 | gcr.io/gke-release/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 10 | 
+| gcr.io/gke-release/gcp-filestore-csi-driver | [corelab/gcp-filestore-csi-driver](https://hub.docker.com/r/corelab/gcp-filestore-csi-driver) | 1 | 
 | gcr.io/gke-release/git-deployer | [corelab/git-deployer](https://hub.docker.com/r/corelab/git-deployer) | 7 | 
+| gcr.io/gke-release/git-sync | [corelab/git-sync](https://hub.docker.com/r/corelab/git-sync) | 16 | 
 | gcr.io/gke-release/gke-hub-guac-webhook | [corelab/gke-hub-guac-webhook](https://hub.docker.com/r/corelab/gke-hub-guac-webhook) | 2 | 
 | gcr.io/gke-release/gke-metrics-agent | [corelab/gke-metrics-agent](https://hub.docker.com/r/corelab/gke-metrics-agent) | 27 | 
 | gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 26 | 
@@ -36,9 +40,10 @@ Synced image num: 40 and image mapping as follow:
 | gcr.io/gke-release/k8s-dns-node-cache-amd64 | [corelab/k8s-dns-node-cache-amd64](https://hub.docker.com/r/corelab/k8s-dns-node-cache-amd64) | 4 | 
 | gcr.io/gke-release/k8s-dns-sidecar | [corelab/k8s-dns-sidecar](https://hub.docker.com/r/corelab/k8s-dns-sidecar) | 16 | 
 | gcr.io/gke-release/k8s-tpu-operator | [corelab/k8s-tpu-operator](https://hub.docker.com/r/corelab/k8s-tpu-operator) | 9 | 
+| gcr.io/gke-release/kalm | [corelab/kalm](https://hub.docker.com/r/corelab/kalm) | 7 | 
 | gcr.io/gke-release/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 247 | 
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
-| gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 230 | 
+| gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 419 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 221 | 
 | gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 202 | 
 | gcr.io/gke-release/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
