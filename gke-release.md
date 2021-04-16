@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 32 and image mapping as follow:
+Synced image num: 33 and image mapping as follow:
 
 
 
@@ -33,6 +33,7 @@ Synced image num: 32 and image mapping as follow:
 | gcr.io/gke-release/k8s-dns-sidecar | [corelab/k8s-dns-sidecar](https://hub.docker.com/r/corelab/k8s-dns-sidecar) | 16 | 
 | gcr.io/gke-release/k8s-tpu-operator | [corelab/k8s-tpu-operator](https://hub.docker.com/r/corelab/k8s-tpu-operator) | 9 | 
 | gcr.io/gke-release/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 74 | 
+| gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 230 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 221 | 
 | gcr.io/gke-release/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
 | gcr.io/gke-release/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 15 | 
