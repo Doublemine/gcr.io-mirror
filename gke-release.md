@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 64 and image mapping as follow:
+Synced image num: 77 and image mapping as follow:
 
 
 
@@ -9,11 +9,13 @@ Synced image num: 64 and image mapping as follow:
 |-------------- | -------------- | -------------- | 
 | gcr.io/gke-release/addon-resizer | [corelab/addon-resizer](https://hub.docker.com/r/corelab/addon-resizer) | 28 | 
 | gcr.io/gke-release/application-controller | [corelab/application-controller](https://hub.docker.com/r/corelab/application-controller) | 2 | 
+| gcr.io/gke-release/auditproxy | [corelab/auditproxy](https://hub.docker.com/r/corelab/auditproxy) | 7 | 
 | gcr.io/gke-release/busybox | [corelab/busybox](https://hub.docker.com/r/corelab/busybox) | 4 | 
 | gcr.io/gke-release/cloud-kms-plugin | [corelab/cloud-kms-plugin](https://hub.docker.com/r/corelab/cloud-kms-plugin) | 1 | 
 | gcr.io/gke-release/cloud-kms-sync | [corelab/cloud-kms-sync](https://hub.docker.com/r/corelab/cloud-kms-sync) | 1 | 
 | gcr.io/gke-release/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
 | gcr.io/gke-release/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 34 | 
+| gcr.io/gke-release/cpvpa-amd64 | [corelab/cpvpa-amd64](https://hub.docker.com/r/corelab/cpvpa-amd64) | 8 | 
 | gcr.io/gke-release/csi-attacher | [corelab/csi-attacher](https://hub.docker.com/r/corelab/csi-attacher) | 9 | 
 | gcr.io/gke-release/csi-driver-registrar | [corelab/csi-driver-registrar](https://hub.docker.com/r/corelab/csi-driver-registrar) | 3 | 
 | gcr.io/gke-release/csi-node-driver-registrar | [corelab/csi-node-driver-registrar](https://hub.docker.com/r/corelab/csi-node-driver-registrar) | 7 | 
@@ -36,16 +38,24 @@ Synced image num: 64 and image mapping as follow:
 | gcr.io/gke-release/git-deployer | [corelab/git-deployer](https://hub.docker.com/r/corelab/git-deployer) | 7 | 
 | gcr.io/gke-release/git-sync | [corelab/git-sync](https://hub.docker.com/r/corelab/git-sync) | 16 | 
 | gcr.io/gke-release/gke-hub-guac-webhook | [corelab/gke-hub-guac-webhook](https://hub.docker.com/r/corelab/gke-hub-guac-webhook) | 2 | 
+| gcr.io/gke-release/gke-mcs-importer | [corelab/gke-mcs-importer](https://hub.docker.com/r/corelab/gke-mcs-importer) | 7 | 
+| gcr.io/gke-release/gke-metadata-server | [corelab/gke-metadata-server](https://hub.docker.com/r/corelab/gke-metadata-server) | 97 | 
 | gcr.io/gke-release/gke-metrics-agent | [corelab/gke-metrics-agent](https://hub.docker.com/r/corelab/gke-metrics-agent) | 27 | 
+| gcr.io/gke-release/gke-node-termination-handler | [corelab/gke-node-termination-handler](https://hub.docker.com/r/corelab/gke-node-termination-handler) | 2 | 
+| gcr.io/gke-release/gke-oidc-envoy | [corelab/gke-oidc-envoy](https://hub.docker.com/r/corelab/gke-oidc-envoy) | 26 | 
 | gcr.io/gke-release/gke-oidc-operator | [corelab/gke-oidc-operator](https://hub.docker.com/r/corelab/gke-oidc-operator) | 26 | 
 | gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 26 | 
+| gcr.io/gke-release/gke-windows-builder | [corelab/gke-windows-builder](https://hub.docker.com/r/corelab/gke-windows-builder) | 4 | 
 | gcr.io/gke-release/gke-windows-image-check | [corelab/gke-windows-image-check](https://hub.docker.com/r/corelab/gke-windows-image-check) | 1 | 
 | gcr.io/gke-release/go | [corelab/go](https://hub.docker.com/r/corelab/go) | 23 | 
 | gcr.io/gke-release/heapster | [corelab/heapster](https://hub.docker.com/r/corelab/heapster) | 45 | 
+| gcr.io/gke-release/heapster-grafana-amd64 | [corelab/heapster-grafana-amd64](https://hub.docker.com/r/corelab/heapster-grafana-amd64) | 5 | 
+| gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 45 | 
 | gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 203 | 
 | gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
 | gcr.io/gke-release/hyperkube-mcmp-amd64 | [corelab/hyperkube-mcmp-amd64](https://hub.docker.com/r/corelab/hyperkube-mcmp-amd64) | 43 | 
 | gcr.io/gke-release/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
+| gcr.io/gke-release/k8s-dns-dnsmasq-nanny | [corelab/k8s-dns-dnsmasq-nanny](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny) | 16 | 
 | gcr.io/gke-release/k8s-dns-kube-dns | [corelab/k8s-dns-kube-dns](https://hub.docker.com/r/corelab/k8s-dns-kube-dns) | 16 | 
 | gcr.io/gke-release/k8s-dns-kube-dns-amd64 | [corelab/k8s-dns-kube-dns-amd64](https://hub.docker.com/r/corelab/k8s-dns-kube-dns-amd64) | 37 | 
 | gcr.io/gke-release/k8s-dns-node-cache | [corelab/k8s-dns-node-cache](https://hub.docker.com/r/corelab/k8s-dns-node-cache) | 14 | 
@@ -67,8 +77,11 @@ Synced image num: 64 and image mapping as follow:
 | gcr.io/gke-release/managed-certificate-controller | [corelab/managed-certificate-controller](https://hub.docker.com/r/corelab/managed-certificate-controller) | 5 | 
 | gcr.io/gke-release/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
 | gcr.io/gke-release/metrics-server-amd64 | [corelab/metrics-server-amd64](https://hub.docker.com/r/corelab/metrics-server-amd64) | 11 | 
+| gcr.io/gke-release/nvidia-partition-gpu | [corelab/nvidia-partition-gpu](https://hub.docker.com/r/corelab/nvidia-partition-gpu) | 3 | 
+| gcr.io/gke-release/proxy-agent-amd64 | [corelab/proxy-agent-amd64](https://hub.docker.com/r/corelab/proxy-agent-amd64) | 4 | 
 | gcr.io/gke-release/slo-monitor | [corelab/slo-monitor](https://hub.docker.com/r/corelab/slo-monitor) | 11 | 
 | gcr.io/gke-release/snapshot-controller | [corelab/snapshot-controller](https://hub.docker.com/r/corelab/snapshot-controller) | 1 | 
 | gcr.io/gke-release/volume-nfs | [corelab/volume-nfs](https://hub.docker.com/r/corelab/volume-nfs) | 8 | 
 | gcr.io/gke-release/vpa-admission-controller | [corelab/vpa-admission-controller](https://hub.docker.com/r/corelab/vpa-admission-controller) | 11 | 
+| gcr.io/gke-release/vpa-updater | [corelab/vpa-updater](https://hub.docker.com/r/corelab/vpa-updater) | 11 | 
 
