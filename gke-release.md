@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 60 and image mapping as follow:
+Synced image num: 64 and image mapping as follow:
 
 
 
@@ -28,8 +28,10 @@ Synced image num: 60 and image mapping as follow:
 | gcr.io/gke-release/event-exporter | [corelab/event-exporter](https://hub.docker.com/r/corelab/event-exporter) | 21 | 
 | gcr.io/gke-release/fluent-bit | [corelab/fluent-bit](https://hub.docker.com/r/corelab/fluent-bit) | 5 | 
 | gcr.io/gke-release/fluent-bit-gke-exporter | [corelab/fluent-bit-gke-exporter](https://hub.docker.com/r/corelab/fluent-bit-gke-exporter) | 15 | 
+| gcr.io/gke-release/fluentd-elasticsearch | [corelab/fluentd-elasticsearch](https://hub.docker.com/r/corelab/fluentd-elasticsearch) | 31 | 
 | gcr.io/gke-release/fluentd-gcp | [corelab/fluentd-gcp](https://hub.docker.com/r/corelab/fluentd-gcp) | 36 | 
 | gcr.io/gke-release/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 10 | 
+| gcr.io/gke-release/gcp-controller-manager | [corelab/gcp-controller-manager](https://hub.docker.com/r/corelab/gcp-controller-manager) | 23 | 
 | gcr.io/gke-release/gcp-filestore-csi-driver | [corelab/gcp-filestore-csi-driver](https://hub.docker.com/r/corelab/gcp-filestore-csi-driver) | 1 | 
 | gcr.io/gke-release/git-deployer | [corelab/git-deployer](https://hub.docker.com/r/corelab/git-deployer) | 7 | 
 | gcr.io/gke-release/git-sync | [corelab/git-sync](https://hub.docker.com/r/corelab/git-sync) | 16 | 
@@ -40,7 +42,7 @@ Synced image num: 60 and image mapping as follow:
 | gcr.io/gke-release/gke-windows-image-check | [corelab/gke-windows-image-check](https://hub.docker.com/r/corelab/gke-windows-image-check) | 1 | 
 | gcr.io/gke-release/go | [corelab/go](https://hub.docker.com/r/corelab/go) | 23 | 
 | gcr.io/gke-release/heapster | [corelab/heapster](https://hub.docker.com/r/corelab/heapster) | 45 | 
-| gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 146 | 
+| gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 203 | 
 | gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
 | gcr.io/gke-release/hyperkube-mcmp-amd64 | [corelab/hyperkube-mcmp-amd64](https://hub.docker.com/r/corelab/hyperkube-mcmp-amd64) | 43 | 
 | gcr.io/gke-release/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
@@ -54,7 +56,7 @@ Synced image num: 60 and image mapping as follow:
 | gcr.io/gke-release/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 247 | 
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 469 | 
-| gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 221 | 
+| gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 282 | 
 | gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 215 | 
 | gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 138 | 
 | gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 202 | 
@@ -62,9 +64,11 @@ Synced image num: 60 and image mapping as follow:
 | gcr.io/gke-release/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
 | gcr.io/gke-release/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 23 | 
 | gcr.io/gke-release/kubernetes-zookeeper | [corelab/kubernetes-zookeeper](https://hub.docker.com/r/corelab/kubernetes-zookeeper) | 1 | 
+| gcr.io/gke-release/managed-certificate-controller | [corelab/managed-certificate-controller](https://hub.docker.com/r/corelab/managed-certificate-controller) | 5 | 
 | gcr.io/gke-release/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
 | gcr.io/gke-release/metrics-server-amd64 | [corelab/metrics-server-amd64](https://hub.docker.com/r/corelab/metrics-server-amd64) | 11 | 
 | gcr.io/gke-release/slo-monitor | [corelab/slo-monitor](https://hub.docker.com/r/corelab/slo-monitor) | 11 | 
 | gcr.io/gke-release/snapshot-controller | [corelab/snapshot-controller](https://hub.docker.com/r/corelab/snapshot-controller) | 1 | 
 | gcr.io/gke-release/volume-nfs | [corelab/volume-nfs](https://hub.docker.com/r/corelab/volume-nfs) | 8 | 
+| gcr.io/gke-release/vpa-admission-controller | [corelab/vpa-admission-controller](https://hub.docker.com/r/corelab/vpa-admission-controller) | 11 | 
 
