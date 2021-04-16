@@ -53,7 +53,7 @@ jobs:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n kubernetes-e2e-test-images
         - ./commit.sh  
         
-     - script:
+    - script:
         - python sync.py -u $HUB_NAME -p $HUB_PWD -o $HUB_ORG -n google-samples
         - ./commit.sh
         
