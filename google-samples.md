@@ -1,7 +1,7 @@
 # google-samples
 
 
-Synced image num: 89 and image mapping as follow:
+Synced image num: 100 and image mapping as follow:
 
 
 
@@ -10,13 +10,17 @@ Synced image num: 89 and image mapping as follow:
 | gcr.io/google-samples/adservice | [corelab/adservice](https://hub.docker.com/r/corelab/adservice) | 1 | 
 | gcr.io/google-samples/appengine-tensorboard | [corelab/appengine-tensorboard](https://hub.docker.com/r/corelab/appengine-tensorboard) | 2 | 
 | gcr.io/google-samples/automl-pipeline | [corelab/automl-pipeline](https://hub.docker.com/r/corelab/automl-pipeline) | 1 | 
+| gcr.io/google-samples/automl-ucaip | [corelab/automl-ucaip](https://hub.docker.com/r/corelab/automl-ucaip) | 1 | 
 | gcr.io/google-samples/bw-aiplatform | [corelab/bw-aiplatform](https://hub.docker.com/r/corelab/bw-aiplatform) | 1 | 
 | gcr.io/google-samples/bw-aiplatform-mb | [corelab/bw-aiplatform-mb](https://hub.docker.com/r/corelab/bw-aiplatform-mb) | 1 | 
 | gcr.io/google-samples/bw-cc-train | [corelab/bw-cc-train](https://hub.docker.com/r/corelab/bw-cc-train) | 1 | 
 | gcr.io/google-samples/bw-pipeline-tfserve | [corelab/bw-pipeline-tfserve](https://hub.docker.com/r/corelab/bw-pipeline-tfserve) | 2 | 
 | gcr.io/google-samples/bw-pl-bikes-train | [corelab/bw-pl-bikes-train](https://hub.docker.com/r/corelab/bw-pl-bikes-train) | 3 | 
+| gcr.io/google-samples/cartservice | [corelab/cartservice](https://hub.docker.com/r/corelab/cartservice) | 1 | 
 | gcr.io/google-samples/cassandra | [corelab/cassandra](https://hub.docker.com/r/corelab/cassandra) | 6 | 
 | gcr.io/google-samples/checkoutservice | [corelab/checkoutservice](https://hub.docker.com/r/corelab/checkoutservice) | 1 | 
+| gcr.io/google-samples/cloudbuild-kustomize | [corelab/cloudbuild-kustomize](https://hub.docker.com/r/corelab/cloudbuild-kustomize) | 1 | 
+| gcr.io/google-samples/container-analysis-webhook | [corelab/container-analysis-webhook](https://hub.docker.com/r/corelab/container-analysis-webhook) | 1 | 
 | gcr.io/google-samples/currencyservice | [corelab/currencyservice](https://hub.docker.com/r/corelab/currencyservice) | 1 | 
 | gcr.io/google-samples/echo-go | [corelab/echo-go](https://hub.docker.com/r/corelab/echo-go) | 2 | 
 | gcr.io/google-samples/echo-java | [corelab/echo-java](https://hub.docker.com/r/corelab/echo-java) | 1 | 
@@ -29,6 +33,7 @@ Synced image num: 89 and image mapping as follow:
 | gcr.io/google-samples/env-show | [corelab/env-show](https://hub.docker.com/r/corelab/env-show) | 2 | 
 | gcr.io/google-samples/freshpod | [corelab/freshpod](https://hub.docker.com/r/corelab/freshpod) | 2 | 
 | gcr.io/google-samples/frontend | [corelab/frontend](https://hub.docker.com/r/corelab/frontend) | 1 | 
+| gcr.io/google-samples/gb-frontend | [corelab/gb-frontend](https://hub.docker.com/r/corelab/gb-frontend) | 6 | 
 | gcr.io/google-samples/gb-frontend-amd64 | [corelab/gb-frontend-amd64](https://hub.docker.com/r/corelab/gb-frontend-amd64) | 2 | 
 | gcr.io/google-samples/gb-frontend-arm | [corelab/gb-frontend-arm](https://hub.docker.com/r/corelab/gb-frontend-arm) | 2 | 
 | gcr.io/google-samples/gb-frontend-arm64 | [corelab/gb-frontend-arm64](https://hub.docker.com/r/corelab/gb-frontend-arm64) | 2 | 
@@ -43,9 +48,11 @@ Synced image num: 89 and image mapping as follow:
 | gcr.io/google-samples/gb-redisworker | [corelab/gb-redisworker](https://hub.docker.com/r/corelab/gb-redisworker) | 1 | 
 | gcr.io/google-samples/gke-serviceaccounts-initializer | [corelab/gke-serviceaccounts-initializer](https://hub.docker.com/r/corelab/gke-serviceaccounts-initializer) | 1 | 
 | gcr.io/google-samples/go-echo | [corelab/go-echo](https://hub.docker.com/r/corelab/go-echo) | 2 | 
+| gcr.io/google-samples/grpc-cxx | [corelab/grpc-cxx](https://hub.docker.com/r/corelab/grpc-cxx) | 1 | 
 | gcr.io/google-samples/hello-app | [corelab/hello-app](https://hub.docker.com/r/corelab/hello-app) | 2 | 
 | gcr.io/google-samples/hello-app-cdn | [corelab/hello-app-cdn](https://hub.docker.com/r/corelab/hello-app-cdn) | 1 | 
 | gcr.io/google-samples/hello-app-metrics | [corelab/hello-app-metrics](https://hub.docker.com/r/corelab/hello-app-metrics) | 1 | 
+| gcr.io/google-samples/hello-app-redis | [corelab/hello-app-redis](https://hub.docker.com/r/corelab/hello-app-redis) | 1 | 
 | gcr.io/google-samples/hello-app-tls | [corelab/hello-app-tls](https://hub.docker.com/r/corelab/hello-app-tls) | 1 | 
 | gcr.io/google-samples/hello-frontend | [corelab/hello-frontend](https://hub.docker.com/r/corelab/hello-frontend) | 1 | 
 | gcr.io/google-samples/hello-go-gke | [corelab/hello-go-gke](https://hub.docker.com/r/corelab/hello-go-gke) | 1 | 
@@ -54,6 +61,8 @@ Synced image num: 89 and image mapping as follow:
 | gcr.io/google-samples/k8skafka | [corelab/k8skafka](https://hub.docker.com/r/corelab/k8skafka) | 1 | 
 | gcr.io/google-samples/k8szk | [corelab/k8szk](https://hub.docker.com/r/corelab/k8szk) | 3 | 
 | gcr.io/google-samples/kubernetes-bootcamp | [corelab/kubernetes-bootcamp](https://hub.docker.com/r/corelab/kubernetes-bootcamp) | 1 | 
+| gcr.io/google-samples/kubernetes-zookeeper | [corelab/kubernetes-zookeeper](https://hub.docker.com/r/corelab/kubernetes-zookeeper) | 2 | 
+| gcr.io/google-samples/loadgenerator | [corelab/loadgenerator](https://hub.docker.com/r/corelab/loadgenerator) | 1 | 
 | gcr.io/google-samples/lobsters | [corelab/lobsters](https://hub.docker.com/r/corelab/lobsters) | 2 | 
 | gcr.io/google-samples/lobsters-db | [corelab/lobsters-db](https://hub.docker.com/r/corelab/lobsters-db) | 2 | 
 | gcr.io/google-samples/ml-pipeline-bikes-dep | [corelab/ml-pipeline-bikes-dep](https://hub.docker.com/r/corelab/ml-pipeline-bikes-dep) | 3 | 
@@ -71,6 +80,7 @@ Synced image num: 89 and image mapping as follow:
 | gcr.io/google-samples/ml-pipeline-t2tproc | [corelab/ml-pipeline-t2tproc](https://hub.docker.com/r/corelab/ml-pipeline-t2tproc) | 1 | 
 | gcr.io/google-samples/ml-pipeline-t2ttrain | [corelab/ml-pipeline-t2ttrain](https://hub.docker.com/r/corelab/ml-pipeline-t2ttrain) | 4 | 
 | gcr.io/google-samples/ml-pipeline-t2ttrain-cpu | [corelab/ml-pipeline-t2ttrain-cpu](https://hub.docker.com/r/corelab/ml-pipeline-t2ttrain-cpu) | 1 | 
+| gcr.io/google-samples/ml-pipeline-tfserve | [corelab/ml-pipeline-tfserve](https://hub.docker.com/r/corelab/ml-pipeline-tfserve) | 2 | 
 | gcr.io/google-samples/ml-pipeline-webapp-launcher | [corelab/ml-pipeline-webapp-launcher](https://hub.docker.com/r/corelab/ml-pipeline-webapp-launcher) | 5 | 
 | gcr.io/google-samples/mysql | [corelab/mysql](https://hub.docker.com/r/corelab/mysql) | 1 | 
 | gcr.io/google-samples/nfs-server | [corelab/nfs-server](https://hub.docker.com/r/corelab/nfs-server) | 2 | 
@@ -84,13 +94,14 @@ Synced image num: 89 and image mapping as follow:
 | gcr.io/google-samples/redis | [corelab/redis](https://hub.docker.com/r/corelab/redis) | 1 | 
 | gcr.io/google-samples/redis-bq-pipe | [corelab/redis-bq-pipe](https://hub.docker.com/r/corelab/redis-bq-pipe) | 5 | 
 | gcr.io/google-samples/redis-proxy | [corelab/redis-proxy](https://hub.docker.com/r/corelab/redis-proxy) | 1 | 
+| gcr.io/google-samples/sd-dummy-exporter | [corelab/sd-dummy-exporter](https://hub.docker.com/r/corelab/sd-dummy-exporter) | 1 | 
 | gcr.io/google-samples/shippingservice | [corelab/shippingservice](https://hub.docker.com/r/corelab/shippingservice) | 1 | 
 | gcr.io/google-samples/steps-twotier | [corelab/steps-twotier](https://hub.docker.com/r/corelab/steps-twotier) | 2 | 
 | gcr.io/google-samples/style-transfer | [corelab/style-transfer](https://hub.docker.com/r/corelab/style-transfer) | 1 | 
 | gcr.io/google-samples/tf-jupyter-server | [corelab/tf-jupyter-server](https://hub.docker.com/r/corelab/tf-jupyter-server) | 1 | 
 | gcr.io/google-samples/tf-k8s-worker | [corelab/tf-k8s-worker](https://hub.docker.com/r/corelab/tf-k8s-worker) | 1 | 
 | gcr.io/google-samples/tf-worker-example | [corelab/tf-worker-example](https://hub.docker.com/r/corelab/tf-worker-example) | 1 | 
-| gcr.io/google-samples/tf-workshop | [corelab/tf-workshop](https://hub.docker.com/r/corelab/tf-workshop) | 7 | 
+| gcr.io/google-samples/tf-workshop | [corelab/tf-workshop](https://hub.docker.com/r/corelab/tf-workshop) | 8 | 
 | gcr.io/google-samples/tfdv-tests | [corelab/tfdv-tests](https://hub.docker.com/r/corelab/tfdv-tests) | 1 | 
 | gcr.io/google-samples/twilio-vision | [corelab/twilio-vision](https://hub.docker.com/r/corelab/twilio-vision) | 1 | 
 | gcr.io/google-samples/whereami | [corelab/whereami](https://hub.docker.com/r/corelab/whereami) | 11 | 

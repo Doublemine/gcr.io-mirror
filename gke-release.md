@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 33 and image mapping as follow:
+Synced image num: 38 and image mapping as follow:
 
 
 
@@ -9,7 +9,9 @@ Synced image num: 33 and image mapping as follow:
 |-------------- | -------------- | -------------- | 
 | gcr.io/gke-release/addon-resizer | [corelab/addon-resizer](https://hub.docker.com/r/corelab/addon-resizer) | 28 | 
 | gcr.io/gke-release/cloud-kms-sync | [corelab/cloud-kms-sync](https://hub.docker.com/r/corelab/cloud-kms-sync) | 1 | 
+| gcr.io/gke-release/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
 | gcr.io/gke-release/coredns | [corelab/coredns](https://hub.docker.com/r/corelab/coredns) | 34 | 
+| gcr.io/gke-release/csi-attacher | [corelab/csi-attacher](https://hub.docker.com/r/corelab/csi-attacher) | 9 | 
 | gcr.io/gke-release/csi-driver-registrar | [corelab/csi-driver-registrar](https://hub.docker.com/r/corelab/csi-driver-registrar) | 3 | 
 | gcr.io/gke-release/csi-node-driver-registrar | [corelab/csi-node-driver-registrar](https://hub.docker.com/r/corelab/csi-node-driver-registrar) | 7 | 
 | gcr.io/gke-release/csi-resizer | [corelab/csi-resizer](https://hub.docker.com/r/corelab/csi-resizer) | 4 | 
@@ -33,11 +35,14 @@ Synced image num: 33 and image mapping as follow:
 | gcr.io/gke-release/k8s-dns-sidecar | [corelab/k8s-dns-sidecar](https://hub.docker.com/r/corelab/k8s-dns-sidecar) | 16 | 
 | gcr.io/gke-release/k8s-tpu-operator | [corelab/k8s-tpu-operator](https://hub.docker.com/r/corelab/k8s-tpu-operator) | 9 | 
 | gcr.io/gke-release/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 74 | 
+| gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 230 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 221 | 
+| gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 202 | 
 | gcr.io/gke-release/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
-| gcr.io/gke-release/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 15 | 
+| gcr.io/gke-release/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 23 | 
 | gcr.io/gke-release/kubernetes-zookeeper | [corelab/kubernetes-zookeeper](https://hub.docker.com/r/corelab/kubernetes-zookeeper) | 1 | 
 | gcr.io/gke-release/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
 | gcr.io/gke-release/slo-monitor | [corelab/slo-monitor](https://hub.docker.com/r/corelab/slo-monitor) | 11 | 
+| gcr.io/gke-release/snapshot-controller | [corelab/snapshot-controller](https://hub.docker.com/r/corelab/snapshot-controller) | 1 | 
 
