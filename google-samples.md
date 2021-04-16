@@ -1,21 +1,33 @@
 # google-samples
 
 
-Synced image num: 30 and image mapping as follow:
+Synced image num: 52 and image mapping as follow:
 
 
 
 |  gcr registry | dockerhub | tags num |
 |-------------- | -------------- | -------------- | 
 | gcr.io/google-samples/appengine-tensorboard | [corelab/appengine-tensorboard](https://hub.docker.com/r/corelab/appengine-tensorboard) | 2 | 
+| gcr.io/google-samples/automl-pipeline | [corelab/automl-pipeline](https://hub.docker.com/r/corelab/automl-pipeline) | 1 | 
 | gcr.io/google-samples/bw-aiplatform | [corelab/bw-aiplatform](https://hub.docker.com/r/corelab/bw-aiplatform) | 1 | 
+| gcr.io/google-samples/bw-pipeline-tfserve | [corelab/bw-pipeline-tfserve](https://hub.docker.com/r/corelab/bw-pipeline-tfserve) | 2 | 
 | gcr.io/google-samples/cassandra | [corelab/cassandra](https://hub.docker.com/r/corelab/cassandra) | 6 | 
 | gcr.io/google-samples/currencyservice | [corelab/currencyservice](https://hub.docker.com/r/corelab/currencyservice) | 1 | 
+| gcr.io/google-samples/echo-go | [corelab/echo-go](https://hub.docker.com/r/corelab/echo-go) | 2 | 
 | gcr.io/google-samples/echo-java | [corelab/echo-java](https://hub.docker.com/r/corelab/echo-java) | 1 | 
 | gcr.io/google-samples/echo-node | [corelab/echo-node](https://hub.docker.com/r/corelab/echo-node) | 1 | 
 | gcr.io/google-samples/echo-python | [corelab/echo-python](https://hub.docker.com/r/corelab/echo-python) | 1 | 
+| gcr.io/google-samples/emailservice | [corelab/emailservice](https://hub.docker.com/r/corelab/emailservice) | 1 | 
+| gcr.io/google-samples/env-backend | [corelab/env-backend](https://hub.docker.com/r/corelab/env-backend) | 2 | 
+| gcr.io/google-samples/env-show | [corelab/env-show](https://hub.docker.com/r/corelab/env-show) | 2 | 
+| gcr.io/google-samples/frontend | [corelab/frontend](https://hub.docker.com/r/corelab/frontend) | 1 | 
 | gcr.io/google-samples/gb-frontend-amd64 | [corelab/gb-frontend-amd64](https://hub.docker.com/r/corelab/gb-frontend-amd64) | 2 | 
+| gcr.io/google-samples/gb-frontend-arm64 | [corelab/gb-frontend-arm64](https://hub.docker.com/r/corelab/gb-frontend-arm64) | 2 | 
+| gcr.io/google-samples/gb-redis-follower | [corelab/gb-redis-follower](https://hub.docker.com/r/corelab/gb-redis-follower) | 2 | 
+| gcr.io/google-samples/gb-redis-secondary | [corelab/gb-redis-secondary](https://hub.docker.com/r/corelab/gb-redis-secondary) | 1 | 
 | gcr.io/google-samples/gb-redisslave-amd64 | [corelab/gb-redisslave-amd64](https://hub.docker.com/r/corelab/gb-redisslave-amd64) | 2 | 
+| gcr.io/google-samples/gb-redisslave-arm | [corelab/gb-redisslave-arm](https://hub.docker.com/r/corelab/gb-redisslave-arm) | 2 | 
+| gcr.io/google-samples/gb-redisslave-ppc64le | [corelab/gb-redisslave-ppc64le](https://hub.docker.com/r/corelab/gb-redisslave-ppc64le) | 2 | 
 | gcr.io/google-samples/gke-serviceaccounts-initializer | [corelab/gke-serviceaccounts-initializer](https://hub.docker.com/r/corelab/gke-serviceaccounts-initializer) | 1 | 
 | gcr.io/google-samples/go-echo | [corelab/go-echo](https://hub.docker.com/r/corelab/go-echo) | 2 | 
 | gcr.io/google-samples/hello-app | [corelab/hello-app](https://hub.docker.com/r/corelab/hello-app) | 2 | 
@@ -24,17 +36,27 @@ Synced image num: 30 and image mapping as follow:
 | gcr.io/google-samples/hello-go-gke | [corelab/hello-go-gke](https://hub.docker.com/r/corelab/hello-go-gke) | 1 | 
 | gcr.io/google-samples/k8sdocs | [corelab/k8sdocs](https://hub.docker.com/r/corelab/k8sdocs) | 2 | 
 | gcr.io/google-samples/k8skafka | [corelab/k8skafka](https://hub.docker.com/r/corelab/k8skafka) | 1 | 
+| gcr.io/google-samples/k8szk | [corelab/k8szk](https://hub.docker.com/r/corelab/k8szk) | 3 | 
 | gcr.io/google-samples/lobsters-db | [corelab/lobsters-db](https://hub.docker.com/r/corelab/lobsters-db) | 2 | 
 | gcr.io/google-samples/ml-pipeline-bikes-tuner | [corelab/ml-pipeline-bikes-tuner](https://hub.docker.com/r/corelab/ml-pipeline-bikes-tuner) | 1 | 
+| gcr.io/google-samples/ml-pipeline-kubeflow-tf-taxi | [corelab/ml-pipeline-kubeflow-tf-taxi](https://hub.docker.com/r/corelab/ml-pipeline-kubeflow-tf-taxi) | 1 | 
 | gcr.io/google-samples/ml-pipeline-kubeflow-tfserve | [corelab/ml-pipeline-kubeflow-tfserve](https://hub.docker.com/r/corelab/ml-pipeline-kubeflow-tfserve) | 4 | 
 | gcr.io/google-samples/ml-pipeline-t2tapp | [corelab/ml-pipeline-t2tapp](https://hub.docker.com/r/corelab/ml-pipeline-t2tapp) | 4 | 
+| gcr.io/google-samples/ml-pipeline-t2tproc | [corelab/ml-pipeline-t2tproc](https://hub.docker.com/r/corelab/ml-pipeline-t2tproc) | 1 | 
 | gcr.io/google-samples/ml-pipeline-t2ttrain-cpu | [corelab/ml-pipeline-t2ttrain-cpu](https://hub.docker.com/r/corelab/ml-pipeline-t2ttrain-cpu) | 1 | 
 | gcr.io/google-samples/ml-pipeline-webapp-launcher | [corelab/ml-pipeline-webapp-launcher](https://hub.docker.com/r/corelab/ml-pipeline-webapp-launcher) | 5 | 
+| gcr.io/google-samples/nfs-server | [corelab/nfs-server](https://hub.docker.com/r/corelab/nfs-server) | 2 | 
+| gcr.io/google-samples/paymentservice | [corelab/paymentservice](https://hub.docker.com/r/corelab/paymentservice) | 1 | 
 | gcr.io/google-samples/productcatalogservice | [corelab/productcatalogservice](https://hub.docker.com/r/corelab/productcatalogservice) | 1 | 
+| gcr.io/google-samples/pubsub-bq-pipe | [corelab/pubsub-bq-pipe](https://hub.docker.com/r/corelab/pubsub-bq-pipe) | 5 | 
+| gcr.io/google-samples/redis | [corelab/redis](https://hub.docker.com/r/corelab/redis) | 1 | 
 | gcr.io/google-samples/redis-proxy | [corelab/redis-proxy](https://hub.docker.com/r/corelab/redis-proxy) | 1 | 
 | gcr.io/google-samples/shippingservice | [corelab/shippingservice](https://hub.docker.com/r/corelab/shippingservice) | 1 | 
 | gcr.io/google-samples/steps-twotier | [corelab/steps-twotier](https://hub.docker.com/r/corelab/steps-twotier) | 2 | 
+| gcr.io/google-samples/style-transfer | [corelab/style-transfer](https://hub.docker.com/r/corelab/style-transfer) | 1 | 
 | gcr.io/google-samples/tf-jupyter-server | [corelab/tf-jupyter-server](https://hub.docker.com/r/corelab/tf-jupyter-server) | 1 | 
+| gcr.io/google-samples/tf-k8s-worker | [corelab/tf-k8s-worker](https://hub.docker.com/r/corelab/tf-k8s-worker) | 1 | 
 | gcr.io/google-samples/tf-workshop | [corelab/tf-workshop](https://hub.docker.com/r/corelab/tf-workshop) | 7 | 
+| gcr.io/google-samples/tfdv-tests | [corelab/tfdv-tests](https://hub.docker.com/r/corelab/tfdv-tests) | 1 | 
 | gcr.io/google-samples/whereami | [corelab/whereami](https://hub.docker.com/r/corelab/whereami) | 11 | 
 

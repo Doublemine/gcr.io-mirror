@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 19 and image mapping as follow:
+Synced image num: 24 and image mapping as follow:
 
 
 
@@ -14,11 +14,16 @@ Synced image num: 19 and image mapping as follow:
 | gcr.io/gke-release/defaultbackend-amd64 | [corelab/defaultbackend-amd64](https://hub.docker.com/r/corelab/defaultbackend-amd64) | 5 | 
 | gcr.io/gke-release/echoserver | [corelab/echoserver](https://hub.docker.com/r/corelab/echoserver) | 11 | 
 | gcr.io/gke-release/etcd-empty-dir-cleanup | [corelab/etcd-empty-dir-cleanup](https://hub.docker.com/r/corelab/etcd-empty-dir-cleanup) | 21 | 
+| gcr.io/gke-release/fluent-bit | [corelab/fluent-bit](https://hub.docker.com/r/corelab/fluent-bit) | 5 | 
+| gcr.io/gke-release/fluentd-gcp | [corelab/fluentd-gcp](https://hub.docker.com/r/corelab/fluentd-gcp) | 36 | 
 | gcr.io/gke-release/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 10 | 
+| gcr.io/gke-release/git-deployer | [corelab/git-deployer](https://hub.docker.com/r/corelab/git-deployer) | 7 | 
 | gcr.io/gke-release/gke-hub-guac-webhook | [corelab/gke-hub-guac-webhook](https://hub.docker.com/r/corelab/gke-hub-guac-webhook) | 2 | 
 | gcr.io/gke-release/gke-metrics-agent | [corelab/gke-metrics-agent](https://hub.docker.com/r/corelab/gke-metrics-agent) | 27 | 
 | gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 26 | 
+| gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
 | gcr.io/gke-release/hyperkube-mcmp-amd64 | [corelab/hyperkube-mcmp-amd64](https://hub.docker.com/r/corelab/hyperkube-mcmp-amd64) | 43 | 
+| gcr.io/gke-release/k8s-dns-kube-dns | [corelab/k8s-dns-kube-dns](https://hub.docker.com/r/corelab/k8s-dns-kube-dns) | 16 | 
 | gcr.io/gke-release/k8s-dns-sidecar | [corelab/k8s-dns-sidecar](https://hub.docker.com/r/corelab/k8s-dns-sidecar) | 16 | 
 | gcr.io/gke-release/k8s-tpu-operator | [corelab/k8s-tpu-operator](https://hub.docker.com/r/corelab/k8s-tpu-operator) | 9 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 221 | 
