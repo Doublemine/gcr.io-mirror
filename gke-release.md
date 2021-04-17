@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 95 and image mapping as follow:
+Synced image num: 97 and image mapping as follow:
 
 
 
@@ -58,7 +58,7 @@ Synced image num: 95 and image mapping as follow:
 | gcr.io/gke-release/heapster-amd64 | [corelab/heapster-amd64](https://hub.docker.com/r/corelab/heapster-amd64) | 11 | 
 | gcr.io/gke-release/heapster-grafana-amd64 | [corelab/heapster-grafana-amd64](https://hub.docker.com/r/corelab/heapster-grafana-amd64) | 5 | 
 | gcr.io/gke-release/heapster-influxdb-amd64 | [corelab/heapster-influxdb-amd64](https://hub.docker.com/r/corelab/heapster-influxdb-amd64) | 3 | 
-| gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 77 | 
+| gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 218 | 
 | gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 203 | 
 | gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
 | gcr.io/gke-release/hyperkube-mcmp-amd64 | [corelab/hyperkube-mcmp-amd64](https://hub.docker.com/r/corelab/hyperkube-mcmp-amd64) | 43 | 
@@ -92,6 +92,7 @@ Synced image num: 95 and image mapping as follow:
 | gcr.io/gke-release/metrics-server-amd64 | [corelab/metrics-server-amd64](https://hub.docker.com/r/corelab/metrics-server-amd64) | 11 | 
 | gcr.io/gke-release/netd-amd64 | [corelab/netd-amd64](https://hub.docker.com/r/corelab/netd-amd64) | 22 | 
 | gcr.io/gke-release/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 20 | 
+| gcr.io/gke-release/nvidia-gpu-device-plugin | [corelab/nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/nvidia-gpu-device-plugin) | 112 | 
 | gcr.io/gke-release/nvidia-partition-gpu | [corelab/nvidia-partition-gpu](https://hub.docker.com/r/corelab/nvidia-partition-gpu) | 3 | 
 | gcr.io/gke-release/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 35 | 
 | gcr.io/gke-release/proxy-agent-amd64 | [corelab/proxy-agent-amd64](https://hub.docker.com/r/corelab/proxy-agent-amd64) | 4 | 
@@ -102,4 +103,5 @@ Synced image num: 95 and image mapping as follow:
 | gcr.io/gke-release/vpa-admission-controller | [corelab/vpa-admission-controller](https://hub.docker.com/r/corelab/vpa-admission-controller) | 11 | 
 | gcr.io/gke-release/vpa-updater | [corelab/vpa-updater](https://hub.docker.com/r/corelab/vpa-updater) | 11 | 
 | gcr.io/gke-release/watcher-daemonset | [corelab/watcher-daemonset](https://hub.docker.com/r/corelab/watcher-daemonset) | 29 | 
+| gcr.io/gke-release/windows-webhook | [corelab/windows-webhook](https://hub.docker.com/r/corelab/windows-webhook) | 1 | 
 
