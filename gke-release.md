@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 98 and image mapping as follow:
+Synced image num: 104 and image mapping as follow:
 
 
 
@@ -12,6 +12,7 @@ Synced image num: 98 and image mapping as follow:
 | gcr.io/gke-release/application-controller | [corelab/application-controller](https://hub.docker.com/r/corelab/application-controller) | 2 | 
 | gcr.io/gke-release/auditproxy | [corelab/auditproxy](https://hub.docker.com/r/corelab/auditproxy) | 7 | 
 | gcr.io/gke-release/busybox | [corelab/busybox](https://hub.docker.com/r/corelab/busybox) | 4 | 
+| gcr.io/gke-release/cadvisor | [corelab/cadvisor](https://hub.docker.com/r/corelab/cadvisor) | 30 | 
 | gcr.io/gke-release/cloud-kms-plugin | [corelab/cloud-kms-plugin](https://hub.docker.com/r/corelab/cloud-kms-plugin) | 1 | 
 | gcr.io/gke-release/cloud-kms-sync | [corelab/cloud-kms-sync](https://hub.docker.com/r/corelab/cloud-kms-sync) | 1 | 
 | gcr.io/gke-release/cluster-autoscaler | [corelab/cluster-autoscaler](https://hub.docker.com/r/corelab/cluster-autoscaler) | 87 | 
@@ -21,12 +22,14 @@ Synced image num: 98 and image mapping as follow:
 | gcr.io/gke-release/csi-attacher | [corelab/csi-attacher](https://hub.docker.com/r/corelab/csi-attacher) | 9 | 
 | gcr.io/gke-release/csi-driver-registrar | [corelab/csi-driver-registrar](https://hub.docker.com/r/corelab/csi-driver-registrar) | 3 | 
 | gcr.io/gke-release/csi-node-driver-registrar | [corelab/csi-node-driver-registrar](https://hub.docker.com/r/corelab/csi-node-driver-registrar) | 7 | 
+| gcr.io/gke-release/csi-provisioner | [corelab/csi-provisioner](https://hub.docker.com/r/corelab/csi-provisioner) | 10 | 
 | gcr.io/gke-release/csi-resizer | [corelab/csi-resizer](https://hub.docker.com/r/corelab/csi-resizer) | 4 | 
 | gcr.io/gke-release/custom-metrics-stackdriver-adapter | [corelab/custom-metrics-stackdriver-adapter](https://hub.docker.com/r/corelab/custom-metrics-stackdriver-adapter) | 1 | 
 | gcr.io/gke-release/debian-base | [corelab/debian-base](https://hub.docker.com/r/corelab/debian-base) | 8 | 
 | gcr.io/gke-release/defaultbackend-amd64 | [corelab/defaultbackend-amd64](https://hub.docker.com/r/corelab/defaultbackend-amd64) | 5 | 
 | gcr.io/gke-release/echoserver | [corelab/echoserver](https://hub.docker.com/r/corelab/echoserver) | 11 | 
 | gcr.io/gke-release/elasticsearch | [corelab/elasticsearch](https://hub.docker.com/r/corelab/elasticsearch) | 21 | 
+| gcr.io/gke-release/etcd | [corelab/etcd](https://hub.docker.com/r/corelab/etcd) | 62 | 
 | gcr.io/gke-release/etcd-amd64 | [corelab/etcd-amd64](https://hub.docker.com/r/corelab/etcd-amd64) | 55 | 
 | gcr.io/gke-release/etcd-empty-dir-cleanup | [corelab/etcd-empty-dir-cleanup](https://hub.docker.com/r/corelab/etcd-empty-dir-cleanup) | 21 | 
 | gcr.io/gke-release/etcd-version-monitor | [corelab/etcd-version-monitor](https://hub.docker.com/r/corelab/etcd-version-monitor) | 4 | 
@@ -46,6 +49,7 @@ Synced image num: 98 and image mapping as follow:
 | gcr.io/gke-release/gke-mcs-importer | [corelab/gke-mcs-importer](https://hub.docker.com/r/corelab/gke-mcs-importer) | 7 | 
 | gcr.io/gke-release/gke-metadata-server | [corelab/gke-metadata-server](https://hub.docker.com/r/corelab/gke-metadata-server) | 97 | 
 | gcr.io/gke-release/gke-metrics-agent | [corelab/gke-metrics-agent](https://hub.docker.com/r/corelab/gke-metrics-agent) | 27 | 
+| gcr.io/gke-release/gke-mpi-metadata-server | [corelab/gke-mpi-metadata-server](https://hub.docker.com/r/corelab/gke-mpi-metadata-server) | 2 | 
 | gcr.io/gke-release/gke-node-termination-handler | [corelab/gke-node-termination-handler](https://hub.docker.com/r/corelab/gke-node-termination-handler) | 2 | 
 | gcr.io/gke-release/gke-oidc-envoy | [corelab/gke-oidc-envoy](https://hub.docker.com/r/corelab/gke-oidc-envoy) | 26 | 
 | gcr.io/gke-release/gke-oidc-operator | [corelab/gke-oidc-operator](https://hub.docker.com/r/corelab/gke-oidc-operator) | 26 | 
@@ -62,6 +66,7 @@ Synced image num: 98 and image mapping as follow:
 | gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 203 | 
 | gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
 | gcr.io/gke-release/hyperkube-mcmp-amd64 | [corelab/hyperkube-mcmp-amd64](https://hub.docker.com/r/corelab/hyperkube-mcmp-amd64) | 43 | 
+| gcr.io/gke-release/ingress-gce-404-server-with-metrics-amd64 | [corelab/ingress-gce-404-server-with-metrics-amd64](https://hub.docker.com/r/corelab/ingress-gce-404-server-with-metrics-amd64) | 2 | 
 | gcr.io/gke-release/ingress-gce-glbc-amd64 | [corelab/ingress-gce-glbc-amd64](https://hub.docker.com/r/corelab/ingress-gce-glbc-amd64) | 36 | 
 | gcr.io/gke-release/ip-masq-agent-amd64 | [corelab/ip-masq-agent-amd64](https://hub.docker.com/r/corelab/ip-masq-agent-amd64) | 13 | 
 | gcr.io/gke-release/k8s-dns-dnsmasq-nanny | [corelab/k8s-dns-dnsmasq-nanny](https://hub.docker.com/r/corelab/k8s-dns-dnsmasq-nanny) | 16 | 
@@ -79,8 +84,8 @@ Synced image num: 98 and image mapping as follow:
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 469 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 453 | 
-| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 20 | 
-| gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 433 | 
+| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 33 | 
+| gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 469 | 
 | gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 410 | 
 | gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 241 | 
 | gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 453 | 
@@ -95,6 +100,7 @@ Synced image num: 98 and image mapping as follow:
 | gcr.io/gke-release/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 20 | 
 | gcr.io/gke-release/nvidia-gpu-device-plugin | [corelab/nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/nvidia-gpu-device-plugin) | 112 | 
 | gcr.io/gke-release/nvidia-partition-gpu | [corelab/nvidia-partition-gpu](https://hub.docker.com/r/corelab/nvidia-partition-gpu) | 3 | 
+| gcr.io/gke-release/pause | [corelab/pause](https://hub.docker.com/r/corelab/pause) | 10 | 
 | gcr.io/gke-release/prometheus-to-sd | [corelab/prometheus-to-sd](https://hub.docker.com/r/corelab/prometheus-to-sd) | 35 | 
 | gcr.io/gke-release/proxy-agent-amd64 | [corelab/proxy-agent-amd64](https://hub.docker.com/r/corelab/proxy-agent-amd64) | 4 | 
 | gcr.io/gke-release/slo-monitor | [corelab/slo-monitor](https://hub.docker.com/r/corelab/slo-monitor) | 11 | 
