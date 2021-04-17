@@ -81,8 +81,8 @@ Synced image num: 97 and image mapping as follow:
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 453 | 
 | gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 433 | 
 | gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 410 | 
-| gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 138 | 
-| gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 202 | 
+| gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 241 | 
+| gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 453 | 
 | gcr.io/gke-release/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 20 | 
 | gcr.io/gke-release/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
 | gcr.io/gke-release/kubernetes-dashboard-amd64 | [corelab/kubernetes-dashboard-amd64](https://hub.docker.com/r/corelab/kubernetes-dashboard-amd64) | 23 | 
