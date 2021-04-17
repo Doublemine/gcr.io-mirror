@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 109 and image mapping as follow:
+Synced image num: 112 and image mapping as follow:
 
 
 
@@ -57,6 +57,7 @@ Synced image num: 109 and image mapping as follow:
 | gcr.io/gke-release/gke-oidc-envoy | [corelab/gke-oidc-envoy](https://hub.docker.com/r/corelab/gke-oidc-envoy) | 26 | 
 | gcr.io/gke-release/gke-oidc-operator | [corelab/gke-oidc-operator](https://hub.docker.com/r/corelab/gke-oidc-operator) | 26 | 
 | gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 26 | 
+| gcr.io/gke-release/gke-spiffe-node-agent | [corelab/gke-spiffe-node-agent](https://hub.docker.com/r/corelab/gke-spiffe-node-agent) | 7 | 
 | gcr.io/gke-release/gke-windows-builder | [corelab/gke-windows-builder](https://hub.docker.com/r/corelab/gke-windows-builder) | 4 | 
 | gcr.io/gke-release/gke-windows-image-check | [corelab/gke-windows-image-check](https://hub.docker.com/r/corelab/gke-windows-image-check) | 1 | 
 | gcr.io/gke-release/go | [corelab/go](https://hub.docker.com/r/corelab/go) | 23 | 
@@ -65,6 +66,8 @@ Synced image num: 109 and image mapping as follow:
 | gcr.io/gke-release/heapster-amd64 | [corelab/heapster-amd64](https://hub.docker.com/r/corelab/heapster-amd64) | 11 | 
 | gcr.io/gke-release/heapster-grafana-amd64 | [corelab/heapster-grafana-amd64](https://hub.docker.com/r/corelab/heapster-grafana-amd64) | 5 | 
 | gcr.io/gke-release/heapster-influxdb-amd64 | [corelab/heapster-influxdb-amd64](https://hub.docker.com/r/corelab/heapster-influxdb-amd64) | 3 | 
+| gcr.io/gke-release/helloworld | [corelab/helloworld](https://hub.docker.com/r/corelab/helloworld) | 2 | 
+| gcr.io/gke-release/hpa-example | [corelab/hpa-example](https://hub.docker.com/r/corelab/hpa-example) | 1 | 
 | gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 225 | 
 | gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 203 | 
 | gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
@@ -87,10 +90,10 @@ Synced image num: 109 and image mapping as follow:
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 469 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 453 | 
-| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 33 | 
+| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 35 | 
 | gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 469 | 
-| gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 410 | 
-| gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 241 | 
+| gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 453 | 
+| gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 469 | 
 | gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 453 | 
 | gcr.io/gke-release/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 20 | 
 | gcr.io/gke-release/kubelet-to-gcm | [corelab/kubelet-to-gcm](https://hub.docker.com/r/corelab/kubelet-to-gcm) | 17 | 
