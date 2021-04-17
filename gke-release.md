@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 77 and image mapping as follow:
+Synced image num: 79 and image mapping as follow:
 
 
 
@@ -31,8 +31,9 @@ Synced image num: 77 and image mapping as follow:
 | gcr.io/gke-release/fluent-bit | [corelab/fluent-bit](https://hub.docker.com/r/corelab/fluent-bit) | 5 | 
 | gcr.io/gke-release/fluent-bit-gke-exporter | [corelab/fluent-bit-gke-exporter](https://hub.docker.com/r/corelab/fluent-bit-gke-exporter) | 15 | 
 | gcr.io/gke-release/fluentd-elasticsearch | [corelab/fluentd-elasticsearch](https://hub.docker.com/r/corelab/fluentd-elasticsearch) | 31 | 
-| gcr.io/gke-release/fluentd-gcp | [corelab/fluentd-gcp](https://hub.docker.com/r/corelab/fluentd-gcp) | 36 | 
+| gcr.io/gke-release/fluentd-gcp | [corelab/fluentd-gcp](https://hub.docker.com/r/corelab/fluentd-gcp) | 69 | 
 | gcr.io/gke-release/fluentd-gcp-scaler | [corelab/fluentd-gcp-scaler](https://hub.docker.com/r/corelab/fluentd-gcp-scaler) | 10 | 
+| gcr.io/gke-release/gcp-compute-persistent-disk-csi-driver | [corelab/gcp-compute-persistent-disk-csi-driver](https://hub.docker.com/r/corelab/gcp-compute-persistent-disk-csi-driver) | 16 | 
 | gcr.io/gke-release/gcp-controller-manager | [corelab/gcp-controller-manager](https://hub.docker.com/r/corelab/gcp-controller-manager) | 23 | 
 | gcr.io/gke-release/gcp-filestore-csi-driver | [corelab/gcp-filestore-csi-driver](https://hub.docker.com/r/corelab/gcp-filestore-csi-driver) | 1 | 
 | gcr.io/gke-release/git-deployer | [corelab/git-deployer](https://hub.docker.com/r/corelab/git-deployer) | 7 | 
@@ -48,6 +49,7 @@ Synced image num: 77 and image mapping as follow:
 | gcr.io/gke-release/gke-windows-builder | [corelab/gke-windows-builder](https://hub.docker.com/r/corelab/gke-windows-builder) | 4 | 
 | gcr.io/gke-release/gke-windows-image-check | [corelab/gke-windows-image-check](https://hub.docker.com/r/corelab/gke-windows-image-check) | 1 | 
 | gcr.io/gke-release/go | [corelab/go](https://hub.docker.com/r/corelab/go) | 23 | 
+| gcr.io/gke-release/goproxy | [corelab/goproxy](https://hub.docker.com/r/corelab/goproxy) | 1 | 
 | gcr.io/gke-release/heapster | [corelab/heapster](https://hub.docker.com/r/corelab/heapster) | 45 | 
 | gcr.io/gke-release/heapster-grafana-amd64 | [corelab/heapster-grafana-amd64](https://hub.docker.com/r/corelab/heapster-grafana-amd64) | 5 | 
 | gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 45 | 
@@ -67,7 +69,7 @@ Synced image num: 77 and image mapping as follow:
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 469 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 282 | 
-| gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 215 | 
+| gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 410 | 
 | gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 138 | 
 | gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 202 | 
 | gcr.io/gke-release/kube-state-metrics | [corelab/kube-state-metrics](https://hub.docker.com/r/corelab/kube-state-metrics) | 20 | 
