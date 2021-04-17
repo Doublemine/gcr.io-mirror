@@ -1,7 +1,7 @@
 # gke-release
 
 
-Synced image num: 97 and image mapping as follow:
+Synced image num: 98 and image mapping as follow:
 
 
 
@@ -58,7 +58,7 @@ Synced image num: 97 and image mapping as follow:
 | gcr.io/gke-release/heapster-amd64 | [corelab/heapster-amd64](https://hub.docker.com/r/corelab/heapster-amd64) | 11 | 
 | gcr.io/gke-release/heapster-grafana-amd64 | [corelab/heapster-grafana-amd64](https://hub.docker.com/r/corelab/heapster-grafana-amd64) | 5 | 
 | gcr.io/gke-release/heapster-influxdb-amd64 | [corelab/heapster-influxdb-amd64](https://hub.docker.com/r/corelab/heapster-influxdb-amd64) | 3 | 
-| gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 218 | 
+| gcr.io/gke-release/hyperkube | [corelab/hyperkube](https://hub.docker.com/r/corelab/hyperkube) | 225 | 
 | gcr.io/gke-release/hyperkube-amd64 | [corelab/hyperkube-amd64](https://hub.docker.com/r/corelab/hyperkube-amd64) | 203 | 
 | gcr.io/gke-release/hyperkube-mcmp | [corelab/hyperkube-mcmp](https://hub.docker.com/r/corelab/hyperkube-mcmp) | 70 | 
 | gcr.io/gke-release/hyperkube-mcmp-amd64 | [corelab/hyperkube-mcmp-amd64](https://hub.docker.com/r/corelab/hyperkube-mcmp-amd64) | 43 | 
@@ -79,6 +79,7 @@ Synced image num: 97 and image mapping as follow:
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 469 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 453 | 
+| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 20 | 
 | gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 433 | 
 | gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 410 | 
 | gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 241 | 
