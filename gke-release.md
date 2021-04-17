@@ -87,11 +87,11 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/kalm | [corelab/kalm](https://hub.docker.com/r/corelab/kalm) | 7 | 
 | gcr.io/gke-release/kube-addon-manager | [corelab/kube-addon-manager](https://hub.docker.com/r/corelab/kube-addon-manager) | 27 | 
 | gcr.io/gke-release/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 469 | 
-| gcr.io/gke-release/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 186 | 
+| gcr.io/gke-release/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 299 | 
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 469 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 453 | 
-| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 35 | 
+| gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 49 | 
 | gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 469 | 
 | gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 453 | 
 | gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 469 | 
