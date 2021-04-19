@@ -10,8 +10,10 @@
  -  [**cloud-solutions-images**](cloud-solutions-images.md)
  -  [**heption-images**](heption-images.md)
  -  [**k8s.gcr.io**](k8s-artifacts-prod.md)
- -  [**kubernetes-e2e-test-images**](kubernetes-e2e-test-images.md)
-
+ -  [**google-samples**](google-samples.md)
+ -  [**k8s-authenticated-test**](k8s-authenticated-test.md)
+ -  [**gke-release**](gke-release.md)
+ -  [**authenticated-image-pulling**](authenticated-image-pulling.md)
 
 ## Usage
 
