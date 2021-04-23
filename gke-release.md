@@ -118,6 +118,6 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/vpa-admission-controller | [corelab/vpa-admission-controller](https://hub.docker.com/r/corelab/vpa-admission-controller) | 11 | 
 | gcr.io/gke-release/vpa-recommender | [corelab/vpa-recommender](https://hub.docker.com/r/corelab/vpa-recommender) | 11 | 
 | gcr.io/gke-release/vpa-updater | [corelab/vpa-updater](https://hub.docker.com/r/corelab/vpa-updater) | 11 | 
-| gcr.io/gke-release/watcher-daemonset | [corelab/watcher-daemonset](https://hub.docker.com/r/corelab/watcher-daemonset) | 29 | 
+| gcr.io/gke-release/watcher-daemonset | [corelab/watcher-daemonset](https://hub.docker.com/r/corelab/watcher-daemonset) | 30 | 
 | gcr.io/gke-release/windows-webhook | [corelab/windows-webhook](https://hub.docker.com/r/corelab/windows-webhook) | 1 | 
 
