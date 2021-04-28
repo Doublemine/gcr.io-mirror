@@ -104,7 +104,7 @@ Synced image num: 100 and image mapping as follow:
 | gcr.io/google-samples/tf-workshop | [corelab/tf-workshop](https://hub.docker.com/r/corelab/tf-workshop) | 8 | 
 | gcr.io/google-samples/tfdv-tests | [corelab/tfdv-tests](https://hub.docker.com/r/corelab/tfdv-tests) | 1 | 
 | gcr.io/google-samples/twilio-vision | [corelab/twilio-vision](https://hub.docker.com/r/corelab/twilio-vision) | 1 | 
-| gcr.io/google-samples/whereami | [corelab/whereami](https://hub.docker.com/r/corelab/whereami) | 11 | 
+| gcr.io/google-samples/whereami | [corelab/whereami](https://hub.docker.com/r/corelab/whereami) | 12 | 
 | gcr.io/google-samples/xtrabackup | [corelab/xtrabackup](https://hub.docker.com/r/corelab/xtrabackup) | 1 | 
 | gcr.io/google-samples/zone-printer | [corelab/zone-printer](https://hub.docker.com/r/corelab/zone-printer) | 2 | 
 
