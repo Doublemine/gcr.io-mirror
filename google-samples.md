@@ -12,7 +12,7 @@ Synced image num: 100 and image mapping as follow:
 | gcr.io/google-samples/automl-pipeline | [corelab/automl-pipeline](https://hub.docker.com/r/corelab/automl-pipeline) | 1 | 
 | gcr.io/google-samples/automl-ucaip | [corelab/automl-ucaip](https://hub.docker.com/r/corelab/automl-ucaip) | 1 | 
 | gcr.io/google-samples/bw-aiplatform | [corelab/bw-aiplatform](https://hub.docker.com/r/corelab/bw-aiplatform) | 1 | 
-| gcr.io/google-samples/bw-aiplatform-mb | [corelab/bw-aiplatform-mb](https://hub.docker.com/r/corelab/bw-aiplatform-mb) | 1 | 
+| gcr.io/google-samples/bw-aiplatform-mb | [corelab/bw-aiplatform-mb](https://hub.docker.com/r/corelab/bw-aiplatform-mb) | 2 | 
 | gcr.io/google-samples/bw-cc-train | [corelab/bw-cc-train](https://hub.docker.com/r/corelab/bw-cc-train) | 1 | 
 | gcr.io/google-samples/bw-pipeline-tfserve | [corelab/bw-pipeline-tfserve](https://hub.docker.com/r/corelab/bw-pipeline-tfserve) | 2 | 
 | gcr.io/google-samples/bw-pl-bikes-train | [corelab/bw-pl-bikes-train](https://hub.docker.com/r/corelab/bw-pl-bikes-train) | 3 | 
