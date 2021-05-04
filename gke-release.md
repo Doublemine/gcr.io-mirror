@@ -55,8 +55,8 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/gke-mpi-metadata-server | [corelab/gke-mpi-metadata-server](https://hub.docker.com/r/corelab/gke-mpi-metadata-server) | 2 | 
 | gcr.io/gke-release/gke-node-termination-handler | [corelab/gke-node-termination-handler](https://hub.docker.com/r/corelab/gke-node-termination-handler) | 2 | 
 | gcr.io/gke-release/gke-oidc-envoy | [corelab/gke-oidc-envoy](https://hub.docker.com/r/corelab/gke-oidc-envoy) | 30 | 
-| gcr.io/gke-release/gke-oidc-operator | [corelab/gke-oidc-operator](https://hub.docker.com/r/corelab/gke-oidc-operator) | 29 | 
-| gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 29 | 
+| gcr.io/gke-release/gke-oidc-operator | [corelab/gke-oidc-operator](https://hub.docker.com/r/corelab/gke-oidc-operator) | 30 | 
+| gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 30 | 
 | gcr.io/gke-release/gke-spiffe-node-agent | [corelab/gke-spiffe-node-agent](https://hub.docker.com/r/corelab/gke-spiffe-node-agent) | 8 | 
 | gcr.io/gke-release/gke-windows-builder | [corelab/gke-windows-builder](https://hub.docker.com/r/corelab/gke-windows-builder) | 4 | 
 | gcr.io/gke-release/gke-windows-image-check | [corelab/gke-windows-image-check](https://hub.docker.com/r/corelab/gke-windows-image-check) | 1 | 
@@ -87,7 +87,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/kalm | [corelab/kalm](https://hub.docker.com/r/corelab/kalm) | 7 | 
 | gcr.io/gke-release/kube-addon-manager | [corelab/kube-addon-manager](https://hub.docker.com/r/corelab/kube-addon-manager) | 27 | 
 | gcr.io/gke-release/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 481 | 
-| gcr.io/gke-release/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 464 | 
+| gcr.io/gke-release/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 465 | 
 | gcr.io/gke-release/kube-app-manager | [corelab/kube-app-manager](https://hub.docker.com/r/corelab/kube-app-manager) | 2 | 
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 481 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 465 | 
@@ -103,7 +103,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/managed-certificate-controller | [corelab/managed-certificate-controller](https://hub.docker.com/r/corelab/managed-certificate-controller) | 6 | 
 | gcr.io/gke-release/metadata-proxy | [corelab/metadata-proxy](https://hub.docker.com/r/corelab/metadata-proxy) | 15 | 
 | gcr.io/gke-release/metrics-server-amd64 | [corelab/metrics-server-amd64](https://hub.docker.com/r/corelab/metrics-server-amd64) | 11 | 
-| gcr.io/gke-release/netd-amd64 | [corelab/netd-amd64](https://hub.docker.com/r/corelab/netd-amd64) | 22 | 
+| gcr.io/gke-release/netd-amd64 | [corelab/netd-amd64](https://hub.docker.com/r/corelab/netd-amd64) | 23 | 
 | gcr.io/gke-release/nginx-ingress-controller | [corelab/nginx-ingress-controller](https://hub.docker.com/r/corelab/nginx-ingress-controller) | 10 | 
 | gcr.io/gke-release/node-problem-detector | [corelab/node-problem-detector](https://hub.docker.com/r/corelab/node-problem-detector) | 20 | 
 | gcr.io/gke-release/nvidia-gpu-device-plugin | [corelab/nvidia-gpu-device-plugin](https://hub.docker.com/r/corelab/nvidia-gpu-device-plugin) | 112 | 
