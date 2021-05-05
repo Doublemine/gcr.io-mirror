@@ -94,7 +94,7 @@ Synced image num: 100 and image mapping as follow:
 | gcr.io/google-samples/redis | [corelab/redis](https://hub.docker.com/r/corelab/redis) | 1 | 
 | gcr.io/google-samples/redis-bq-pipe | [corelab/redis-bq-pipe](https://hub.docker.com/r/corelab/redis-bq-pipe) | 5 | 
 | gcr.io/google-samples/redis-proxy | [corelab/redis-proxy](https://hub.docker.com/r/corelab/redis-proxy) | 1 | 
-| gcr.io/google-samples/sd-dummy-exporter | [corelab/sd-dummy-exporter](https://hub.docker.com/r/corelab/sd-dummy-exporter) | 1 | 
+| gcr.io/google-samples/sd-dummy-exporter | [corelab/sd-dummy-exporter](https://hub.docker.com/r/corelab/sd-dummy-exporter) | 2 | 
 | gcr.io/google-samples/shippingservice | [corelab/shippingservice](https://hub.docker.com/r/corelab/shippingservice) | 1 | 
 | gcr.io/google-samples/steps-twotier | [corelab/steps-twotier](https://hub.docker.com/r/corelab/steps-twotier) | 2 | 
 | gcr.io/google-samples/style-transfer | [corelab/style-transfer](https://hub.docker.com/r/corelab/style-transfer) | 1 | 
