@@ -87,7 +87,7 @@ Synced image num: 100 and image mapping as follow:
 | gcr.io/google-samples/node-hello | [corelab/node-hello](https://hub.docker.com/r/corelab/node-hello) | 1 | 
 | gcr.io/google-samples/paymentservice | [corelab/paymentservice](https://hub.docker.com/r/corelab/paymentservice) | 1 | 
 | gcr.io/google-samples/productcatalogservice | [corelab/productcatalogservice](https://hub.docker.com/r/corelab/productcatalogservice) | 1 | 
-| gcr.io/google-samples/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 1 | 
+| gcr.io/google-samples/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 2 | 
 | gcr.io/google-samples/pubsub-bq-pipe | [corelab/pubsub-bq-pipe](https://hub.docker.com/r/corelab/pubsub-bq-pipe) | 5 | 
 | gcr.io/google-samples/pubsub-sample | [corelab/pubsub-sample](https://hub.docker.com/r/corelab/pubsub-sample) | 1 | 
 | gcr.io/google-samples/recommendationservice | [corelab/recommendationservice](https://hub.docker.com/r/corelab/recommendationservice) | 1 | 
