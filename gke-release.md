@@ -92,7 +92,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 485 | 
 | gcr.io/gke-release/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 469 | 
 | gcr.io/gke-release/kube-cross | [corelab/kube-cross](https://hub.docker.com/r/corelab/kube-cross) | 49 | 
-| gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 484 | 
+| gcr.io/gke-release/kube-proxy | [corelab/kube-proxy](https://hub.docker.com/r/corelab/kube-proxy) | 485 | 
 | gcr.io/gke-release/kube-proxy-amd64 | [corelab/kube-proxy-amd64](https://hub.docker.com/r/corelab/kube-proxy-amd64) | 469 | 
 | gcr.io/gke-release/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 485 | 
 | gcr.io/gke-release/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 469 | 
