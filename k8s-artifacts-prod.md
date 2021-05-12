@@ -261,11 +261,11 @@ Synced image num: 460 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-aggregator-arm64 | [corelab/kube-aggregator-arm64](https://hub.docker.com/r/corelab/kube-aggregator-arm64) | 59 | 
 | us.gcr.io/k8s-artifacts-prod/kube-aggregator-ppc64le | [corelab/kube-aggregator-ppc64le](https://hub.docker.com/r/corelab/kube-aggregator-ppc64le) | 59 | 
 | us.gcr.io/k8s-artifacts-prod/kube-aggregator-s390x | [corelab/kube-aggregator-s390x](https://hub.docker.com/r/corelab/kube-aggregator-s390x) | 59 | 
-| us.gcr.io/k8s-artifacts-prod/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 246 | 
+| us.gcr.io/k8s-artifacts-prod/kube-apiserver | [corelab/kube-apiserver](https://hub.docker.com/r/corelab/kube-apiserver) | 248 | 
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver-amd64 | [corelab/kube-apiserver-amd64](https://hub.docker.com/r/corelab/kube-apiserver-amd64) | 248 | 
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver-arm | [corelab/kube-apiserver-arm](https://hub.docker.com/r/corelab/kube-apiserver-arm) | 247 | 
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver-arm64 | [corelab/kube-apiserver-arm64](https://hub.docker.com/r/corelab/kube-apiserver-arm64) | 239 | 
-| us.gcr.io/k8s-artifacts-prod/kube-apiserver-ppc64le | [corelab/kube-apiserver-ppc64le](https://hub.docker.com/r/corelab/kube-apiserver-ppc64le) | 217 | 
+| us.gcr.io/k8s-artifacts-prod/kube-apiserver-ppc64le | [corelab/kube-apiserver-ppc64le](https://hub.docker.com/r/corelab/kube-apiserver-ppc64le) | 218 | 
 | us.gcr.io/k8s-artifacts-prod/kube-apiserver-s390x | [corelab/kube-apiserver-s390x](https://hub.docker.com/r/corelab/kube-apiserver-s390x) | 208 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager | [corelab/kube-controller-manager](https://hub.docker.com/r/corelab/kube-controller-manager) | 248 | 
 | us.gcr.io/k8s-artifacts-prod/kube-controller-manager-amd64 | [corelab/kube-controller-manager-amd64](https://hub.docker.com/r/corelab/kube-controller-manager-amd64) | 248 | 
@@ -290,7 +290,7 @@ Synced image num: 460 and image mapping as follow:
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-arm | [corelab/kube-proxy-arm](https://hub.docker.com/r/corelab/kube-proxy-arm) | 247 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-arm64 | [corelab/kube-proxy-arm64](https://hub.docker.com/r/corelab/kube-proxy-arm64) | 239 | 
 | us.gcr.io/k8s-artifacts-prod/kube-proxy-ppc64le | [corelab/kube-proxy-ppc64le](https://hub.docker.com/r/corelab/kube-proxy-ppc64le) | 218 | 
-| us.gcr.io/k8s-artifacts-prod/kube-proxy-s390x | [corelab/kube-proxy-s390x](https://hub.docker.com/r/corelab/kube-proxy-s390x) | 207 | 
+| us.gcr.io/k8s-artifacts-prod/kube-proxy-s390x | [corelab/kube-proxy-s390x](https://hub.docker.com/r/corelab/kube-proxy-s390x) | 208 | 
 | us.gcr.io/k8s-artifacts-prod/kube-registry-proxy | [corelab/kube-registry-proxy](https://hub.docker.com/r/corelab/kube-registry-proxy) | 2 | 
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler | [corelab/kube-scheduler](https://hub.docker.com/r/corelab/kube-scheduler) | 248 | 
 | us.gcr.io/k8s-artifacts-prod/kube-scheduler-amd64 | [corelab/kube-scheduler-amd64](https://hub.docker.com/r/corelab/kube-scheduler-amd64) | 248 | 
