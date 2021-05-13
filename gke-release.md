@@ -58,7 +58,7 @@ Synced image num: 113 and image mapping as follow:
 | gcr.io/gke-release/gke-oidc-operator | [corelab/gke-oidc-operator](https://hub.docker.com/r/corelab/gke-oidc-operator) | 31 | 
 | gcr.io/gke-release/gke-oidc-service | [corelab/gke-oidc-service](https://hub.docker.com/r/corelab/gke-oidc-service) | 31 | 
 | gcr.io/gke-release/gke-spiffe-node-agent | [corelab/gke-spiffe-node-agent](https://hub.docker.com/r/corelab/gke-spiffe-node-agent) | 8 | 
-| gcr.io/gke-release/gke-windows-builder | [corelab/gke-windows-builder](https://hub.docker.com/r/corelab/gke-windows-builder) | 4 | 
+| gcr.io/gke-release/gke-windows-builder | [corelab/gke-windows-builder](https://hub.docker.com/r/corelab/gke-windows-builder) | 5 | 
 | gcr.io/gke-release/gke-windows-image-check | [corelab/gke-windows-image-check](https://hub.docker.com/r/corelab/gke-windows-image-check) | 1 | 
 | gcr.io/gke-release/go | [corelab/go](https://hub.docker.com/r/corelab/go) | 23 | 
 | gcr.io/gke-release/goproxy | [corelab/goproxy](https://hub.docker.com/r/corelab/goproxy) | 1 | 
