@@ -42,7 +42,7 @@ Synced image num: 289 and image mapping as follow:
 | gcr.io/kubernetes-e2e-test-images/crd-conversion-webhook-arm64 | [corelab/crd-conversion-webhook-arm64](https://hub.docker.com/r/corelab/crd-conversion-webhook-arm64) | 9 | 
 | gcr.io/kubernetes-e2e-test-images/crd-conversion-webhook-ppc64le | [corelab/crd-conversion-webhook-ppc64le](https://hub.docker.com/r/corelab/crd-conversion-webhook-ppc64le) | 9 | 
 | gcr.io/kubernetes-e2e-test-images/crd-conversion-webhook-s390x | [corelab/crd-conversion-webhook-s390x](https://hub.docker.com/r/corelab/crd-conversion-webhook-s390x) | 1 | 
-| gcr.io/kubernetes-e2e-test-images/csi-provisioner | [corelab/csi-provisioner](https://hub.docker.com/r/corelab/csi-provisioner) | 4 | 
+| gcr.io/kubernetes-e2e-test-images/csi-provisioner | [corelab/csi-provisioner](https://hub.docker.com/r/corelab/csi-provisioner) | 6 | 
 | gcr.io/kubernetes-e2e-test-images/cuda-vector-add | [corelab/cuda-vector-add](https://hub.docker.com/r/corelab/cuda-vector-add) | 6 | 
 | gcr.io/kubernetes-e2e-test-images/cuda-vector-add-amd64 | [corelab/cuda-vector-add-amd64](https://hub.docker.com/r/corelab/cuda-vector-add-amd64) | 3 | 
 | gcr.io/kubernetes-e2e-test-images/cuda-vector-add-ppc64le | [corelab/cuda-vector-add-ppc64le](https://hub.docker.com/r/corelab/cuda-vector-add-ppc64le) | 3 | 
