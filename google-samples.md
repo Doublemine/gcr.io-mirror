@@ -1,7 +1,7 @@
 # google-samples
 
 
-Synced image num: 100 and image mapping as follow:
+Synced image num: 102 and image mapping as follow:
 
 
 
@@ -90,6 +90,8 @@ Synced image num: 100 and image mapping as follow:
 | gcr.io/google-samples/prometheus-dummy-exporter | [corelab/prometheus-dummy-exporter](https://hub.docker.com/r/corelab/prometheus-dummy-exporter) | 2 | 
 | gcr.io/google-samples/pubsub-bq-pipe | [corelab/pubsub-bq-pipe](https://hub.docker.com/r/corelab/pubsub-bq-pipe) | 5 | 
 | gcr.io/google-samples/pubsub-sample | [corelab/pubsub-sample](https://hub.docker.com/r/corelab/pubsub-sample) | 1 | 
+| gcr.io/google-samples/pytorch-pl-gpu | [corelab/pytorch-pl-gpu](https://hub.docker.com/r/corelab/pytorch-pl-gpu) | 3 | 
+| gcr.io/google-samples/pytorch-pl-gpu-ct | [corelab/pytorch-pl-gpu-ct](https://hub.docker.com/r/corelab/pytorch-pl-gpu-ct) | 4 | 
 | gcr.io/google-samples/recommendationservice | [corelab/recommendationservice](https://hub.docker.com/r/corelab/recommendationservice) | 1 | 
 | gcr.io/google-samples/redis | [corelab/redis](https://hub.docker.com/r/corelab/redis) | 1 | 
 | gcr.io/google-samples/redis-bq-pipe | [corelab/redis-bq-pipe](https://hub.docker.com/r/corelab/redis-bq-pipe) | 5 | 
