@@ -7,7 +7,6 @@
 
  -  [**kubernetes-helm**](kubernetes-helm.md)
  -  [**google-containers**](google-containers.md)
- -  [**cloud-solutions-images**](cloud-solutions-images.md)
  -  [**heption-images**](heption-images.md)
  -  [**k8s.gcr.io**](k8s-artifacts-prod.md)
  -  [**google-samples**](google-samples.md)
